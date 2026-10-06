@@ -1,0 +1,95 @@
+PROJETO INTEGRADOR — PARADAS DE MÁQUINAS
+Respostas baseadas no Roteiro_Projeto_Integrador_Paradas_Maquinas.docx.
+Conhecimentos aplicados: materiais em .docs/ sobre Pandas, NumPy, EDA, visualização e pipeline auditável.
+
+A análise separa evidência, interpretação, hipótese e limitação. Associação não prova causalidade.
+
+1. UNIDADE 1 — PRIMEIRO DIAGNÓSTICO
+
+Base: 1344 registros × 14 colunas.
+Período: 2026-06-01 a 2026-08-22.
+Indicador: disponibilidade (%) = (480 − tempo parado) ÷ 480 × 100.
+Disponibilidade bruta: média=90,69%, mediana=95,00%, mínimo=-150,00%, máximo=107,29%.
+
+Por linha, antes da limpeza:
+- L1: n=439, média=93,45%, mediana=97,29%, desvio=15,78, mínimo=-150,00%, máximo=103,96%, Q1=91,67%, Q3=100,00%, IQR=8,33 p.p.
+- L2: n=436, média=86,40%, mediana=91,77%, desvio=17,19, mínimo=16,67%, máximo=104,17%, Q1=82,50%, Q3=100,00%, IQR=17,50 p.p.
+- L3: n=469, média=92,09%, mediana=95,62%, desvio=16,14, mínimo=-100,00%, máximo=107,29%, Q1=88,96%, Q3=100,00%, IQR=11,04 p.p.
+
+Por máquina, antes da limpeza:
+- PNP-01: n=220, média=94,14%, mediana=96,77%, desvio=8,40, mínimo=49,79%, máximo=103,96%, Q1=91,88%, Q3=100,00%, IQR=8,12 p.p.
+- PNP-02: n=219, média=92,75%, mediana=100,00%, desvio=20,69, mínimo=-150,00%, máximo=100,00%, Q1=91,25%, Q3=100,00%, IQR=8,75 p.p.
+- PNP-03: n=220, média=86,77%, mediana=91,46%, desvio=16,34, mínimo=16,67%, máximo=104,17%, Q1=82,29%, Q3=100,00%, IQR=17,71 p.p.
+- PNP-04: n=216, média=86,03%, mediana=92,19%, desvio=18,04, mínimo=16,67%, máximo=100,00%, Q1=83,54%, Q3=100,00%, IQR=16,46 p.p.
+- PNP-05: n=234, média=93,53%, mediana=96,15%, desvio=10,93, mínimo=-25,00%, máximo=100,00%, Q1=90,47%, Q3=100,00%, IQR=9,53 p.p.
+- PNP-06: n=235, média=90,66%, mediana=93,96%, desvio=19,94, mínimo=-100,00%, máximo=107,29%, Q1=88,33%, Q3=100,00%, IQR=11,67 p.p.
+
+Por turno, antes da limpeza:
+- Manhã: n=446, média=91,55%, mediana=95,83%, desvio=17,47, mínimo=-150,00%, máximo=100,00%, Q1=88,75%, Q3=100,00%, IQR=11,25 p.p.
+- Noite: n=451, média=88,47%, mediana=93,54%, desvio=19,24, mínimo=-100,00%, máximo=103,96%, Q1=84,79%, Q3=100,00%, IQR=15,21 p.p.
+- Tarde: n=447, média=92,08%, mediana=95,21%, desvio=12,15, mínimo=-25,00%, máximo=107,29%, Q1=89,27%, Q3=100,00%, IQR=10,73 p.p.
+
+Por linha × turno, antes da limpeza:
+- L1 × Manhã: n=145, média=92,57%, mediana=97,71%, desvio=24,58, mínimo=-150,00%, máximo=100,00%, Q1=92,50%, Q3=100,00%, IQR=7,50 p.p.
+- L1 × Noite: n=149, média=92,96%, mediana=100,00%, desvio=9,95, mínimo=49,79%, máximo=103,96%, Q1=87,92%, Q3=100,00%, IQR=12,08 p.p.
+- L1 × Tarde: n=145, média=94,84%, mediana=96,67%, desvio=6,91, mínimo=66,04%, máximo=100,00%, Q1=92,71%, Q3=100,00%, IQR=7,29 p.p.
+- L2 × Manhã: n=145, média=87,55%, mediana=92,92%, desvio=16,08, mínimo=16,67%, máximo=100,00%, Q1=83,54%, Q3=100,00%, IQR=16,46 p.p.
+- L2 × Noite: n=146, média=84,19%, mediana=90,73%, desvio=19,98, mínimo=16,67%, máximo=100,00%, Q1=77,71%, Q3=100,00%, IQR=22,29 p.p.
+- L2 × Tarde: n=145, média=87,49%, mediana=92,29%, desvio=14,98, mínimo=16,67%, máximo=104,17%, Q1=83,75%, Q3=97,92%, IQR=14,17 p.p.
+- L3 × Manhã: n=156, média=94,31%, mediana=96,67%, desvio=7,15, mínimo=62,92%, máximo=100,00%, Q1=90,36%, Q3=100,00%, IQR=9,64 p.p.
+- L3 × Noite: n=156, média=88,19%, mediana=92,81%, desvio=23,88, mínimo=-100,00%, máximo=100,00%, Q1=85,42%, Q3=100,00%, IQR=14,58 p.p.
+- L3 × Tarde: n=157, média=93,77%, mediana=96,04%, desvio=11,88, mínimo=-25,00%, máximo=107,29%, Q1=91,46%, Q3=100,00%, IQR=8,54 p.p.
+
+Pontos de atenção: menor média por máquina em PNP-04; menor linha em L2; menor turno em Noite; menor combinação em L2 × Noite.
+Falha com maior tempo acumulado: Alimentador travado (21702 min).
+Ausentes: horas_desde_manutencao=25, vibracao_mm_s=78. Duplicados e limites inválidos foram diagnosticados antes da limpeza.
+
+H1 — desgaste/manutenção: mais horas desde a manutenção estão associadas a mais tempo parado.
+H2 — concentração operacional: a perda está concentrada em linha, máquina ou turno específicos.
+H3 — condição do equipamento: vibração e/ou temperatura do motor acompanham o aumento do tempo parado.
+
+Pergunta investigativa: onde e quando a disponibilidade caiu, qual grupo concentra a perda e qual hipótese é mais compatível após a validação?
+
+2. UNIDADE 2 — ESTATÍSTICA E HIPÓTESES
+
+As tabelas calculam média, mediana, mínimo, máximo, desvio padrão, Q1, Q3 e IQR.
+Variação entre metades cronológicas: -3,08 pontos percentuais.
+Correlações de Pearson com tempo parado: manutenção=0,559, vibração=0,586, temperatura do motor=-0,045.
+
+H1, H2 e H3 ganham força como hipóteses associativas; ainda é necessário controlar por máquina, tempo e sequência da falha.
+
+3. UNIDADE 3 — LIMPEZA E VALIDAÇÃO
+
+Pipeline: preservar a base bruta; corrigir texto; converter datas/números; validar limites físicos; remover valores impossíveis e duplicidades de chave; não imputar sensores; recalcular indicadores.
+Antes × depois: 1344 → 1288 registros; 56 removidos; disponibilidade média 90,69% → 91,24%.
+Outliers foram apenas sinalizados por IQR, pois ponto extremo não é automaticamente erro.
+
+Após a limpeza, H1 permanece associativa, H2 permanece como explicação de concentração e H3 permanece compatível com os sensores, sem prova de causa.
+
+4. UNIDADE 4 — EDA, VISUALIZAÇÃO E CONCLUSÃO
+
+Visualizações geradas:
+- 01_disponibilidade_tempo_linha.png
+- 02_heatmap_maquina_turno.png
+- 03_pareto_tipo_falha.png
+- 04_boxplot_vibracao_linha.png
+- 05_dispersao_vibracao_tempo_parado.png
+- 06_interativo_vibracao_tempo_parado.html
+
+Leitura em camadas:
+- Evidência: PNP-04 tem a menor disponibilidade média; Alimentador travado concentra o maior tempo parado.
+- Interpretação: a perda não é uniforme e há grupos/tipos de falha prioritários.
+- Hipótese: concentração operacional combinada com desgaste ou condição do equipamento.
+- Limitação: faltam timestamps detalhados, sequência sensor-falha e registros completos de intervenção; associação não implica causalidade.
+
+Respostas finais:
+1. O que aconteceu? A disponibilidade variou entre grupos, com diferença de -3,08 p.p. entre as metades cronológicas.
+2. Onde aconteceu? Principalmente em PNP-04, L2 e L2 × Noite.
+3. Quando começou? A série diária e a média móvel do gráfico 01 mostram a tendência; a comparação de metades não define uma data causal.
+4. Evidências: estatísticas descritivas, IQR, heatmap, Pareto, boxplot, correlações e dispersão.
+5. Explicação mais plausível: concentração operacional combinada com possível desgaste/condição de equipamento, ainda como hipótese.
+6. Próximas ações: inspecionar PNP-04 e Alimentador travado; acompanhar manutenção/vibração/temperatura com limites de engenharia; coletar timestamps e intervenções.
+
+Mensagem central: A disponibilidade se concentra em PNP-04 e L2; manutenção e condição do equipamento são hipóteses plausíveis a confirmar com dados temporais.
+
+Storyboard: (1) problema com série temporal; (2) investigação com heatmap/Pareto e validação antes × depois; (3) resolução com dispersão, limitações e ações.

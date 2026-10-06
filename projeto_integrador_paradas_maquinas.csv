@@ -1,0 +1,1345 @@
+data,turno,linha,maquina,modelo_maquina,horas_desde_manutencao,temperatura_ambiente_c,umidade_relativa_pct,temperatura_motor_c,vibracao_mm_s,pecas_montadas,qtd_paradas,tempo_parado_min,tipo_falha_principal
+2026-06-01,Manhã,L1,PNP-01,Alfa,149.5,25.7,79.0,38.9,2.81,176051,0,0,Nenhuma
+2026-06-01,Manhã,L1,PNP-02,Alfa,61.9,25.7,79.0,40.3,"1,96",168727,0,0,Nenhuma
+2026-06-01,Manhã,L2,PNP-03,Beta,125.7,25.7,79.0,42.0,2.59,187414,2,24,Alimentador travado
+01/06/2026,Manhã,L2,PNP-04,Beta,96.7,25.7,79.0,42.8,2.53,177954,1,14,Bico desalinhado
+2026-06-01,Manhã,L3,PNP-05,Alfa,52.1,25.7,79.0,42.6,2.56,168096,0,0,Nenhuma
+01/06/2026,Manhã,L3,PNP-06,Beta,146.4,25.7,79.0,42.8,2.83,184855,2,39,Erro de visão
+2026-06-01,Tarde,L1,PNP-01,Alfa,,29.4,75.0,43.7,2.88,166616,0,0,Nenhuma
+2026-06-01,Tarde,L1,PNP-02,Alfa,69.9,29.4,75.0,43.1,2.4,168651,1,34,Bico desalinhado
+2026-06-01,Tarde,L2,PNP-03,Beta,,29.4,75.0,46.8,2.77,182404,1,40,Superaquecimento
+2026-06-01,Tarde,L2,PNP-04,Beta,104.7,29.4,75.0,44.4,,191430,0,12,Bico desalinhado
+2026-06-01,Tarde,L3,PNP-05,Alfa,60.1,29.4,75.0,43.6,2.75,165768,1,15,Bico desalinhado
+2026-06-01,Tarde,L3,PNP-06,Beta,154.4,29.4,75.0,44.5,3.18,139959,4,127,Erro de visão
+2026-06-01,Noite,L1,PNP-01,Alfa,165.5,26.9,82.8,44.4,2.92,164224,1,34,Falta de componente
+2026-06-01,Noite,L1,PNP-02,Alfa,77.9,26.9,82.8,39.6,2.3,165569,0,0,Nenhuma
+2026-06-01,Noite,L2,PNP-03,Beta,141.7,26.9,82.8,45.2,3.08,154720,2,96,Erro de visão
+2026-06-01,Noite,L2,PNP-03,Beta,141.7,26.9,82.8,45.2,3.08,154720,2,96,Erro de visão
+2026-06-01,Noturno,L2,PNP-04,Beta,112.7,26.9,82.8,44.2,3.03,176848,1,49,Alimentador travado
+2026-06-01,Noite,L3,PNP-05,Alfa,68.1,26.9,82.8,43.8,2.12,174110,1,19,Alimentador travado
+2026-06-01,Noturno,L3,PNP-06,Beta,162.4,26.9,82.8,39.5,2.89,198046,0,0,Nenhuma
+2026-06-02,Manhã,L1,PNP-01,Alfa,4.0,25.6,81.1,40.9,1.68,172011,0,0,Nenhuma
+2026-06-02,Manhã,L1,PNP-02,Alfa,85.9,25.6,81.1,39.1,2.26,136413,1,85,Erro de visão
+2026-06-02,Manhã,L2,PNP-03,Beta,149.7,25.6,81.1,44.2,3.24,174636,1,52,Alimentador travado
+2026-06-02,Manhã,L2,PNP-04,Beta,120.7,25.6,81.1,41.9,3.17,194490,0,0,Nenhuma
+2026-06-02,Manhã,L3,PNP-05,Alfa,76.1,25.6,81.1,38.6,2.64,165524,1,23,Falta de componente
+2026-06-02,Manhã,L3,PNP-06,Beta,7.9,25.6,81.1,41.7,1.88,184904,0,0,Nenhuma
+02/06/2026,Tarde,L1,PNP-01,Alfa,12.0,28.7,73.6,41.7,2.07,181581,0,0,Nenhuma
+2026-06-02,Tarde,L1,PNP-02,Alfa,93.9,28.7,73.6,43.6,2.4,156086,1,48,Bico desalinhado
+2026-06-02,Tarde,L2,PNP-03,Beta,157.7,28.7,73.6,44.7,3.39,169409,3,49,Alimentador travado
+2026-06-02,Tarde,L2,PNP-04,Beta,,28.7,73.6,44.0,2.61,188327,1,23,Falta de componente
+2026-06-02,Tarde,L3,PNP-05,Alfa,84.1,28.7,73.6,45.0,2.74,148942,3,53,Alimentador travado
+2026-06-02,Tarde,L3,PNP-06,Beta,15.9,28.7,73.6,43.9,2.09,187063,0,0,Nenhuma
+2026-06-02,Noite,L1,PNP-01,Alfa,20.0,25.6,82.9,38.7,1.65,164839,0,0,Nenhuma
+02/06/2026,Noite,L1,PNP-02,Alfa,101.9,25.6,82.9,40.8,2.32,164560,0,0,Nenhuma
+2026-06-02,Noite,L2,PNP-03,Beta,165.7,25.6,82.9,41.1,3.57,193708,0,0,Nenhuma
+02/06/2026,Noite,L2,PNP-04,Beta,136.7,25.6,82.9,43.5,2.76,113251,4,183,Alimentador travado
+2026-06-02,Noite,L3,PNP-05,Alfa,92.1,25.6,82.9,40.3,2.74,176789,0,0,Nenhuma
+2026-06-02,Noite,L3,PNP-06,Beta,23.9,25.6,82.9,41.2,2.15,194251,0,0,Nenhuma
+2026-06-03,Manhã,L1,PNP-01,Alfa,28.0,26.6,78.9,42.0,2.1,174250,1,10,Alimentador travado
+2026-06-03,Manhã,L1,PNP-02,Alfa,109.9,26.6,78.9,42.1,2.38,179529,0,0,Nenhuma
+2026-06-03,Manhã,L2,PNP-03,Beta,173.7,26.6,78.9,41.0,3.58,192307,1,18,Alimentador travado
+2026-06-03,Manhã,L2,PNP-04,Beta,144.7,26.6,78.9,40.8,3.0,184741,1,20,Bico desalinhado
+2026-06-03,Manhã,L3,PNP-05,Alfa,100.1,26.6,78.9,42.9,2.24,167978,1,15,Falta de componente
+2026-06-03,Manhã,L3,PNP-06,Beta,31.9,26.6,78.9,39.8,2.5,175961,2,53,Bico desalinhado
+2026-06-03,Tarde,L1,PNP-01,Alfa,36.0,28.3,78.0,41.1,2.11,179038,0,0,Nenhuma
+2026-06-03,Tarde,L1,PNP-02,Alfa,117.9,28.3,78.0,45.5,2.28,178402,0,0,Nenhuma
+2026-06-03,Tarde,L2,PNP-03,Beta,7.4,28.3,78.0,42.4,1.98,201341,0,0,Nenhuma
+2026-06-03,Tarde,L2,PNP-04,Beta,152.7,28.3,78.0,44.3,3.19,133634,3,131,Alimentador travado
+2026-06-03,Tarde,L3,PNP-05,Alfa,108.1,28.3,78.0,43.9,2.63,166805,1,34,Alimentador travado
+2026-06-03,Tarde,L3,PNP-06,Beta,39.9,28.3,78.0,43.4,1.96,195767,0,0,Nenhuma
+2026-06-03,Noite,L1,PNP-01,Alfa,44.0,25.7,85.4,42.4,2.16,167329,0,0,Nenhuma
+2026-06-03,Noite,L1,PNP-02,Alfa,125.9,25.7,85.4,40.5,2.76,151282,1,69,Alimentador travado
+2026-06-03,Noite,L2,PNP-03,Beta,15.4,25.7,85.4,39.6,1.84,198670,0,0,Nenhuma
+03/06/2026,Noite,L2,PNP-04,Beta,6.2,25.7,85.4,38.1,1.74,191891,0,0,Nenhuma
+2026-06-03,Noite,L3,PNP-05,Alfa,116.1,25.7,85.4,42.6,"2,94",179836,0,0,Nenhuma
+2026-06-03,Noite,L3,PNP-06,Beta,47.9,25.7,85.4,41.8,2.09,182842,0,0,Nenhuma
+2026-06-04,Manhã,L1,PNP-01,Alfa,52.0,25.9,78.2,40.0,"2,35",176762,0,0,Nenhuma
+2026-06-04,Manhã,L1,PNP-02,Alfa,133.9,25.9,78.2,37.9,3.15,141867,4,95,Alimentador travado
+2026-06-04,Manhã,L2,PNP-03,Beta,23.4,25.9,78.2,40.9,2.45,175453,1,24,Alimentador travado
+2026-06-04,Manhã,L2,PNP-04,Beta,14.2,25.9,78.2,39.1,2.48,198158,0,0,Nenhuma
+2026-06-04,Manhã,L3,PNP-05,Alfa,124.1,25.9,78.2,40.4,2.25,146898,2,72,Alimentador travado
+2026-06-04,Manhã,L3,PNP-06,Beta,55.9,25.9,78.2,39.5,2.07,185034,0,0,Nenhuma
+2026-06-04,Tarde,L1,PNP-01,Alfa,60.0,29.6,79.9,43.7,1.76,161956,1,12,Falta de componente
+2026-06-04,Tarde,L1,PNP-02,Alfa,141.9,29.6,79.9,47.6,2.75,153751,1,33,Superaquecimento
+2026-06-04,Tarde,L2,PNP-03,Beta,31.4,29.6,79.9,42.1,2.48,163574,2,64,Bico desalinhado
+2026-06-04,Tarde,L2,PNP-04 ,Beta,22.2,29.6,79.9,45.6,2.49,166695,2,42,Erro de visão
+2026-06-04,Tarde,L3,PNP-05,Alfa,132.1,29.6,79.9,43.8,2.69,164157,2,37,Alimentador travado
+2026-06-04,Tarde,L3,PNP-06,Beta,63.9,29.6,79.9,43.3,2.57,184739,2,36,Alimentador travado
+2026-06-04,Noite,L1,PNP-01,Alfa,68.0,26.3,85.6,41.7,2.66,155620,1,42,Bico desalinhado
+2026-06-04,Noite,L1,PNP-01,Alfa,68.0,26.3,85.6,41.7,2.66,155620,1,42,Bico desalinhado
+04/06/2026,Noite,L1,PNP-02,Alfa,149.9,26.3,85.6,42.2,2.85,161578,1,37,Erro de visão
+2026-06-04,Noite,L2,PNP-03,Beta,39.4,26.3,85.6,38.1,2.39,186819,0,0,Nenhuma
+2026-06-04,Noite,L2,PNP-04,Beta,30.2,26.3,85.6,38.0,1.93,150995,2,109,Alimentador travado
+2026-06-04,Noite,L3,PNP-05,Alfa,140.1,26.3,85.6,41.1,2.69,147194,1,51,Alimentador travado
+2026-06-04,Noite,L3,PNP-06,Beta,71.9,26.3,85.6,40.0,,187701,1,20,Bico desalinhado
+2026-06-05,Manhã,L1,PNP-01,Alfa,76.0,27.3,80.3,43.2,2.16,174074,0,0,Nenhuma
+2026-06-05,Manhã,L1,PNP-02,Alfa,157.9,27.3,80.3,43.0,2.76,148107,1,67,Bico desalinhado
+2026-06-05,Manhã,L2,PNP-03,Beta,47.4,27.3,80.3,42.1,2.43,152155,2,86,Erro de visão
+2026-06-05,Manhã,L2,PNP-04,Beta,38.2,27.3,80.3,40.1,2.24,169958,1,33,Bico desalinhado
+2026-06-05,Manhã,L3,PNP-05,Alfa,148.1,27.3,80.3,43.7,3.06,168827,0,0,Nenhuma
+2026-06-05,Manhã,L3,PNP06,Beta,79.9,27.3,80.3,40.6,"2,71",191403,0,0,Nenhuma
+2026-06-05,Tarde,L1,PNP-01,Alfa,84.0,29.6,72.6,42.8,2.53,170793,0,0,Nenhuma
+2026-06-05,Tarde,L1,PNP-02,Alfa,4.5,29.6,72.6,45.5,1.94,172221,0,0,Nenhuma
+2026-06-05,Tarde,L2,PNP-03,Beta,55.4,29.6,72.6,44.3,2.97,186128,1,20,Falta de componente
+2026-06-05,Tarde,L2,PNP-04,Beta,46.2,29.6,72.6,43.1,2.46,181543,1,23,Falta de componente
+2026-06-05,Tarde,L3,PNP-05,Alfa,156.1,29.6,72.6,46.9,2.66,172666,1,7,Erro de visão
+2026-06-05,Tarde,L3,PNP-06,Beta,87.9,29.6,72.6,44.6,2.67,194395,0,0,Nenhuma
+2026-06-05,Noite,L1,pnp-01,Alfa,92.0,27.2,80.0,41.3,2.26,176721,0,0,Nenhuma
+2026-06-05,Noite,L1,pnp-01,Alfa,92.0,27.2,80.0,41.3,2.26,176721,0,0,Nenhuma
+2026-06-05,Noite,L1,PNP02,Alfa,12.5,27.2,80.0,44.9,1.77,149204,1,65,Alimentador travado
+2026-06-05,Noite,L2,PNP-03,Beta,63.4,27.2,80.0,45.1,2.06,192012,0,0,Nenhuma
+2026-06-05,Noite,L2,PNP-04,Beta,54.2,27.2,80.0,39.5,2.24,197599,0,0,Nenhuma
+2026-06-05,Noite,L3,PNP-05,Alfa,164.1,27.2,80.0,41.6,2.6,157595,1,22,Alimentador travado
+2026-06-05,Noite,L3,PNP-06,Beta,95.9,27.2,80.0,42.9,2.59,182760,1,19,Erro de visão
+06/06/2026,Manhã,L1,PNP-01,Alfa,100.0,28.1,76.0,41.6,2.41,150838,1,45,Erro de visão
+2026-06-06,Manhã,L1,PNP-02,Alfa,20.5,28.1,76.0,41.2,2.24,166925,0,0,Nenhuma
+2026-06-06,Manhã,L2,PNP-03,Beta,71.4,28.1,76.0,41.5,2.28,190979,1,14,Erro de visão
+2026-06-06,Manhã,L2,PNP-04,Beta,62.2,28.1,76.0,40.2,2.46,180914,1,21,Falta de componente
+2026-06-06,Manhã,L3,PNP-05,Alfa,1.5,28.1,76.0,41.8,1.44,173330,0,0,Nenhuma
+2026-06-06,Manhã,L3,PNP-06,Beta,103.9,28.1,76.0,41.9,2.49,190490,0,0,Nenhuma
+2026-06-06,Tarde,L1,PNP-01,Alfa,108.0,29.3,77.0,46.3,2.2,165884,1,35,Erro de visão
+2026-06-06,Tarde,L1,PNP-02,Alfa,28.5,29.3,77.0,39.3,2.72,180736,0,0,Nenhuma
+2026-06-06,Tarde,L2,PNP-03,Beta,79.4,29.3,77.0,43.4,2.39,185763,1,21,Alimentador travado
+2026-06-06,Tarde,L2,PNP-04,Beta,70.2,29.3,77.0,41.6,2.87,191577,0,0,Nenhuma
+2026-06-06,Tarde,L3,PNP-05,Alfa,9.5,29.3,77.0,44.8,1.48,164770,0,0,Nenhuma
+2026-06-06,Tarde,L3,PNP-06,Beta,111.9,29.3,77.0,43.7,2.85,183044,0,0,Nenhuma
+2026-06-06,Noite,L1,PNP-01,Alfa,116.0,24.4,89.1,42.5,2.52,166470,1,13,Alimentador travado
+2026-06-06,Noite,L1,PNP-02,Alfa,36.5,24.4,89.1,38.6,1.78,168735,0,0,Nenhuma
+2026-06-06,Noite,L2,PNP-03,Beta,87.4,24.4,89.1,39.6,2.66,181210,1,27,Alimentador travado
+2026-06-06,noite,L2,PNP-04,Beta,78.2,24.4,89.1,37.9,"2,57",189212,0,0,Nenhuma
+2026-06-06,Noite,L3,PNP-05,Alfa,17.5,24.4,89.1,35.6,1.66,174295,1,19,Falta de componente
+2026-06-06,Noite,L3,PNP-06,Beta,119.9,24.4,89.1,41.2,2.83,137172,3,150,Erro de visão
+2026-06-08,Manhã,L1,PNP-01,Alfa,124.0,26.5,79.1,42.9,2.7,159306,1,25,Falta de componente
+2026-06-08,Manhã,L1,PNP-02,Alfa,44.5,26.5,79.1,41.6,2.02,160262,1,48,Bico desalinhado
+2026-06-08,Manhã,L2,PNP-03,Beta,95.4,26.5,79.1,39.3,2.77,183000,1,43,Alimentador travado
+2026-06-08,Manhã,L2,PNP-04,Beta,86.2,26.5,79.1,41.5,2.61,194548,1,8,Bico desalinhado
+2026-06-08,Manhã,L3,PNP-05,Alfa,25.5,26.5,79.1,42.9,2.02,165668,1,14,Bico desalinhado
+2026-06-08,Manhã,L3,PNP-06,Beta,127.9,26.5,79.1,40.8,3.3,183028,1,37,Alimentador travado
+2026-06-08,Tarde,L1,PNP-01,Alfa,132.0,29.1,73.0,44.7,3.36,177005,0,0,Nenhuma
+2026-06-08,Tarde,L1,PNP-02,Alfa,52.5,29.1,73.0,41.8,,182166,0,0,Nenhuma
+2026-06-08,Tarde,L2,PNP-03,Beta,103.4,29.1,73.0,42.2,3.18,169813,1,40,Alimentador travado
+2026-06-08,Tarde,L2,PNP-04,Beta,94.2,29.1,73.0,43.7,2.44,162701,1,51,Alimentador travado
+2026-06-08,Tarde,L3,PNP-05,Alfa,33.5,29.1,73.0,45.7,1.92,179736,0,0,Nenhuma
+2026-06-08,Tarde,L3,PNP-06,Beta,135.9,29.1,73.0,46.8,3.63,149153,3,87,Bico desalinhado
+2026-06-08,Noite,L1,PNP-01,Alfa,140.0,25.3,84.2,40.4,2.36,139935,1,90,Alimentador travado
+2026-06-08,Noite,L1,PNP-02,Alfa,60.5,25.3,84.2,39.3,2.23,141998,1,83,Bico desalinhado
+2026-06-08,Noite,L2,PNP-03,Beta,111.4,25.3,84.2,41.1,2.75,175810,2,48,Alimentador travado
+08/06/2026,Noite,L2,PNP-04,Beta,102.2,25.3,84.2,37.9,2.81,198970,0,0,Nenhuma
+2026-06-08,Noite,L3,PNP-05,Alfa,41.5,25.3,84.2,38.3,1.86,181127,0,0,Nenhuma
+2026-06-08,Noite,L3,PNP-06,Beta,143.9,25.3,84.2,41.3,3.06,188746,0,0,Nenhuma
+09/06/2026,Manhã,L1,PNP-01,Alfa,148.0,26.3,84.2,43.0,3.02,111583,2,157,Alimentador travado
+2026-06-09,Manhã,L1,PNP-02,Alfa,68.5,26.3,84.2,43.9,2.85,159102,1,61,Erro de visão
+2026-06-09,Manhã,L2,PNP-03,Beta,119.4,26.3,84.2,43.0,2.81,193803,0,0,Nenhuma
+2026-06-09,Manhã,L2,PNP-04,Beta,110.2,26.3,84.2,41.1,2.9,185502,0,0,Nenhuma
+09/06/2026,Manhã,L3,PNP-05,Alfa,49.5,26.3,84.2,41.8,2.22,165331,0,0,Nenhuma
+2026-06-09,Manhã,L3,PNP-06,Beta,151.9,26.3,84.2,41.4,3.06,185394,0,0,Nenhuma
+2026-06-09,Tarde,L1,PNP-01,Alfa,156.0,29.2,74.6,46.5,2.83,157002,1,36,Alimentador travado
+2026-06-09,Tarde,L1,PNP-02,Alfa,76.5,29.2,74.6,41.3,2.71,121179,1,128,Erro de visão
+2026-06-09,Tarde,L2,PNP-03,Beta,127.4,29.2,74.6,42.7,2.88,174221,2,36,Alimentador travado
+2026-06-09,Tarde,L2,PNP-04,Beta,118.2,29.2,74.6,44.5,2.58,185303,0,0,Nenhuma
+2026-06-09,tarde,L3,PNP-05,Alfa,57.5,29.2,74.6,42.9,2.04,170886,1,22,Bico desalinhado
+2026-06-09,Tarde,L3,PNP-06,Beta,159.9,29.2,74.6,42.8,3.03,159634,3,75,Alimentador travado
+2026-06-09,Noite,L1,PNP-01,Alfa,164.0,25.4,88.4,41.3,2.89,163557,2,49,Alimentador travado
+2026-06-09,Noite,L1,PNP-02,Alfa,84.5,25.4,88.4,39.4,2.44,136491,3,115,Falta de componente
+2026-06-09,Noite,L2,PNP-03,Beta,135.4,25.4,88.4,41.7,2.68,181996,0,0,Nenhuma
+2026-06-09,Noite,L2,PNP-04,Beta,126.2,25.4,88.4,41.6,2.96,134592,3,151,Bico desalinhado
+2026-06-09,Noite,L3,PNP-05,Alfa,65.5,25.4,88.4,39.6,2.41,181422,0,0,Nenhuma
+2026-06-09,Noite,L3,PNP-06,Beta,1.6,25.4,88.4,39.6,1.77,185408,0,0,Nenhuma
+2026-06-10,Manhã,L1,PNP-01,Alfa,5.7,27.6,80.3,41.9,2.16,180641,0,0,Nenhuma
+2026-06-10,Manhã,L1,PNP-02,Alfa,92.5,27.6,80.3,42.1,2.14,160459,1,54,Alimentador travado
+2026-06-10,Manhã,L2,PNP-03,Beta,143.4,27.6,80.3,43.3,3.02,160565,3,80,Erro de visão
+2026-06-10,Manhã,L2,PNP-04,Beta,134.2,27.6,80.3,41.6,3.03,156530,2,78,Bico desalinhado
+10/06/2026,Manhã,L3,PNP-05,Alfa,73.5,27.6,80.3,41.0,2.38,166832,0,0,Nenhuma
+2026-06-10,Manha,L3,PNP-06,Beta,9.6,27.6,80.3,42.7,2.17,187519,0,0,Nenhuma
+2026-06-10,Tarde,L1,PNP-01,Alfa,13.7,29.5,70.8,43.5,1.39,166302,0,0,Nenhuma
+2026-06-10,Tarde,L1,PNP-02,Alfa,100.5,29.5,70.8,41.4,2.73,175588,0,0,Nenhuma
+2026-06-10,Tarde,L2,PNP-03,Beta,151.4,29.5,70.8,45.1,3.06,166155,2,84,Bico desalinhado
+2026-06-10,Tarde,L2,PNP-04,Beta,142.2,29.5,70.8,46.4,3.4,174034,1,35,Alimentador travado
+2026-06-10,Tarde,L3,PNP-05,Alfa,81.5,29.5,70.8,44.4,1.97,164807,0,0,Nenhuma
+2026-06-10,Tarde,L3,PNP-06,Beta,17.6,29.5,70.8,44.2,1.46,191241,0,0,Nenhuma
+2026-06-10,Noite,L1,PNP-01,Alfa,21.7,25.3,82.1,39.2,2.14,154577,2,64,Alimentador travado
+2026-06-10,Noite,L1,PNP-02,Alfa,108.5,25.3,82.1,36.5,2.5,138084,1,84,Bico desalinhado
+2026-06-10,Noite,L2,PNP-03,Beta,159.4,25.3,82.1,41.9,2.93,189254,0,0,Nenhuma
+2026-06-10,NOITE,L2,PNP-04,Beta,150.2,25.3,82.1,42.3,3.24,141583,3,109,Alimentador travado
+2026-06-10,Noite,L3,PNP-05,Alfa,89.5,25.3,82.1,42.0,2.5,177753,0,0,Nenhuma
+10/06/2026,Noite,L3,PNP-06,Beta,25.6,25.3,82.1,41.4,1.96,183417,0,0,Nenhuma
+2026-06-11,Manhã,L1,PNP-01,Alfa,29.7,26.0,77.2,42.5,1.98,165592,1,21,Falta de componente
+2026-06-11,Manhã,L1,PNP-02,Alfa,116.5,26.0,77.2,43.9,2.94,164607,1,22,Bico desalinhado
+2026-06-11,Manhã,L2,PNP-03,Beta,167.4,26.0,77.2,41.7,3.16,169075,2,70,Alimentador travado
+2026-06-11,Manhã,L2,PNP-04,Beta,3.1,26.0,77.2,39.7,1.67,188590,0,0,Nenhuma
+2026-06-11,Manhã,L3,PNP-05,Alfa,97.5,26.0,77.2,40.3,2.09,166167,1,22,Erro de visão
+2026-06-11,Manhã,L3,PNP-06,Beta,33.6,26.0,77.2,39.2,2.55,197903,0,0,Nenhuma
+2026-06-11,Tarde,L1,PNP-01,Alfa,37.7,28.7,76.6,42.0,2.23,164333,1,30,Falta de componente
+2026-06-11,Tarde,L1,PNP-02,Alfa,124.5,28.7,76.6,43.0,2.66,177945,0,0,Nenhuma
+2026-06-11,Tarde,L2,PNP-03,Beta,5.0,28.7,76.6,41.7,2.35,166430,2,47,Bico desalinhado
+2026-06-11,Tarde,L2,PNP-04,Beta,11.1,28.7,76.6,43.6,2.18,196725,0,0,Nenhuma
+2026-06-11,Tarde,L3,PNP-05,Alfa,105.5,28.7,76.6,43.2,2.86,137750,2,80,Bico desalinhado
+2026-06-11,Tarde,L3,PNP-06,Beta,41.6,28.7,76.6,41.7,2.36,167046,1,42,Falta de componente
+2026-06-11,Noite,L1,PNP-01,Alfa,45.7,27.0,84.5,41.6,2.58,123241,2,150,Erro de visão
+2026-06-11,Noite,L1,PNP-02,Alfa,132.5,27.0,84.5,40.8,2.59,176684,0,0,Nenhuma
+2026-06-11,Noite,L2,PNP-03,Beta,13.0,27.0,84.5,44.3,2.17,159437,1,69,Alimentador travado
+2026-06-11,Noite,L2,PNP-04,Beta,19.1,27.0,84.5,42.0,"1,94",169599,1,51,Erro de visão
+2026-06-11,Noite,L3,PNP-05,Alfa,113.5,27.0,84.5,41.1,"3,05",136360,2,102,Alimentador travado
+2026-06-11,Noite,L3,PNP-06,Beta,49.6,27.0,84.5,42.2,2.71,147854,3,115,Alimentador travado
+2026-06-12,Manhã,L1,PNP-01,Alfa,53.7,27.9,84.2,43.5,2.52,174751,1,9,Bico desalinhado
+2026-06-12,Manhã,L1,PNP-02,Alfa,140.5,27.9,84.2,44.8,3.24,159798,1,37,Erro de visão
+2026-06-12,Manhã,L2,PNP-03,Beta,21.0,27.9,84.2,41.1,2.09,188233,0,0,Nenhuma
+2026-06-12,Manhã,L2,PNP-04 ,Beta,,27.9,84.2,44.8,1.7,183819,0,0,Nenhuma
+2026-06-12,Manhã,L3,PNP-05,Alfa,121.5,27.9,84.2,44.0,2.52,175250,0,0,Nenhuma
+2026-06-12,Manhã,L3,PNP-06,Beta,57.6,27.9,84.2,42.4,2.57,183908,0,0,Nenhuma
+2026-06-12,Tarde,L1,PNP-01,Alfa,61.7,30.1,71.9,47.4,2.12,166234,0,0,Nenhuma
+2026-06-12,Tarde,L1,PNP-02,Alfa,148.5,30.1,71.9,45.3,2.95,158726,1,40,Erro de visão
+2026-06-12,Tarde,L2,PNP-03,Beta,29.0,30.1,71.9,43.9,2.25,155134,2,98,Bico desalinhado
+2026-06-12,Tarde,L2,PNP-04,Beta,35.1,30.1,71.9,46.2,2.19,165381,1,58,Bico desalinhado
+2026-06-12,Tarde,L3,PNP-05,Alfa,129.5,30.1,71.9,44.2,3.27,158486,3,58,Bico desalinhado
+2026-06-12,Tarde,L3,PNP-06,Beta,65.6,30.1,71.9,43.6,2.36,175557,1,41,Bico desalinhado
+2026-06-12,Noite,L1,PNP-01,Alfa,69.7,27.6,83.9,45.0,1.9,142527,2,65,Bico desalinhado
+2026-06-12,Noite,L1,PNP-02,Alfa,156.5,27.6,83.9,41.5,"3,11",143737,2,73,Erro de visão
+2026-06-12,Noite,L2,PNP-3,Beta,37.0,27.6,83.9,43.1,2.49,170267,1,30,Bico desalinhado
+2026-06-12,Noite,L2,PNP-04,Beta,43.1,27.6,83.9,41.7,2.35,193859,0,0,Nenhuma
+2026-06-12,Noite,L3,PNP-05,Alfa,137.5,27.6,83.9,43.9,3.03,162269,2,49,Falta de componente
+2026-06-12,Noite,L3,PNP-06,Beta,73.6,27.6,83.9,41.8,2.47,164311,1,53,Alimentador travado
+2026-06-13,Manhã,L1,PNP-01,Alfa,77.7,26.4,78.0,41.9,2.23,179676,0,0,Nenhuma
+2026-06-13,Manhã,L1,PNP-02,Alfa,3.1,26.4,78.0,39.9,1.8,170579,0,0,Nenhuma
+2026-06-13,Manhã,L2,PNP-03,Beta,45.0,26.4,78.0,39.3,2.17,200833,0,0,Nenhuma
+2026-06-13,Manhã,L2,PNP-04,Beta,51.1,26.4,78.0,40.9,2.56,159380,3,68,Erro de visão
+2026-06-13,Manhã,L3,PNP-05,Alfa,145.5,26.4,78.0,44.5,2.84,172059,0,0,Nenhuma
+2026-06-13,Manhã,L3,PNP-06,Beta,81.6,26.4,78.0,42.9,2.88,175231,1,18,Bico desalinhado
+2026-06-13,Tarde,L1,PNP-01,Alfa,85.7,30.0,72.3,45.3,2.33,173782,0,0,Nenhuma
+2026-06-13,Tarde,L1,PNP-02,Alfa,11.1,30.0,72.3,45.9,2.25,173731,1,21,Falta de componente
+2026-06-13,Tarde,L2,PNP-03,Beta,53.0,30.0,72.3,44.3,2.36,191562,0,0,Nenhuma
+2026-06-13,Tarde,L2,PNP-04,Beta,59.1,30.0,72.3,45.6,2.53,194457,1,14,Superaquecimento
+2026-06-13,Tarde,L3,PNP-05,Alfa,153.5,30.0,72.3,44.5,2.75,159946,1,18,Alimentador travado
+2026-06-13,Tarde,L3,PNP-06,Beta,89.6,30.0,72.3,43.0,2.49,187062,0,0,Nenhuma
+2026-06-13,Noite,L1,PNP-01,Alfa,93.7,26.2,87.7,42.9,2.87,172030,0,0,Nenhuma
+2026-06-13,Noite,L1,PNP-02,Alfa,,26.2,87.7,39.2,1.42,180715,0,0,Nenhuma
+2026-06-13,Noite,L2,PNP-03,Beta,61.0,26.2,87.7,40.8,2.45,185152,0,0,Nenhuma
+2026-06-13,Noite,L2,PNP-04,Beta,67.1,26.2,87.7,41.0,2.65,173726,2,58,Bico desalinhado
+2026-06-13,Noite,L3,PNP-05,Alfa,161.5,26.2,87.7,41.6,3.0,165978,1,27,Falta de componente
+2026-06-13,Noite,L3,PNP-06,Beta,97.6,26.2,87.7,38.5,3.11,162092,1,61,Alimentador travado
+2026-06-15,Manhã,L1,PNP-01,Alfa,101.7,26.1,76.1,41.4,2.39,178350,0,0,Nenhuma
+2026-06-15,Manhã,L1,PNP-02,Alfa,27.1,26.1,76.1,36.9,2.04,154024,1,35,Alimentador travado
+2026-06-15,Manhã,L2,PNP-03,Beta,69.0,26.1,76.1,40.8,2.33,171140,1,28,Erro de visão
+2026-06-15,Manhã,L2,PNP-04,Beta,75.1,26.1,76.1,40.2,2.43,181150,1,33,Bico desalinhado
+2026-06-15,Manhã,L3,PNP-05,Alfa,169.5,26.1,76.1,44.6,3.37,159228,4,42,Alimentador travado
+2026-06-15,Manhã,L3,PNP-06,Beta,105.6,26.1,76.1,41.8,2.71,170753,2,67,Alimentador travado
+2026-06-15,tarde,L1,PNP-1,Alfa,109.7,29.4,71.1,42.6,1.87,171024,1,23,Bico desalinhado
+2026-06-15,Tarde,L1,PNP-02,Alfa,35.1,29.4,71.1,41.4,1.76,165319,1,20,Falta de componente
+2026-06-15,Tarde,L2,PNP-03,Beta,77.0,29.4,71.1,44.3,2.45,144674,4,126,Alimentador travado
+2026-06-15,Tarde,L2,PNP-04,Beta,83.1,29.4,71.1,45.4,2.26,187868,1,29,Alimentador travado
+2026-06-15,Tarde,L3,PNP-05,Alfa,2.3,29.4,71.1,42.2,1.56,171239,1,9,Alimentador travado
+2026-06-15,Tarde,L3,PNP-06,Beta,113.6,29.4,71.1,43.6,2.5,183184,1,29,Erro de visão
+2026-06-15,Noite,L1,PNP-01,Alfa,117.7,26.1,88.2,42.1,2.85,146037,1,93,Alimentador travado
+2026-06-15,Noite,L1,PNP-02,Alfa,43.1,26.1,88.2,40.6,2.09,175048,0,0,Nenhuma
+2026-06-15,Noite,L2,PNP-03,Beta,,26.1,88.2,39.1,2.41,200365,0,0,Nenhuma
+2026-06-15,Noite,L2,PNP-04,Beta,91.1,26.1,88.2,41.0,3.13,172692,1,40,Alimentador travado
+2026-06-15,Noite,L3,PNP-05,Alfa,10.3,26.1,88.2,41.7,2.24,170127,0,0,Nenhuma
+2026-06-15,Noite,L3,PNP-06,Beta,121.6,26.1,88.2,41.4,3.19,182843,1,15,Bico desalinhado
+2026-06-16,Manhã,L1,PNP-01,Alfa,125.7,28.8,79.2,43.8,2.94,172629,1,22,Alimentador travado
+2026-06-16,Manhã,L1,PNP-02,Alfa,51.1,28.8,79.2,40.1,2.6,163486,1,33,Bico desalinhado
+2026-06-16,Manhã,L2,pnp-03,Beta,93.0,28.8,79.2,44.5,3.7,156292,3,81,Alimentador travado
+2026-06-16,Manhã,L2,PNP-04,Beta,99.1,28.8,79.2,44.0,2.66,164641,1,57,Bico desalinhado
+2026-06-16,Manhã,L3,PNP-05,Alfa,18.3,28.8,79.2,43.5,2.04,157107,2,24,Falta de componente
+2026-06-16,Manhã,L3,PNP-06,Beta,129.6,28.8,79.2,43.4,3.07,185856,0,0,Nenhuma
+2026-06-16,Tarde,L1,PNP-01,Alfa,133.7,29.1,74.9,46.9,2.91,182233,0,0,Nenhuma
+2026-06-16,Tarde,L1,PNP-2,Alfa,59.1,29.1,74.9,41.9,1.95,172910,1,16,Falta de componente
+2026-06-16,Tarde,L2,PNP-03,Beta,101.0,29.1,74.9,43.3,"2,72",143833,3,115,Bico desalinhado
+2026-06-16,Tarde,L2,PNP-04,Beta,107.1,29.1,74.9,41.3,3.13,191244,0,0,Nenhuma
+16/06/2026,Tarde,L3,PNP-05,Alfa,26.3,29.1,74.9,42.9,1.86,157993,1,36,Alimentador travado
+2026-06-16,Tarde,L3,PNP-06,Beta,137.6,29.1,74.9,43.9,3.19,183777,1,12,Bico desalinhado
+2026-06-16,Noite,L1,PNP-01,Alfa,141.7,26.4,79.2,42.4,3.2,152938,1,38,Alimentador travado
+2026-06-16,Noite,L1,PNP-02,Alfa,67.1,26.4,79.2,41.5,2.05,178524,0,0,Nenhuma
+2026-06-16,Noite,L2,PNP-03,Beta,109.0,26.4,79.2,43.1,,143482,1,114,Bico desalinhado
+2026-06-16,Noite,L2,PNP-04,Beta,115.1,26.4,79.2,42.7,3.0,178879,1,52,Bico desalinhado
+2026-06-16,Noite,L3,PNP-05,Alfa,34.3,26.4,79.2,41.8,2.37,149521,1,63,Superaquecimento
+2026-06-16,Noite,L3,PNP-06,Beta,145.6,26.4,79.2,44.0,2.82,188262,1,25,Erro de visão
+2026-06-17,Manhã,L1,PNP-01,Alfa,149.7,28.5,76.7,45.3,2.99,152904,1,33,Alimentador travado
+2026-06-17,Manhã,L1,PNP-02,Alfa,75.1,28.5,76.7,45.9,2.39,181207,0,0,Nenhuma
+2026-06-17,Manhã,L2,PNP-03,Beta,117.0,28.5,76.7,41.4,3.05,158133,2,77,Erro de visão
+2026-06-17,Manhã,L2,PNP-04,Beta,123.1,28.5,76.7,42.4,2.97,179742,1,21,Falta de componente
+2026-06-17,Manhã,L3,PNP-05,Alfa,42.3,28.5,76.7,42.5,1.9,176842,0,0,Nenhuma
+2026-06-17,manha,L3,PNP-06,Beta,153.6,28.5,76.7,42.9,3.11,192900,1,18,Erro de visão
+2026-06-17,Tarde,L1,PNP-01,Alfa,157.7,29.9,71.9,47.9,3.48,140938,2,78,Bico desalinhado
+2026-06-17,Tarde,L1,PNP-02,Alfa,83.1,29.9,71.9,45.5,2.49,163175,1,20,Erro de visão
+2026-06-17,Tarde,L2,PNP-03,Beta,125.0,29.9,71.9,47.0,2.54,146180,3,94,Erro de visão
+2026-06-17,TARDE,L2,PNP-04,Beta,131.1,29.9,71.9,45.3,2.47,200749,0,0,Nenhuma
+2026-06-17,Tarde,L3,PNP-05,Alfa,50.3,29.9,71.9,45.5,2.48,162588,2,41,Erro de visão
+2026-06-17,Tarde,L3,PNP-06,Beta,161.6,29.9,71.9,44.1,3.16,177039,1,41,Alimentador travado
+2026-06-17,Noite,L1,PNP-01 ,Alfa,165.7,26.9,80.7,42.2,2.65,140800,2,80,Alimentador travado
+2026-06-17,Noite,L1,PNP-02,Alfa,91.1,26.9,80.7,41.5,2.21,181193,0,0,Nenhuma
+2026-06-17,Noite,L2,PNP-03,Beta,133.0,26.9,80.7,42.5,"2,50",171249,1,43,Bico desalinhado
+2026-06-17,Noite,L2,PNP-04,Beta,139.1,26.9,80.7,44.6,3.22,178958,1,27,Erro de visão
+2026-06-17,Noite,L3,PNP-05,Alfa,58.3,26.9,80.7,41.1,2.14,168593,0,0,Nenhuma
+2026-06-17,Noite,L3,PNP-06,Beta,4.9,26.9,80.7,40.0,1.52,139067,1,119,Alimentador travado
+2026-06-18,Manhã,L1,PNP-01,Alfa,3.2,27.7,79.6,42.1,1.79,168148,0,0,Nenhuma
+2026-06-18,Manhã,L1,PNP-02,Alfa,99.1,27.7,79.6,42.0,2.13,168582,0,0,Nenhuma
+18/06/2026,Manhã,L2,PNP-03,Beta,141.0,27.7,79.6,43.8,3.12,179293,2,31,Alimentador travado
+2026-06-18,Manhã,L2,PNP-04,Beta,147.1,27.7,79.6,46.3,3.01,179602,1,21,Alimentador travado
+2026-06-18,Manhã,L3,PNP-05,Alfa,66.3,27.7,79.6,43.6,2.24,152899,1,38,Erro de visão
+2026-06-18,Manhã,L3,PNP-06,Beta,12.9,27.7,79.6,42.9,2.25,175911,2,42,Erro de visão
+2026-06-18,Tarde,L1,PNP-01,Alfa,11.2,29.8,74.3,44.5,2.04,171660,0,0,Nenhuma
+2026-06-18,Tarde,L1,pnp-02,Alfa,107.1,29.8,74.3,45.3,2.53,162084,1,51,Alimentador travado
+2026-06-18,Tarde,L2,PNP-03,Beta,149.0,29.8,74.3,44.2,3.43,163329,3,75,Erro de visão
+2026-06-18,Tarde,L2,PNP-04,Beta,155.1,29.8,74.3,45.6,3.23,162268,3,67,Alimentador travado
+2026-06-18,Tarde,L3,PNP-05,Alfa,74.3,29.8,74.3,42.8,2.66,173895,0,0,Nenhuma
+2026-06-18,Tarde,L3,PNP-06,Beta,20.9,29.8,74.3,43.3,,188172,0,0,Nenhuma
+2026-06-18,Noite,L1,PNP-01,Alfa,19.2,24.5,79.2,39.9,1.88,144884,3,64,Falta de componente
+2026-06-18,Noite,L1,PNP-02,Alfa,115.1,24.5,79.2,38.1,2.83,138549,2,89,Bico desalinhado
+2026-06-18,Noite,L2,PNP-03,Beta,157.0,24.5,79.2,40.7,3.36,148565,3,114,Bico desalinhado
+2026-06-18,Noite,L2,PNP-04,Beta,7.7,24.5,79.2,38.2,2.05,180278,1,45,Alimentador travado
+2026-06-18,Noite,L3,PNP-05,Alfa,82.3,24.5,79.2,38.0,2.31,172128,1,19,Erro de visão
+2026-06-18,Noite,L3,PNP-06,Beta,28.9,24.5,79.2,39.8,2.3,144365,2,99,Erro de visão
+19/06/2026,Manhã,L1,PNP-01,Alfa,27.2,28.5,71.7,40.6,2.01,166469,0,0,Nenhuma
+2026-06-19,Manhã,L1,PNP-02,Alfa,123.1,28.5,71.7,43.5,2.86,177613,0,0,Nenhuma
+19/06/2026,Manhã,L2,PNP-03,Beta,165.0,28.5,71.7,43.1,2.99,177682,1,27,Erro de visão
+19/06/2026,Manhã,L2,PNP-03,Beta,165.0,28.5,71.7,43.1,2.99,177682,1,27,Erro de visão
+2026-06-19,Manhã,L2,PNP-04,Beta,15.7,28.5,71.7,41.7,1.97,184665,0,0,Nenhuma
+2026-06-19,Manhã,L3,PNP-05,Alfa,90.3,28.5,71.7,42.4,2.44,162929,1,16,Superaquecimento
+2026-06-19,Manhã,L3,PNP-06,Beta,36.9,28.5,71.7,43.2,2.0,200974,0,0,Nenhuma
+2026-06-19,Tarde,L1,PNP-01,Alfa,35.2,29.7,70.0,39.7,2.17,175296,0,0,Nenhuma
+2026-06-19,Tarde,L1,PNP-02,Alfa,131.1,29.7,70.0,999.9,2.55,138816,3,82,Alimentador travado
+2026-06-19,Tarde,L2,PNP-03,Beta,173.0,29.7,70.0,44.8,3.34,167971,2,78,Erro de visão
+2026-06-19,Tarde,L2,PNP-04,Beta,23.7,29.7,70.0,43.8,2.22,164129,2,61,Erro de visão
+19/06/2026,Tarde,L3,PNP-05,Alfa,98.3,29.7,70.0,44.7,2.99,151819,1,63,Bico desalinhado
+2026-06-19,Tarde,L3,PNP-06,Beta,44.9,29.7,70.0,43.5,2.62,194727,0,0,Nenhuma
+2026-06-19,Noite,L1,PNP-01 ,Alfa,43.2,26.2,85.2,39.8,2.28,169861,1,27,Alimentador travado
+2026-06-19,Noite,L1,PNP-02,Alfa,139.1,26.2,85.2,39.4,2.8,164842,0,0,Nenhuma
+2026-06-19,Noite,L2,PNP-03,Beta,4.9,26.2,85.2,38.1,2.08,195294,0,0,Nenhuma
+2026-06-19,Noite,L2,PNP-04,Beta,31.7,26.2,85.2,40.3,1.91,167636,2,66,Bico desalinhado
+2026-06-19,Noite,L3,PNP-05,Alfa,106.3,26.2,85.2,43.0,2.6,155490,1,60,Alimentador travado
+2026-06-19,Noite,L3,PNP-06,Beta,52.9,26.2,85.2,44.3,2.84,179763,1,31,Alimentador travado
+2026-06-20,Manhã,L1,PNP-01,Alfa,51.2,27.9,79.4,43.1,1.95,169902,0,0,Nenhuma
+2026-06-20,Manhã,L1,PNP-02,Alfa,147.1,27.9,79.4,44.2,2.96,154282,2,720,Alimentador travado
+2026-06-20,Manhã,L2,PNP-3,Beta,12.9,27.9,79.4,43.1,2.09,188651,0,0,Nenhuma
+2026-06-20,Manhã,L2,PNP-04,Beta,39.7,27.9,79.4,42.5,2.49,185045,1,15,Alimentador travado
+2026-06-20,Manha,L3,PNP-05,Alfa,114.3,27.9,79.4,43.1,2.68,177446,0,0,Nenhuma
+2026-06-20,Manhã,L3,PNP-06,Beta,60.9,27.9,79.4,40.8,2.45,164965,1,77,Alimentador travado
+2026-06-20,Tarde,L1,PNP-01,Alfa,59.2,29.3,71.7,44.8,2.57,159621,1,27,Alimentador travado
+2026-06-20,Tarde,L1,PNP-02,Alfa,155.1,29.3,71.7,44.2,3.24,167576,2,33,Bico desalinhado
+2026-06-20,Tarde,L2,PNP-03,Beta,20.9,29.3,71.7,42.1,2.14,164849,2,59,Alimentador travado
+2026-06-20,Tarde,L2,PNP-04,Beta,47.7,29.3,71.7,41.8,2.54,172476,1,30,Bico desalinhado
+2026-06-20,TARDE,L3,PNP-05,Alfa,122.3,29.3,71.7,46.5,2.84,160674,1,34,Erro de visão
+2026-06-20,Tarde,L3,PNP-06,Beta,,29.3,71.7,42.9,2.66,194074,0,0,Nenhuma
+2026-06-20,Noite,L1,PNP-01,Alfa,67.2,25.1,84.6,39.4,,144039,1,68,Alimentador travado
+2026-06-20,Noite,L1,PNP-02,Alfa,7.0,25.1,84.6,42.5,1.92,180438,0,0,Nenhuma
+2026-06-20,Noite,L2,PNP-03,Beta,28.9,25.1,84.6,38.9,2.31,133719,3,137,Erro de visão
+2026-06-20,Noite,L2,PNP-04,Beta,55.7,25.1,84.6,41.3,2.58,190344,0,0,Nenhuma
+2026-06-20,Noite,L3,PNP-05,Alfa,130.3,25.1,84.6,41.3,2.78,161502,1,20,Bico desalinhado
+2026-06-20,Noite,L3,PNP-06,Beta,76.9,25.1,84.6,40.0,2.39,182661,0,0,Nenhuma
+2026-06-22,Manhã,L1,PNP-01,Alfa,75.2,27.9,74.1,44.4,2.36,166410,0,0,Nenhuma
+2026-06-22,Manhã,L1,PNP-02,Alfa,15.0,27.9,74.1,42.9,2.13,179359,0,0,Nenhuma
+2026-06-22,Manhã,L2,PNP-03,Beta,36.9,27.9,74.1,40.9,2.42,201311,0,0,Nenhuma
+2026-06-22,Manhã,L2,PNP-04,Beta,63.7,27.9,74.1,43.1,2.53,168069,1,58,Erro de visão
+2026-06-22,Manhã,L3,PNP-05,Alfa,,27.9,74.1,44.3,3.22,131454,2,104,Erro de visão
+2026-06-22,Manhã,L3,PNP-06,Beta,84.9,27.9,74.1,42.0,2.81,164583,2,52,Erro de visão
+2026-06-22,Tarde,L1,PNP-01,Alfa,83.2,29.9,71.0,45.9,2.36,156072,1,27,Erro de visão
+2026-06-22,Tarde,L1,PNP-02,Alfa,23.0,29.9,71.0,46.5,2.05,176783,0,0,Nenhuma
+2026-06-22,Tarde,L2,PNP-03,Beta,44.9,29.9,71.0,42.7,1.88,167271,2,73,Alimentador travado
+2026-06-22,Tarde,L2,PNP-04,Beta,71.7,29.9,71.0,46.1,2.63,169225,2,75,Erro de visão
+2026-06-22,Tarde,L3,PNP-05,Alfa,146.3,29.9,71.0,45.0,2.29,173720,1,21,Bico desalinhado
+2026-06-22,Tarde,L3,PNP-06,Beta,92.9,29.9,71.0,45.5,2.47,158556,3,68,Bico desalinhado
+2026-06-22,Noite,L1,PNP-01,Alfa,91.2,26.0,82.3,41.5,2.72,166994,1,24,Bico desalinhado
+2026-06-22,Noite,L1,PNP-02,Alfa,31.0,26.0,82.3,41.3,1.76,179072,0,0,Nenhuma
+2026-06-22,Noite,L2,PNP-03,Beta,52.9,26.0,82.3,41.2,2.98,190419,0,0,Nenhuma
+2026-06-22,Noite,L2,PNP-04,Beta,79.7,26.0,82.3,39.7,2.76,190117,0,0,Nenhuma
+2026-06-22,Noite,L3,PNP-05,Alfa,154.3,26.0,82.3,39.2,2.73,177216,0,0,Nenhuma
+2026-06-22,Noite,L3,PNP-06,Beta,100.9,26.0,82.3,40.5,2.65,180114,1,26,Erro de visão
+2026-06-23,Manhã,L1,PNP-01,Alfa,99.2,26.8,73.6,42.3,2.68,160798,1,32,Bico desalinhado
+23/06/2026,Manhã,L1,PNP-02,Alfa,39.0,26.8,73.6,41.9,1.92,169331,1,14,Bico desalinhado
+2026-06-23,Manhã,L2,PNP-03,Beta,60.9,26.8,73.6,40.6,2.73,171045,3,65,Erro de visão
+2026-06-23,Manhã,L2,PNP-04,Beta,87.7,26.8,73.6,43.6,,136677,3,136,Alimentador travado
+2026-06-23,Manhã,L3,PNP-05,Alfa,162.3,26.8,73.6,43.2,3.31,147254,2,58,Bico desalinhado
+2026-06-23,Manhã,L3,PNP-06,Beta,108.9,26.8,73.6,43.6,2.92,149317,3,85,Alimentador travado
+2026-06-23,Tarde,L1,PNP-01,Alfa,107.2,29.4,73.2,44.5,2.69,151543,4,80,Falta de componente
+2026-06-23,Tarde,L1,PNP-02,Alfa,47.0,29.4,73.2,40.5,1.71,157437,1,46,Bico desalinhado
+2026-06-23,Tarde,L2,PNP-03,Beta,68.9,29.4,73.2,45.1,2.46,170118,1,53,Alimentador travado
+2026-06-23,Tarde,L2,PNP-04,Beta,95.7,29.4,73.2,46.1,2.75,154573,2,79,Bico desalinhado
+2026-06-23,Tarde,L3,PNP-05,Alfa,5.9,29.4,73.2,42.5,2.1,166399,0,16,Falta de componente
+2026-06-23,Tarde,L3,PNP-06,Beta,116.9,29.4,73.2,43.7,2.75,192710,1,12,Falta de componente
+2026-06-23,Noite,L1,PNP-01,Alfa,115.2,27.2,84.2,41.1,2.53,134732,2,106,Erro de visão
+23/06/2026,Noite,L1,PNP-02,Alfa,55.0,27.2,84.2,42.5,1.96,167778,1,30,Alimentador travado
+2026-06-23,Noite,L2,PNP-03,Beta,76.9,27.2,84.2,40.1,2.43,156542,2,104,Bico desalinhado
+2026-06-23,Noite,L2,PNP-04,Beta,103.7,27.2,84.2,41.0,"3,33",180973,1,38,Bico desalinhado
+2026-06-23,Noite,L3,PNP-05,Alfa,13.9,27.2,84.2,41.1,1.91,177292,0,0,Nenhuma
+2026-06-23,Noite,L3,PNP-06,Beta,124.9,27.2,84.2,43.5,2.7,192558,0,0,Nenhuma
+2026-06-24,Manhã,L1,PNP-01,Alfa,123.2,28.6,82.4,44.0,2.89,168628,1,17,Superaquecimento
+2026-06-24,Manhã,L1,PNP-02,Alfa,63.0,28.6,82.4,42.7,1.96,175313,1,15,Falta de componente
+2026-06-24,Manhã,L2,PNP-03,Beta,84.9,28.6,82.4,42.5,2.69,185815,0,0,Nenhuma
+2026-06-24,Manhã,L2,PNP-04,Beta,111.7,28.6,82.4,46.8,3.07,185625,1,18,Bico desalinhado
+2026-06-24,Manhã,L3,PNP-05,Alfa,21.9,28.6,82.4,42.3,2.24,168874,0,0,Nenhuma
+2026-06-24,Manhã,L3,PNP-06,Beta,132.9,28.6,82.4,44.3,3.03,157499,2,89,Bico desalinhado
+2026-06-24,Tarde,L1,PNP-01,Alfa,131.2,28.6,73.9,45.0,2.39,172850,1,22,Bico desalinhado
+2026-06-24,Tarde,L1,PNP-02,Alfa,71.0,28.6,73.9,41.1,1.92,166806,0,0,Nenhuma
+2026-06-24,Tarde,L2,PNP-03,Beta,92.9,28.6,73.9,42.3,2.45,187549,1,28,Bico desalinhado
+2026-06-24,Tarde,L2,PNP-04,Beta,119.7,28.6,73.9,46.2,2.84,157581,2,87,Alimentador travado
+2026-06-24,Tarde,L3,PNP-05,Alfa,29.9,28.6,73.9,43.8,1.71,164892,0,0,Nenhuma
+2026-06-24,Tarde,L3,PNP-06,Beta,140.9,28.6,73.9,43.6,3.17,186019,0,0,Nenhuma
+2026-06-24,Noite,L1,PNP-01,Alfa,139.2,26.2,79.7,40.5,2.85,178176,0,0,Nenhuma
+2026-06-24,Noite,L1,PNP-02,Alfa,79.0,26.2,79.7,44.0,2.54,145693,1,85,Erro de visão
+2026-06-24,Noite,L2,PNP-03,Beta,100.9,26.2,79.7,40.3,2.37,193240,0,0,Nenhuma
+2026-06-24,Noite,L2,PNP-04,Beta,127.7,26.2,79.7,41.9,3.16,194990,0,0,Nenhuma
+2026-06-24,Noite,L3,PNP-05,Alfa,37.9,26.2,79.7,40.0,2.16,175280,0,0,Nenhuma
+2026-06-24,Noite,L3,PNP-06,Beta,148.9,26.2,79.7,41.5,3.22,146174,3,112,Bico desalinhado
+2026-06-25,Manhã,L1,PNP-01,Alfa,147.2,29.3,77.5,44.1,3.19,160918,1,11,Bico desalinhado
+2026-06-25,Manhã,L1,PNP-02,Alfa,87.0,29.3,77.5,44.8,2.44,151578,1,81,Erro de visão
+2026-06-25,Manhã,L2,PNP-03,Beta,108.9,29.3,77.5,44.5,2.71,166070,0,41,Bico desalinhado
+2026-06-25,Manhã,L2,PNP-04,Beta,135.7,29.3,77.5,41.2,2.91,166224,2,70,Bico desalinhado
+2026-06-25,Manhã,L3,PNP-05,Alfa,45.9,29.3,77.5,45.2,2.09,144411,2,92,Alimentador travado
+2026-06-25,Manhã,L3,PNP-06,Beta,156.9,29.3,77.5,46.9,,171743,2,64,Bico desalinhado
+2026-06-25,Tarde,L1,PNP-01,Alfa,155.2,30.3,68.4,44.3,3.02,141217,2,98,Alimentador travado
+2026-06-25,Tarde,L1,PNP-02,Alfa,95.0,30.3,68.4,46.3,2.56,168662,0,0,Nenhuma
+2026-06-25,Tarde,L2,PNP-03,Beta,116.9,30.3,68.4,45.5,2.71,168842,2,56,Bico desalinhado
+2026-06-25,tarde,L2,PNP-04,Beta,143.7,30.3,68.4,42.7,"2,84",169469,1,39,Bico desalinhado
+2026-06-25,Tarde,L3,PNP-05,Alfa,53.9,30.3,68.4,44.2,2.27,178595,0,0,Nenhuma
+2026-06-25,Tarde,L3,PNP-06,Beta,164.9,30.3,68.4,43.2,3.53,106303,6,210,Bico desalinhado
+2026-06-25,Noite,L1,PNP-01,Alfa,163.2,27.7,84.6,44.7,2.89,85262,4,241,Bico desalinhado
+2026-06-25,Noite,L1,PNP-02,Alfa,103.0,27.7,84.6,39.8,2.39,157366,1,37,Alimentador travado
+2026-06-25,Noite,L2,PNP-03,Beta,124.9,27.7,84.6,44.7,2.92,186497,1,33,Falta de componente
+2026-06-25,Noite,L2,PNP-04,Beta,151.7,27.7,84.6,41.6,3.0,174384,1,27,Falta de componente
+2026-06-25,Noite,L3,PNP-05,Alfa,61.9,27.7,84.6,42.3,2.6,158863,1,39,Erro de visão
+2026-06-25,Noite,L3,PNP-06,Beta,7.9,27.7,84.6,43.9,1.67,198921,0,0,Nenhuma
+2026-06-26,Manhã,L1,PNP-01,Alfa,171.2,27.7,83.9,44.3,3.05,131085,4,130,Alimentador travado
+2026-06-26,Manhã,L1,PNP-02,Alfa,111.0,27.7,83.9,44.8,2.9,145550,3,57,Alimentador travado
+2026-06-26,Manhã,L2,PNP-03,Beta,132.9,27.7,83.9,43.9,2.74,172407,2,62,Erro de visão
+2026-06-26,Manhã,L2,PNP-04,Beta,4.4,27.7,83.9,41.2,2.46,200068,0,0,Nenhuma
+2026-06-26,Manhã,L3,PNP-05,Alfa,69.9,27.7,83.9,41.3,2.62,139649,2,110,Erro de visão
+2026-06-26,Manhã,L3,PNP-06,Beta,15.9,27.7,83.9,43.5,2.15,189240,1,12,Falta de componente
+2026-06-26,Tarde,L1,PNP-01,Alfa,3.3,30.7,71.0,41.4,1.53,156398,1,30,Bico desalinhado
+2026-06-26,Tarde,L1,PNP-02,Alfa,119.0,30.7,71.0,43.4,2.99,156787,1,40,Falta de componente
+2026-06-26,Tarde,L2,PNP-03,Beta,140.9,30.7,71.0,44.6,2.89,183890,0,0,Nenhuma
+2026-06-26,Tarde,L2,PNP-04,Beta,12.4,30.7,71.0,44.5,2.34,192200,0,0,Nenhuma
+2026-06-26,Tarde,L3,PNP-05,Alfa,77.9,30.7,71.0,42.9,"2,73",172527,0,0,Nenhuma
+2026-06-26,Tarde,L3,PNP-06,Beta,23.9,30.7,71.0,45.3,2.25,183810,1,-22,Erro de visão
+2026-06-26,Noite,L1,PNP-01,Alfa,11.3,25.5,81.7,38.1,2.08,180684,0,0,Nenhuma
+26/06/2026,Noite,L1,PNP-02,Alfa,127.0,25.5,81.7,42.9,2.75,119520,2,162,Erro de visão
+2026-06-26,Noite,L2,PNP-03,Beta,148.9,25.5,81.7,41.2,"2,90",187718,0,0,Nenhuma
+2026-06-26,Noite,L2,PNP-04 ,Beta,20.4,25.5,81.7,38.5,1.88,187659,1,15,Falta de componente
+2026-06-26,Noite,L3,PNP-05,Alfa,85.9,25.5,81.7,40.7,1.76,175274,0,0,Nenhuma
+2026-06-26,Noite,L3,PNP-06,Beta,31.9,25.5,81.7,39.9,2.16,165360,2,57,Erro de visão
+2026-06-27,Manhã,L1,PNP-01,Alfa,19.3,28.4,76.4,40.1,2.08,174440,0,0,Nenhuma
+2026-06-27,Manhã,L1,PNP-02,Alfa,135.0,28.4,76.4,44.1,3.04,151530,2,40,Alimentador travado
+2026-06-27,Manhã,L2,PNP-03,Beta,156.9,28.4,76.4,44.5,2.79,193766,0,0,Nenhuma
+2026-06-27,Manhã,L2,PNP-04,Beta,28.4,28.4,76.4,46.2,2.08,194548,0,0,Nenhuma
+27/06/2026,Manhã,L3,PNP-05,Alfa,93.9,28.4,76.4,40.0,2.65,165844,0,0,Nenhuma
+2026-06-27,Manhã,L3,PNP-06,Beta,39.9,28.4,76.4,43.8,2.5,164905,1,54,Alimentador travado
+2026-06-27,Tarde,L1,PNP-01,Alfa,,29.7,70.4,42.5,2.08,175139,0,0,Nenhuma
+2026-06-27,Tarde,L1,PNP-02,Alfa,143.0,29.7,70.4,45.9,2.34,166621,0,0,Nenhuma
+2026-06-27,Tarde,L2,PNP-03,Beta,164.9,29.7,70.4,43.3,2.98,179820,1,26,Falta de componente
+2026-06-27,Tarde,L2,PNP-04,Beta,36.4,29.7,70.4,44.9,2.3,195655,1,12,Falta de componente
+2026-06-27,Tarde,L3,PNP-05,Alfa,101.9,29.7,70.4,41.9,2.94,160058,1,20,Bico desalinhado
+2026-06-27,Tarde,L3,PNP-06,Beta,47.9,29.7,70.4,45.6,1.9,165794,3,48,Erro de visão
+2026-06-27,Noite,L1,PNP-01,Alfa,35.3,26.5,82.1,39.9,1.96,172831,0,0,Nenhuma
+2026-06-27,Noite,L1,PNP-02,Alfa,151.0,26.5,82.1,41.2,3.15,166144,0,0,Nenhuma
+2026-06-27,Noite,L2,PNP-03,Beta,172.9,26.5,82.1,40.7,3.55,188888,1,18,Bico desalinhado
+2026-06-27,Noite,L2,PNP-04,Beta,44.4,26.5,82.1,40.6,2.82,184107,0,0,Nenhuma
+2026-06-27,Noite,L3,PNP-05,Alfa,109.9,26.5,82.1,44.4,2.4,172496,0,0,Nenhuma
+2026-06-27,Noite,L3,PNP-06,Beta,55.9,26.5,82.1,41.8,2.61,178329,1,55,Bico desalinhado
+2026-06-29,Manhã,L1,PNP-01,Alfa,43.3,27.4,73.2,39.8,2.02,164478,1,22,Erro de visão
+2026-06-29,Manhã,L1,PNP-02,Alfa,,27.4,73.2,43.0,3.0,156086,3,54,Bico desalinhado
+2026-06-29,manha,L2,PNP-03,Beta,7.7,27.4,73.2,41.0,2.02,195794,0,0,Nenhuma
+2026-06-29,Manhã,L2,PNP-04,Beta,52.4,27.4,73.2,41.4,2.5,161538,2,62,Alimentador travado
+2026-06-29,Manhã,L3,PNP-05,Alfa,117.9,27.4,73.2,45.3,3.24,150209,3,66,Falta de componente
+2026-06-29,Manhã,L3,PNP-06,Beta,63.9,27.4,73.2,41.9,2.31,201498,0,0,Nenhuma
+29/06/2026,Tarde,L1,PNP-01,Alfa,51.3,29.8,73.0,42.3,2.33,182062,0,0,Nenhuma
+2026-06-29,Tarde,L1,PNP-02,Alfa,7.4,29.8,73.0,41.1,2.05,132108,3,106,Bico desalinhado
+2026-06-29,Tarde,L2,PNP-03,Beta,15.7,29.8,73.0,42.2,2.18,194694,1,12,Alimentador travado
+2026-06-29,Tarde,L2,PNP-04,Beta,60.4,29.8,73.0,43.1,2.58,194848,0,0,Nenhuma
+2026-06-29,Tarde,L3,PNP-05,Alfa,125.9,29.8,73.0,43.2,2.5,163857,1,35,Alimentador travado
+2026-06-29,Tarde,L3,PNP-06,Beta,71.9,29.8,73.0,46.1,2.67,173949,1,37,Erro de visão
+2026-06-29,Noite,L1,PNP-01,Alfa,59.3,27.3,78.6,39.0,2.42,154080,1,58,Erro de visão
+2026-06-29,Noite,L1,PNP-01,Alfa,59.3,27.3,78.6,39.0,2.42,154080,1,58,Erro de visão
+2026-06-29,Noite,L1,PNP-02,Alfa,15.4,27.3,78.6,41.4,1.84,166230,0,0,Nenhuma
+2026-06-29,noite,L2,PNP-03,Beta,23.7,27.3,78.6,999.9,1.9,194740,0,0,Nenhuma
+2026-06-29,Noite,L2,PNP-04,Beta,68.4,27.3,78.6,44.2,2.16,194471,0,0,Nenhuma
+2026-06-29,Noite,L3,PNP-05,Alfa,133.9,27.3,78.6,42.0,2.73,174585,0,0,Nenhuma
+29/06/2026,Noite,L3,PNP-06,Beta,79.9,27.3,78.6,43.7,2.73,185201,0,0,Nenhuma
+2026-06-30,Manhã,L1,PNP-01,Alfa,67.3,28.0,75.4,999.9,2.28,154413,1,30,Bico desalinhado
+2026-06-30,Manhã,L1,PNP-02,Alfa,23.4,28.0,75.4,43.1,2.08,170333,0,0,Nenhuma
+2026-06-30,Manhã,L2,PNP-03,Beta,31.7,28.0,75.4,41.5,2.36,192973,0,0,Nenhuma
+2026-06-30,Manhã,L2,PNP-04,Beta,76.4,28.0,75.4,42.2,2.14,200108,0,0,Nenhuma
+2026-06-30,Manhã,L3,PNP-05,Alfa,141.9,28.0,75.4,43.9,2.62,175590,0,0,Nenhuma
+2026-06-30,Manhã,L3,PNP-06,Beta,87.9,28.0,75.4,43.1,2.74,164853,2,46,Bico desalinhado
+2026-06-30,Tarde,L1,PNP-01,Alfa,75.3,30.7,73.5,46.5,2.7,180549,0,0,Nenhuma
+2026-06-30,Tarde,L1,PNP-02,Alfa,31.4,30.7,73.5,44.3,1.97,176389,0,0,Nenhuma
+2026-06-30,Tarde,L2,PNP-03,Beta,39.7,30.7,73.5,43.7,2.21,175018,1,59,Superaquecimento
+2026-06-30,Tarde,L2,PNP-04,Beta,84.4,30.7,73.5,43.3,2.48,173360,2,44,Falta de componente
+2026-06-30,Tarde,L3,PNP-05,Alfa,149.9,30.7,73.5,43.3,2.71,133605,3,112,Erro de visão
+2026-06-30,Tarde,L3,PNP-06,Beta,95.9,30.7,73.5,45.2,2.57,170823,1,57,Bico desalinhado
+2026-06-30,Noite,L1,PNP-01,Alfa,83.3,28.2,83.7,43.7,"2,30",169050,0,0,Nenhuma
+2026-06-30,Noite,L1,PNP-02,Alfa,39.4,28.2,83.7,42.4,2.14,139941,2,82,Erro de visão
+2026-06-30,Noite,L2,PNP-03,Beta,47.7,28.2,83.7,43.7,2.01,181444,0,0,Nenhuma
+2026-06-30,Noite,L2,PNP-04,Beta,92.4,28.2,83.7,43.1,2.79,180062,1,24,Bico desalinhado
+2026-06-30,Noite,L3,PNP-05,Alfa,157.9,28.2,83.7,41.3,2.72,177087,0,0,Nenhuma
+2026-06-30,Noite,L3,PNP-06,Beta,103.9,28.2,83.7,43.2,2.62,121321,3,191,Alimentador travado
+2026-07-01,Manhã,L1,PNP-01,Alfa,91.3,28.3,77.3,43.8,2.32,178231,0,0,Nenhuma
+2026-07-01,Manhã,L1,PNP-02,Alfa,47.4,28.3,77.3,42.4,2.41,166729,1,36,Alimentador travado
+2026-07-01,Manhã,L2,PNP-03,Beta,55.7,28.3,77.3,42.6,2.44,197930,0,0,Nenhuma
+2026-07-01,Manhã,L2,PNP-04,Beta,100.4,28.3,77.3,42.4,3.04,172234,2,44,Falta de componente
+2026-07-01,Manhã,L3,PNP-05,Alfa,165.9,28.3,77.3,43.2,2.73,164843,0,0,Nenhuma
+2026-07-01,Manhã,L3,PNP-06,Beta,111.9,28.3,77.3,45.0,2.74,186547,1,31,Alimentador travado
+2026-07-01,Tarde,L1,PNP-01,Alfa,99.3,30.0,67.4,43.5,2.16,163230,1,18,Erro de visão
+2026-07-01,Tarde,L1,PNP-02,Alfa,55.4,30.0,67.4,43.6,2.24,157779,1,36,Falta de componente
+2026-07-01,Tarde,L2,PNP-03,Beta,63.7,30.0,67.4,43.8,2.4,198076,0,0,Nenhuma
+2026-07-01,Tarde,L2,PNP-04,Beta,108.4,30.0,67.4,44.1,2.54,172898,1,26,Erro de visão
+2026-07-01,Tarde,L3,PNP-05,Alfa,6.1,30.0,67.4,43.9,1.47,168041,0,0,Nenhuma
+2026-07-01,Tarde,L3,PNP-06,Beta,119.9,30.0,67.4,44.7,2.96,150973,2,90,Bico desalinhado
+2026-07-01,Noite,L1,PNP-01,Alfa,107.3,27.8,82.6,43.4,2.3,178037,0,0,Nenhuma
+2026-07-01,Noite,L1,PNP-02,Alfa,63.4,27.8,82.6,42.3,2.31,177720,0,0,Nenhuma
+2026-07-01,Noite,L2,PNP-03,Beta,71.7,27.8,82.6,42.5,2.56,199011,0,0,Nenhuma
+2026-07-01,Noite,L2,PNP-04,Beta,116.4,27.8,82.6,42.4,2.88,188454,1,31,Alimentador travado
+2026-07-01,Noite,L3,PNP-05,Alfa,14.1,27.8,82.6,43.2,1.9,169173,0,0,Nenhuma
+2026-07-01,Noite,L3,PNP-6,Beta,127.9,27.8,82.6,42.9,2.97,176265,1,58,Alimentador travado
+2026-07-02,Manhã,L1,PNP-01,Alfa,115.3,28.5,76.0,41.8,3.19,148662,2,59,Alimentador travado
+2026-07-02,Manhã,L1,PNP-02,Alfa,71.4,28.5,76.0,42.5,2.24,163666,1,13,Bico desalinhado
+2026-07-02,Manhã,L2,PNP-03,Beta,79.7,28.5,76.0,45.0,2.45,164515,2,64,Superaquecimento
+2026-07-02,Manhã,L2,PNP-04,Beta,124.4,28.5,76.0,45.5,2.81,172940,1,42,Superaquecimento
+2026-07-02,Manhã,L3,PNP-05,Alfa,22.1,28.5,76.0,42.5,1.64,167133,1,30,Alimentador travado
+2026-07-02,Manhã,L3,PNP-06,Beta,135.9,28.5,76.0,43.4,3.08,167634,1,47,Bico desalinhado
+02/07/2026,Tarde,L1,PNP-01,Alfa,123.3,29.6,68.8,45.1,2.96,144079,3,95,Alimentador travado
+02/07/2026,Tarde,L1,PNP-02,Alfa,79.4,29.6,68.8,999.9,2.13,172206,1,26,Bico desalinhado
+2026-07-02,Tarde,L2,PNP-03,Beta,87.7,29.6,68.8,44.3,3.09,172007,1,31,Alimentador travado
+2026-07-02,Tarde,L2,PNP-04,Beta,132.4,29.6,68.8,44.9,2.69,187829,1,10,Alimentador travado
+2026-07-02,Tarde,L3,PNP-05,Alfa,30.1,29.6,68.8,44.9,1.92,149152,2,53,Alimentador travado
+2026-07-02,Tarde,L3,PNP-06,Beta,143.9,29.6,68.8,44.7,2.67,172481,1,45,Erro de visão
+2026-07-02,Noite,L1,PNP-01,Alfa,131.3,26.6,80.0,41.6,2.75,169454,0,0,Nenhuma
+2026-07-02,Noite,L1,PNP-02,Alfa,87.4,26.6,80.0,44.3,2.78,100064,3,207,Superaquecimento
+2026-07-02,Noite,L2,PNP-03,Beta,95.7,26.6,80.0,41.5,2.59,170858,1,41,Alimentador travado
+2026-07-02,Noite,L2,PNP-04,Beta,140.4,26.6,80.0,44.6,3.44,165546,2,70,Bico desalinhado
+2026-07-02,Noite,L3,PNP-05,Alfa,38.1,26.6,80.0,38.7,2.18,164521,1,28,Erro de visão
+2026-07-02,Noite,L3,PNP-06,Beta,151.9,26.6,80.0,43.5,,157696,2,91,Alimentador travado
+2026-07-03,Manhã,L1,PNP-01,Alfa,139.3,28.5,74.3,44.9,2.86,100776,6,187,Erro de visão
+2026-07-03,Manhã,L1,PNP-02,Alfa,95.4,28.5,74.3,43.7,2.51,179007,0,0,Nenhuma
+2026-07-03,Manhã,L2,PNP-03,Beta,103.7,28.5,74.3,44.9,2.59,183321,0,0,Nenhuma
+2026-07-03,Manhã,L2,PNP-04,Beta,148.4,28.5,74.3,42.7,3.38,149597,2,92,Bico desalinhado
+2026-07-03,Manhã,L3,PNP-05,Alfa,46.1,28.5,74.3,42.9,2.01,139318,3,88,Erro de visão
+2026-07-03,Manhã,L3,PNP-06,Beta,159.9,28.5,74.3,43.0,2.89,181720,1,16,Bico desalinhado
+2026-07-03,Tarde,L1,PNP-01,Alfa,147.3,30.2,71.0,45.4,2.94,168312,1,15,Alimentador travado
+2026-07-03,Tarde,L1,PNP-02,Alfa,103.4,30.2,71.0,46.1,2.5,159903,1,24,Falta de componente
+2026-07-03,Tarde,L2,PNP-03,Beta,111.7,30.2,71.0,45.0,2.59,186816,0,0,Nenhuma
+2026-07-03,Tarde,L2,PNP-04,Beta,3.8,30.2,71.0,45.9,1.71,191555,0,0,Nenhuma
+2026-07-03,Tarde,L3,PNP-05,Alfa,54.1,30.2,71.0,45.3,2.11,162895,1,600,Bico desalinhado
+2026-07-03,Tarde,L3,PNP-06,Beta,6.1,30.2,71.0,43.9,2.26,195547,1,14,Erro de visão
+2026-07-03,Noite,L1,PNP-01,Alfa,155.3,27.6,81.4,45.3,3.32,154048,1,64,Alimentador travado
+2026-07-03,Noturno,L1,PNP-02,Alfa,111.4,27.6,81.4,999.9,2.8,164430,1,37,Alimentador travado
+2026-07-03,Noite,L2,PNP-03,Beta,119.7,27.6,81.4,45.5,2.68,173609,1,44,Alimentador travado
+2026-07-03,Noite,L2,PNP-04,Beta,11.8,27.6,81.4,43.5,2.29,160266,2,77,Alimentador travado
+2026-07-03,Noite,L3,PNP-05,Alfa,62.1,27.6,81.4,41.9,1.93,164509,0,0,Nenhuma
+2026-07-03,Noite,L3,PNP-06,Beta,14.1,27.6,81.4,43.5,2.49,191979,0,0,Nenhuma
+2026-07-04,Manhã,L1,PNP-01,Alfa,163.3,28.3,71.7,48.9,2.86,164221,0,0,Nenhuma
+2026-07-04,Manhã,L1,pnp-02,Alfa,119.4,28.3,71.7,44.7,2.17,157889,1,21,Superaquecimento
+2026-07-04,Manhã,L2,PNP-03,Beta,127.7,28.3,71.7,42.4,3.52,151226,4,84,Erro de visão
+2026-07-04,Manhã,L2,PNP-04,Beta,19.8,28.3,71.7,43.6,1.83,195489,0,0,Nenhuma
+2026-07-04,Manhã,L3,PNP-05,Alfa,70.1,28.3,71.7,41.2,2.41,169246,0,0,Nenhuma
+2026-07-04,Manhã,L3,PNP-06,Beta,22.1,28.3,71.7,42.5,2.5,195804,0,0,Nenhuma
+2026-07-04,Tarde,L1,PNP-01,Alfa,171.3,30.8,63.7,47.5,3.5,159524,2,51,Bico desalinhado
+2026-07-04,Tarde,L1,PNP-02,Alfa,127.4,30.8,63.7,45.4,2.75,171451,0,0,Nenhuma
+2026-07-04,Tarde,L2,PNP-03,Beta,135.7,30.8,63.7,47.2,2.74,174358,2,58,Bico desalinhado
+2026-07-04,Tarde,L2,PNP-04,Beta,27.8,30.8,63.7,45.2,2.19,183275,1,37,Falta de componente
+2026-07-04,TARDE,L3,PNP-05,Alfa,78.1,30.8,63.7,45.4,1.89,164922,2,37,Bico desalinhado
+2026-07-04,Tarde,L3,PNP-06,Beta,30.1,30.8,63.7,47.5,2.19,191987,1,19,Falta de componente
+2026-07-04,Noite,L1,PNP-01,Alfa,7.5,25.9,78.8,37.2,1.85,181718,0,0,Nenhuma
+2026-07-04,Noite,L1,PNP-02,Alfa,135.4,25.9,78.8,41.4,3.33,126897,4,138,Erro de visão
+2026-07-04,Noite,L2,PNP-03,Beta,143.7,25.9,78.8,43.8,3.52,108837,5,212,Alimentador travado
+2026-07-04,Noite,L2,PNP-04,Beta,35.8,25.9,78.8,40.7,1.88,159108,2,61,Falta de componente
+2026-07-04,Noite,L3,PNP-05,Alfa,86.1,25.9,78.8,41.8,,157651,1,45,Alimentador travado
+2026-07-04,Noite,L3,PNP-06,Beta,38.1,25.9,78.8,41.2,1.8,193496,0,0,Nenhuma
+2026-07-06,Manhã,L1,PNP-01,Alfa,15.5,29.3,75.1,45.8,2.14,148967,3,81,Alimentador travado
+2026-07-06,Manhã,L1,PNP-02,Alfa,143.4,29.3,75.1,44.1,3.05,174880,1,11,Bico desalinhado
+2026-07-06,Manhã,L2,PNP-03,Beta,151.7,29.3,75.1,46.7,3.21,193358,0,0,Nenhuma
+2026-07-06,Manhã,L2,PNP-04,Beta,43.8,29.3,75.1,44.7,2.26,181560,1,12,Falta de componente
+2026-07-06,Manhã,L3,PNP-05,Alfa,94.1,29.3,75.1,45.6,2.9,144420,2,67,Bico desalinhado
+2026-07-06,Manhã,L3,PNP-06,Beta,46.1,29.3,75.1,44.8,2.55,161837,1,62,Erro de visão
+2026-07-06,TARDE,L1,PNP-01,Alfa,23.5,29.0,74.5,43.2,2.03,149611,3,76,Alimentador travado
+2026-07-06,Tarde,L1,PNP-02,Alfa,151.4,29.0,74.5,45.0,2.91,175864,0,0,Nenhuma
+2026-07-06,Tarde,L2,PNP-03,Beta,159.7,29.0,74.5,45.4,2.6,198848,0,0,Nenhuma
+2026-07-06,Tarde,L2,PNP-04,Beta,51.8,29.0,74.5,42.7,2.59,170865,2,35,Alimentador travado
+2026-07-06,Tarde,L3,PNP-05,Alfa,102.1,29.0,74.5,45.8,2.46,162262,1,19,Falta de componente
+2026-07-06,Tarde,L3,PNP-06,Beta,54.1,29.0,74.5,44.0,2.14,198038,0,0,Nenhuma
+2026-07-06,Noite,L1,PNP-01,Alfa,31.5,25.9,83.1,38.3,2.43,170225,1,31,Erro de visão
+06/07/2026,Noite,L1,PNP-02,Alfa,7.6,25.9,83.1,39.0,2.06,164826,1,44,Falta de componente
+2026-07-06,Noite,L2,PNP-03,Beta,167.7,25.9,83.1,41.0,2.94,164199,2,50,Bico desalinhado
+2026-07-06,Noite,L2,pnp-04,Beta,,25.9,83.1,43.0,2.4,198434,0,0,Nenhuma
+2026-07-06,Noite,L3,PNP-05,Alfa,110.1,25.9,83.1,41.7,2.44,176246,0,0,Nenhuma
+2026-07-06,Noite,L3,PNP-06,Beta,62.1,25.9,83.1,39.0,2.53,173987,1,38,Erro de visão
+2026-07-07,Manhã,L1,PNP-01,Alfa,39.5,28.9,72.2,43.3,2.25,181657,0,0,Nenhuma
+2026-07-07,Manhã,L1,PNP-02,Alfa,15.6,28.9,72.2,43.5,1.78,177660,0,0,Nenhuma
+2026-07-07,Manhã,L2,PNP-03,Beta,175.7,28.9,72.2,44.6,3.38,175945,2,43,Erro de visão
+2026-07-07,Manhã,L2,PNP-04,Beta,67.8,28.9,72.2,42.4,2.41,190424,0,0,Nenhuma
+07/07/2026,Manhã,L3,PNP-05,Alfa,118.1,28.9,72.2,45.1,2.38,176142,0,0,Nenhuma
+2026-07-07,Manhã,L3,PNP-06,Beta,70.1,28.9,72.2,43.7,2.64,198811,0,0,Nenhuma
+2026-07-07,Tarde,L1,PNP-01,Alfa,47.5,30.5,64.8,43.5,1.9,169132,0,0,Nenhuma
+2026-07-07,Tarde,L1,PNP-02,Alfa,23.6,30.5,64.8,44.6,2.06,181180,0,0,Nenhuma
+2026-07-07,Tarde,L2,PNP-03,Beta,183.7,30.5,64.8,47.3,3.43,166070,2,61,Erro de visão
+2026-07-07,Tarde,L2,PNP-04,Beta,75.8,30.5,64.8,44.9,2.27,180204,1,35,Falta de componente
+2026-07-07,Tarde,L3,PNP-05,Alfa,126.1,30.5,64.8,45.8,2.96,168330,1,34,Erro de visão
+2026-07-07,Tarde,L3,PNP-06,Beta,78.1,30.5,64.8,45.2,2.77,181182,2,33,Bico desalinhado
+2026-07-07,Noturno,L1,PNP-01,Alfa,55.5,26.5,77.2,41.4,2.5,149417,1,84,Bico desalinhado
+2026-07-07,Noite,L1,PNP-02,Alfa,31.6,26.5,77.2,43.6,2.66,181480,0,0,Nenhuma
+2026-07-07,Noite,L2,PNP-03,Beta,191.7,26.5,77.2,43.0,"3,15",159850,2,68,Alimentador travado
+07/07/2026,Noite,L2,PNP-04,Beta,83.8,26.5,77.2,40.4,2.68,189079,0,0,Nenhuma
+2026-07-07,Noite,L3,PNP05,Alfa,134.1,26.5,77.2,42.4,2.57,162478,1,24,Falta de componente
+2026-07-07,Noite,L3,PNP-06,Beta,86.1,26.5,77.2,39.6,2.88,174121,1,44,Alimentador travado
+2026-07-08,Manhã,L1,PNP-01,Alfa,63.5,28.0,71.7,43.6,2.47,159755,1,31,Erro de visão
+2026-07-08,Manhã,L1,PNP-02,Alfa,39.6,28.0,71.7,44.0,2.18,179883,0,0,Nenhuma
+2026-07-08,Manhã,L2,PNP-03,Beta,199.7,28.0,71.7,42.5,3.85,150745,3,106,Bico desalinhado
+2026-07-08,Manhã,L2,PNP-04,Beta,91.8,28.0,71.7,43.5,3.01,176277,2,25,Bico desalinhado
+2026-07-08,Manhã,L3,PNP-05,Alfa,142.1,28.0,71.7,43.2,3.0,153737,2,52,Bico desalinhado
+2026-07-08,Manhã,L3,PNP-06,Beta,94.1,28.0,71.7,41.4,2.55,169965,2,54,Erro de visão
+2026-07-08,Tarde,L1,PNP-01,Alfa,71.5,29.2,78.6,999.9,2.6,169247,0,0,Nenhuma
+2026-07-08,Tarde,L1,PNP-02,Alfa,47.6,29.2,78.6,44.4,2.04,171218,0,0,Nenhuma
+2026-07-08,Tarde,L2,PNP-03,Beta,207.7,29.2,78.6,47.2,3.0,182025,1,35,Bico desalinhado
+2026-07-08,Tarde,L2,PNP04,Beta,99.8,29.2,78.6,42.2,2.45,181704,1,26,Erro de visão
+2026-07-08,Tarde,L3,PNP-05,Alfa,150.1,29.2,78.6,44.6,2.88,181656,0,0,Nenhuma
+2026-07-08,Tarde,L3,PNP-06,Beta,102.1,29.2,78.6,43.2,,182471,0,0,Nenhuma
+2026-07-08,Noite,L1,PNP-01,Alfa,79.5,26.1,79.3,41.8,2.58,154158,1,30,Erro de visão
+2026-07-08,Noite,L1,PNP-02,Alfa,55.6,26.1,79.3,42.1,2.5,169100,0,0,Nenhuma
+2026-07-08,Noite,L1,PNP-02,Alfa,55.6,26.1,79.3,42.1,2.5,169100,0,0,Nenhuma
+2026-07-08,Noite,L2,PNP-03,Beta,215.7,26.1,79.3,44.4,3.88,192519,0,0,Nenhuma
+2026-07-08,Noite,L2,PNP-04,Beta,107.8,26.1,79.3,40.9,3.01,108481,5,209,Alimentador travado
+2026-07-08,Noite,L3,PNP-05,Alfa,158.1,26.1,79.3,41.1,3.05,171011,1,28,Falta de componente
+2026-07-08,Noite,L3,PNP-06,Beta,110.1,26.1,79.3,44.4,2.8,165720,2,65,Erro de visão
+09/07/2026,Manhã,L1,PNP-01,Alfa,87.5,27.7,72.2,41.3,2.52,155537,2,62,Erro de visão
+2026-07-09,Manhã,L1,PNP-02,Alfa,63.6,27.7,72.2,999.9,1.69,173405,1,13,Alimentador travado
+2026-07-09,Manhã,L2,PNP-03,Beta,223.7,27.7,72.2,46.9,4.07,122238,6,176,Alimentador travado
+2026-07-09,Manhã,L2,PNP-04,Beta,115.8,27.7,72.2,41.0,3.02,190576,0,0,Nenhuma
+2026-07-09,Manhã,L3,PNP-05,Alfa,166.1,27.7,72.2,41.3,3.18,179183,0,0,Nenhuma
+2026-07-09,Manhã,L3,PNP-06,Beta,118.1,27.7,72.2,42.3,3.2,133857,2,154,Erro de visão
+2026-07-09,Tarde,L1,PNP-01,Alfa,95.5,31.7,63.1,999.9,2.68,163036,1,16,Alimentador travado
+2026-07-09,Tarde,L1,PNP-02,Alfa,71.6,31.7,63.1,46.7,2.56,176670,0,0,Nenhuma
+2026-07-09,Tarde,L2,pnp-03,Beta,231.7,31.7,63.1,49.0,3.73,173875,1,21,Bico desalinhado
+2026-07-09,Tarde,L2,PNP-04,Beta,123.8,31.7,63.1,47.6,2.35,187203,0,0,Nenhuma
+2026-07-09,Tarde,L3,PNP-05,Alfa,7.1,31.7,63.1,45.9,1.85,149503,1,65,Bico desalinhado
+2026-07-09,Tarde,L3,PNP-06,Beta,126.1,31.7,63.1,45.2,3.21,132735,3,131,Alimentador travado
+2026-07-09,Noite,L1,PNP-01,Alfa,103.5,26.3,83.4,42.1,2.54,177581,0,-19,Nenhuma
+2026-07-09,Noite,L1,PNP-02,Alfa,79.6,26.3,83.4,40.8,2.25,170749,0,0,Nenhuma
+2026-07-09,Noite,L2,PNP-03,Beta,239.7,26.3,83.4,41.2,3.54,172404,1,48,Erro de visão
+2026-07-09,Noite,L2,PNP-04,Beta,131.8,26.3,83.4,43.1,3.52,193365,0,0,Nenhuma
+2026-07-09,Noite,L3,PNP-05,Alfa,15.1,26.3,83.4,39.9,2.44,154135,1,51,Alimentador travado
+2026-07-09,Noite,L3,PNP-06,Beta,134.1,26.3,83.4,44.7,3.06,110268,2,198,Bico desalinhado
+2026-07-10,Manhã,L1,PNP-01,Alfa,111.5,28.9,73.1,43.6,1.94,170260,0,0,Nenhuma
+2026-07-10,Manhã,L1,PNP-2,Alfa,87.6,28.9,73.1,43.1,2.66,174394,0,0,Nenhuma
+2026-07-10,Manha,L2,PNP-3,Beta,247.7,28.9,73.1,45.3,4.02,170407,2,52,Bico desalinhado
+10/07/2026,Manhã,L2,PNP-04,Beta,139.8,28.9,73.1,44.6,2.38,174320,2,54,Alimentador travado
+2026-07-10,Manhã,L3,PNP-05,Alfa,23.1,28.9,73.1,44.1,1.96,162144,1,24,Erro de visão
+2026-07-10,Manhã,L3,PNP-06,Beta,142.1,28.9,73.1,44.5,2.36,197335,0,0,Nenhuma
+2026-07-10,Tarde,L1,PNP-01,Alfa,119.5,29.9,68.7,44.0,2.62,149461,1,52,Alimentador travado
+2026-07-10,Tarde,L1,PNP-02,Alfa,95.6,29.9,68.7,41.5,2.95,176051,0,0,Nenhuma
+2026-07-10,Tarde,L2,PNP-03,Beta,255.7,29.9,68.7,49.1,4.24,124067,5,166,Erro de visão
+2026-07-10,Tarde,L2,PNP-04,Beta,147.8,29.9,68.7,46.3,3.52,170014,1,36,Bico desalinhado
+2026-07-10,Tarde,L3,PNP-5,Alfa,31.1,29.9,68.7,44.5,1.93,178021,0,0,Nenhuma
+2026-07-10,Tarde,L3,PNP-06,Beta,150.1,29.9,68.7,42.9,3.21,169826,1,60,Bico desalinhado
+2026-07-10,NOITE,L1,PNP-01,Alfa,127.5,25.9,79.4,41.1,2.03,179948,0,0,Nenhuma
+2026-07-10,Noite,L1,PNP-02,Alfa,103.6,25.9,79.4,39.3,2.42,156311,1,37,Alimentador travado
+2026-07-10,Noite,L2,PNP-03,Beta,263.7,25.9,79.4,43.3,4.24,142852,2,134,Bico desalinhado
+2026-07-10,Noite,L2,PNP-04,Beta,155.8,25.9,79.4,40.8,3.34,170718,1,42,Erro de visão
+2026-07-10,Noite,L3,PNP-05,Alfa,39.1,25.9,79.4,41.3,2.29,164986,1,33,Erro de visão
+2026-07-10,Noite,L3,PNP-06,Beta,158.1,25.9,79.4,43.9,3.06,173249,1,47,Alimentador travado
+2026-07-11,Manhã,L1,PNP-01,Alfa,135.5,28.8,70.4,44.7,2.72,153581,1,37,Alimentador travado
+2026-07-11,Manhã,L1,PNP-02,Alfa,111.6,28.8,70.4,46.2,3.03,175644,0,0,Nenhuma
+2026-07-11,Manhã,L2,PNP-03,Beta,271.7,28.8,70.4,45.0,3.76,180196,1,34,Alimentador travado
+2026-07-11,Manhã,L2,PNP-04,Beta,163.8,28.8,70.4,46.4,3.41,145535,3,101,Alimentador travado
+2026-07-11,Manhã,L3,PNP-05,Alfa,47.1,28.8,70.4,44.8,1.77,168126,0,0,Nenhuma
+2026-07-11,Manhã,L3,PNP-06,Beta,166.1,28.8,70.4,46.1,3.0,197787,0,0,Nenhuma
+2026-07-11,Tarde,L1,PNP-01,Alfa,143.5,30.5,73.3,999.9,2.64,164778,0,0,Nenhuma
+2026-07-11,Tarde,L1,PNP-02,Alfa,119.6,30.5,73.3,45.4,3.16,164057,1,47,Erro de visão
+2026-07-11,Tarde,L2,PNP-03,Beta,279.7,30.5,73.3,46.1,3.79,128715,5,165,Superaquecimento
+2026-07-11,Tarde,L2,PNP-04,Beta,171.8,30.5,73.3,44.8,3.26,155960,2,82,Alimentador travado
+2026-07-11,Tarde,L3,PNP-05,Alfa,55.1,30.5,73.3,48.0,3.16,141823,3,68,Erro de visão
+2026-07-11,Tarde,L3,PNP-06,Beta,6.2,30.5,73.3,42.3,1.93,193954,0,0,Nenhuma
+2026-07-11,Noite,L1,PNP-01,Alfa,,26.1,83.5,40.7,2.98,171153,0,0,Nenhuma
+2026-07-11,Noite,L1,PNP-02,Alfa,127.6,26.1,83.5,40.0,2.85,144851,2,76,Alimentador travado
+2026-07-11,NOITE,L2,PNP-03,Beta,287.7,26.1,83.5,42.6,4.34,75898,5,295,Alimentador travado
+2026-07-11,Noite,L2,PNP-04,Beta,179.8,26.1,83.5,44.2,3.95,170676,1,35,Alimentador travado
+2026-07-11,Noite,L3,PNP-05,Alfa,63.1,26.1,83.5,43.6,2.01,163169,1,37,Bico desalinhado
+2026-07-11,Noite,L3,PNP-06,Beta,14.2,26.1,83.5,37.7,2.12,182659,0,0,Nenhuma
+2026-07-13,Manhã,L1,PNP-01,Alfa,159.5,28.3,73.4,43.0,2.76,179007,0,0,Nenhuma
+2026-07-13,Manhã,L1,PNP-02,Alfa,135.6,28.3,73.4,44.6,2.92,137083,1,93,Bico desalinhado
+2026-07-13,Manhã,L2,PNP-03,Beta,295.7,28.3,73.4,43.9,4.09,144152,3,123,Bico desalinhado
+2026-07-13,Manhã,L2,PNP-04,Beta,187.8,28.3,73.4,39.7,3.37,184162,1,29,Erro de visão
+2026-07-13,Manhã,L3,PNP-05,Alfa,71.1,28.3,73.4,39.5,2.06,171971,0,0,Nenhuma
+2026-07-13,Manhã,L3,PNP-06,Beta,22.2,28.3,73.4,40.4,2.4,195603,0,0,Nenhuma
+2026-07-13,Tarde,L1,PNP-01,Alfa,167.5,31.2,66.6,47.4,3.17,180994,0,0,Nenhuma
+2026-07-13,Tarde,L1,PNP-02,Alfa,,31.2,66.6,46.7,2.76,177246,0,0,Nenhuma
+2026-07-13,Tarde,L2,PNP-03,Beta,303.7,31.2,66.6,46.8,4.24,176701,3,58,Bico desalinhado
+2026-07-13,Tarde,L2,PNP-04,Beta,195.8,31.2,66.6,45.5,3.58,168997,1,69,Erro de visão
+2026-07-13,Tarde,L3,PNP-5,Alfa,79.1,31.2,66.6,46.7,2.3,173527,1,23,Bico desalinhado
+2026-07-13,Tarde,L3,PNP-06,Beta,30.2,31.2,66.6,44.8,2.15,192383,0,0,Nenhuma
+2026-07-13,Noite,L1,PNP-01,Alfa,5.2,27.6,82.5,42.4,1.66,166720,0,0,Nenhuma
+2026-07-13,Noite,L1,PNP-02,Alfa,151.6,27.6,82.5,45.1,2.68,156634,1,50,Alimentador travado
+2026-07-13,Noite,L2,PNP-03,Beta,311.7,27.6,82.5,44.6,4.41,116809,5,179,Alimentador travado
+2026-07-13,Noite,L2,PNP-04,Beta,203.8,27.6,82.5,44.0,3.47,157926,2,76,Bico desalinhado
+2026-07-13,Noite,L3,PNP-05,Alfa,87.1,27.6,82.5,43.3,2.71,156315,1,29,Alimentador travado
+2026-07-13,Noite,L3,PNP-06,Beta,38.2,27.6,82.5,44.5,2.41,144278,2,104,Erro de visão
+2026-07-14,Manhã,L1,PNP-01,Alfa,13.2,28.5,76.5,42.8,1.77,174928,0,0,Nenhuma
+2026-07-14,Manhã,L1,PNP-02,Alfa,1.6,28.5,76.5,43.5,1.62,174572,0,0,Nenhuma
+2026-07-14,Manhã,L2,PNP-03,Beta,319.7,28.5,76.5,47.1,3.95,74207,8,285,Bico desalinhado
+2026-07-14,Manhã,L2,PNP-04,Beta,211.8,28.5,76.5,44.3,3.19,163950,2,55,Erro de visão
+2026-07-14,Manhã,L3,PNP-05,Alfa,95.1,28.5,76.5,46.0,2.38,166573,1,17,Erro de visão
+2026-07-14,Manhã,L3,PNP-06,Beta,46.2,28.5,76.5,43.2,2.19,187653,1,30,Alimentador travado
+2026-07-14,Tarde,L1,PNP-01,Alfa,,29.8,63.8,41.9,2.55,167881,0,0,Nenhuma
+2026-07-14,Tarde,L1,PNP-02,Alfa,9.6,29.8,63.8,999.9,1.7,161211,1,30,Falta de componente
+2026-07-14,Tarde,L2,PNP-03,Beta,2.1,29.8,63.8,44.3,1.93,201553,0,0,Nenhuma
+2026-07-14,Tarde,L2,PNP-04,Beta,219.8,29.8,63.8,45.3,3.17,174452,1,24,Falta de componente
+2026-07-14,Tarde,L3,pnp-05,Alfa,103.1,29.8,63.8,45.0,2.48,172625,0,0,Nenhuma
+2026-07-14,Tarde,L3,PNP-06,Beta,54.2,29.8,63.8,43.3,2.8,178570,2,54,Alimentador travado
+2026-07-14,Noite,L1,PNP-01,Alfa,29.2,27.3,80.2,42.4,1.92,170807,1,28,Falta de componente
+2026-07-14,Noite,L1,PNP-02,Alfa,17.6,27.3,80.2,39.9,2.19,177713,0,0,Nenhuma
+2026-07-14,Noite,L2,PNP-03 ,Beta,10.1,27.3,80.2,40.9,1.96,200992,0,0,Nenhuma
+2026-07-14,Noite,L2,PNP-04,Beta,227.8,27.3,80.2,41.9,3.71,171445,2,64,Bico desalinhado
+2026-07-14,Noite,L3,PNP-05,Alfa,111.1,27.3,80.2,45.3,2.47,128394,2,114,Bico desalinhado
+2026-07-14,Noite,L3,PNP-06,Beta,62.2,27.3,80.2,41.9,2.46,181862,1,46,Alimentador travado
+2026-07-15,Manhã,L1,PNP-01,Alfa,37.2,28.4,71.9,44.1,2.27,181842,0,0,Nenhuma
+15/07/2026,Manhã,L1,PNP-02,Alfa,25.6,28.4,71.9,40.1,1.78,167004,1,15,Falta de componente
+2026-07-15,Manhã,L2,PNP-03,Beta,18.1,28.4,71.9,40.8,1.93,186759,1,10,Falta de componente
+2026-07-15,Manhã,L2,PNP-04,Beta,235.8,28.4,71.9,43.1,4.06,163477,3,65,Alimentador travado
+2026-07-15,Manhã,L3,pnp-05,Alfa,119.1,28.4,71.9,45.1,2.45,174860,0,0,Nenhuma
+2026-07-15,Manhã,L3,PNP-06,Beta,70.2,28.4,71.9,44.5,2.63,191692,1,15,Erro de visão
+2026-07-15,Tarde,L1,PNP-01,Alfa,45.2,30.8,67.0,43.9,1.94,172333,1,20,Erro de visão
+2026-07-15,Tarde,L1,PNP-02,Alfa,33.6,30.8,67.0,43.5,2.14,167278,1,21,Alimentador travado
+2026-07-15,Tarde,L2,PNP-03,Beta,26.1,30.8,67.0,44.7,2.13,171917,1,51,Erro de visão
+2026-07-15,Tarde,L2,PNP-04,Beta,243.8,30.8,67.0,49.0,4.0,172949,2,56,Erro de visão
+2026-07-15,Tarde,L3,PNP-05,Alfa,127.1,30.8,67.0,43.8,2.8,166295,0,0,Nenhuma
+2026-07-15,Tarde,L3,PNP-06,Beta,78.2,30.8,67.0,48.3,2.12,166609,2,48,Bico desalinhado
+2026-07-15,Noite,L1,PNP-01,Alfa,53.2,26.5,73.8,40.1,2.19,181354,0,0,Nenhuma
+2026-07-15,Noite,L1,PNP-02 ,Alfa,41.6,26.5,73.8,40.2,1.99,166573,0,0,Nenhuma
+2026-07-15,Noite,L2,PNP-03,Beta,34.1,26.5,73.8,39.9,2.29,169154,1,47,Bico desalinhado
+2026-07-15,Noite,L2,PNP-04,Beta,251.8,26.5,73.8,45.0,3.96,130256,4,139,Bico desalinhado
+2026-07-15,Noite,L3,PNP-05,Alfa,135.1,26.5,73.8,43.4,2.52,172289,0,0,Nenhuma
+2026-07-15,Noite,L3,PNP06,Beta,86.2,26.5,73.8,41.9,2.19,168860,1,77,Erro de visão
+16/07/2026,Manhã,L1,PNP-01,Alfa,61.2,29.5,74.7,44.2,1.95,174690,0,0,Nenhuma
+2026-07-16,Manhã,L1,PNP-02,Alfa,49.6,29.5,74.7,43.4,2.02,164399,0,1200,Nenhuma
+2026-07-16,Manhã,L2,PNP-03,Beta,42.1,29.5,74.7,43.9,2.45,187307,0,0,Nenhuma
+2026-07-16,Manhã,L2,PNP-04,Beta,259.8,29.5,74.7,43.4,4.17,145356,6,119,Bico desalinhado
+2026-07-16,Manhã,L3,PNP-05,Alfa,143.1,29.5,74.7,44.5,2.98,113373,4,178,Alimentador travado
+2026-07-16,Manhã,L3,PNP-06,Beta,94.2,29.5,74.7,45.5,2.63,189308,0,0,Nenhuma
+2026-07-16,Tarde,L1,PNP-01,Alfa,69.2,29.7,72.9,43.9,2.58,169366,0,0,Nenhuma
+2026-07-16,Tarde,L1,PNP-02,Alfa,57.6,29.7,72.9,45.1,2.55,177813,0,0,Nenhuma
+2026-07-16,Tarde,L2,PNP-03,Beta,50.1,29.7,72.9,43.0,2.31,191880,0,0,Nenhuma
+2026-07-16,Tarde,L2,PNP-04,Beta,267.8,29.7,72.9,45.7,4.14,147730,4,122,Alimentador travado
+2026-07-16,Tarde,L3,PNP-05,Alfa,151.1,29.7,72.9,46.4,2.96,157496,2,44,Falta de componente
+2026-07-16,Tarde,L3,PNP-06,Beta,102.2,29.7,72.9,46.7,2.59,177675,1,20,Erro de visão
+16/07/2026,Noite,L1,PNP-01,Alfa,77.2,27.0,81.5,42.3,2.51,168157,1,35,Falta de componente
+2026-07-16,Noite,L1,PNP-02,Alfa,65.6,27.0,81.5,42.3,"2,10",164701,0,0,Nenhuma
+16/07/2026,Noite,L2,PNP-03,Beta,58.1,27.0,81.5,45.9,2.34,167499,2,75,Bico desalinhado
+2026-07-16,Noite,L2,PNP-04,Beta,275.8,27.0,81.5,42.8,4.02,85953,6,255,Alimentador travado
+2026-07-16,Noite,L3,PNP-05,Alfa,159.1,27.0,81.5,41.7,3.46,138235,3,101,Alimentador travado
+2026-07-16,Noite,L3,PNP-06,Beta,110.2,27.0,81.5,44.9,2.64,192273,0,0,Nenhuma
+2026-07-17,Manhã,L1,PNP-01,Alfa,85.2,29.0,73.9,42.8,2.54,180194,0,0,Nenhuma
+2026-07-17,Manhã,L1,PNP-02,Alfa,73.6,29.0,73.9,42.9,2.22,163547,1,19,Alimentador travado
+2026-07-17,Manhã,L2,PNP-03,Beta,66.1,29.0,73.9,43.3,2.6,190725,0,0,Nenhuma
+2026-07-17,Manhã,L2,PNP-04,Beta,283.8,29.0,73.9,47.5,4.26,127290,5,148,Superaquecimento
+2026-07-17,Manhã,L3,PNP-05,Alfa,167.1,29.0,73.9,45.0,2.91,138480,2,80,Alimentador travado
+2026-07-17,Manhã,L3,PNP-06,Beta,118.2,29.0,73.9,46.6,2.89,177864,2,35,Alimentador travado
+2026-07-17,Tarde,L1,PNP-01,Alfa,93.2,30.4,68.2,45.8,2.79,159263,1,59,Erro de visão
+2026-07-17,Tarde,L1,PNP-02,Alfa,81.6,30.4,68.2,44.5,"2,48",166109,0,0,Nenhuma
+2026-07-17,Tarde,L2,PNP-03,Beta,74.1,30.4,68.2,44.0,2.61,158634,2,66,Bico desalinhado
+2026-07-17,Tarde,L2,PNP-03,Beta,74.1,30.4,68.2,44.0,2.61,158634,2,66,Bico desalinhado
+2026-07-17,Tarde,L2,PNP-04,Beta,291.8,30.4,68.2,47.0,"3,96",140783,5,126,Superaquecimento
+2026-07-17,Tarde,L3,PNP-05,Alfa,7.5,30.4,68.2,42.9,1.86,170846,0,0,Nenhuma
+2026-07-17,Tarde,L3,PNP-06,Beta,126.2,30.4,68.2,44.8,2.73,148116,2,93,Bico desalinhado
+2026-07-17,Noite,L1,PNP-1,Alfa,101.2,26.5,76.9,39.9,2.56,165839,0,0,Nenhuma
+2026-07-17,Noite,L1,PNP-02,Alfa,89.6,26.5,76.9,43.4,2.56,179497,0,0,Nenhuma
+2026-07-17,Noite,L2,PNP-03,Beta,82.1,26.5,76.9,40.4,3.09,164864,1,61,Alimentador travado
+2026-07-17,Noite,L2,PNP-04,Beta,299.8,26.5,76.9,42.4,"4,50",32377,11,400,Bico desalinhado
+2026-07-17,Noite,L3,PNP-05,Alfa,15.5,26.5,76.9,42.5,2.04,164794,1,27,Alimentador travado
+2026-07-17,Noite,L3,PNP-06,Beta,134.2,26.5,76.9,41.9,3.08,179992,1,11,Falta de componente
+2026-07-18,Manhã,L1,PNP-01,Alfa,109.2,29.3,69.9,44.9,,167503,0,0,Nenhuma
+2026-07-18,Manhã,L1,PNP-02,Alfa,97.6,29.3,69.9,42.3,2.75,163082,1,15,Alimentador travado
+2026-07-18,Manhã,L2,PNP-03,Beta,90.1,29.3,69.9,44.1,2.36,180193,1,34,Erro de visão
+2026-07-18,Manhã,L2,PNP-04,Beta,307.8,29.3,69.9,46.9,4.05,165068,2,76,Erro de visão
+18/07/2026,Manhã,L3,PNP-05,Alfa,23.5,29.3,69.9,41.9,1.89,173170,0,0,Nenhuma
+2026-07-18,Manhã,L3,PNP-06,Beta,142.2,29.3,69.9,44.3,3.21,188719,1,29,Erro de visão
+2026-07-18,Tarde,L1,PNP-01,Alfa,117.2,32.6,65.6,47.5,2.83,155450,2,61,Bico desalinhado
+2026-07-18,Tarde,L1,PNP-02,Alfa,105.6,32.6,65.6,44.9,2.78,135811,3,115,Bico desalinhado
+2026-07-18,Tarde,L2,PNP-03,Beta,98.1,32.6,65.6,48.5,2.47,154243,4,103,Alimentador travado
+2026-07-18,Tarde,L2,PNP-04,Beta,315.8,32.6,65.6,52.4,4.78,31007,11,400,Alimentador travado
+2026-07-18,Tarde,L3,PNP-05,Alfa,31.5,32.6,65.6,44.9,2.14,172296,1,21,Alimentador travado
+2026-07-18,Tarde,L3,PNP-06,Beta,150.2,32.6,65.6,47.2,3.19,183832,2,31,Alimentador travado
+2026-07-18,Noite,L1,PNP-01,Alfa,125.2,26.9,78.0,43.0,2.79,163572,1,22,Erro de visão
+2026-07-18,Noite,L1,PNP-02,Alfa,113.6,26.9,78.0,42.3,2.67,174353,0,0,Nenhuma
+2026-07-18,Noite,L1,PNP-02,Alfa,113.6,26.9,78.0,42.3,2.67,174353,0,0,Nenhuma
+2026-07-18,Noite,L2,PNP-03,Beta,106.1,26.9,78.0,42.7,2.65,152249,3,80,Bico desalinhado
+2026-07-18,Noite,L2,PNP-04,Beta,323.8,26.9,78.0,46.5,4.43,57466,7,334,Alimentador travado
+2026-07-18,Noite,L3,PNP-05,Alfa,,26.9,78.0,43.7,2.24,165835,0,0,Nenhuma
+2026-07-18,NOITE,L3,PNP-06,Beta,158.2,26.9,78.0,42.1,3.26,199030,0,0,Nenhuma
+2026-07-20,Manhã,L1,PNP-01,Alfa,133.2,28.6,71.4,43.3,2.98,158045,1,18,Bico desalinhado
+20/07/2026,Manhã,L1,PNP-02,Alfa,121.6,28.6,71.4,46.8,2.79,177153,0,0,Nenhuma
+2026-07-20,Manhã,L2,PNP-03,Beta,114.1,28.6,71.4,43.4,3.08,156330,3,76,Superaquecimento
+2026-07-20,Manhã,L2,PNP-04,Beta,331.8,28.6,71.4,44.3,4.36,72588,11,307,Erro de visão
+2026-07-20,Manhã,L3,PNP-05,Alfa,47.5,28.6,71.4,42.4,1.83,182240,0,0,Nenhuma
+2026-07-20,Manhã,L3,PNP-06,Beta,166.2,28.6,71.4,43.7,3.13,201374,0,0,Nenhuma
+2026-07-20,Tarde,L1,PNP-01,Alfa,141.2,31.6,66.9,48.4,"3,04",164838,0,0,Nenhuma
+2026-07-20,Tarde,L1,PNP-02,Alfa,129.6,31.6,66.9,47.5,3.22,165127,2,45,Alimentador travado
+20/07/2026,Tarde,L2,PNP-03,Beta,122.1,31.6,66.9,46.7,2.81,134982,3,147,Alimentador travado
+2026-07-20,Tarde,L2,PNP-04,Beta,339.8,31.6,66.9,48.5,4.52,137281,5,150,Alimentador travado
+2026-07-20,Tarde,L3,PNP-05,Alfa,55.5,31.6,66.9,43.0,2.42,157378,2,63,Erro de visão
+2026-07-20,Tarde,L3,PNP-06,Beta,3.8,31.6,66.9,45.8,"1,81",181565,0,0,Nenhuma
+2026-07-20,NOITE,L1,PNP-01,Alfa,149.2,27.1,75.6,41.8,"2,79",162629,1,36,Alimentador travado
+2026-07-20,Noite,L1,PNP-02,Alfa,137.6,27.1,75.6,41.4,2.76,172589,0,0,Nenhuma
+2026-07-20,Noite,L2,PNP-03,Beta,130.1,27.1,75.6,37.8,3.12,162050,3,85,Erro de visão
+2026-07-20,Noite,L2,PNP-04,Beta,5.3,27.1,75.6,40.4,2.12,170399,1,46,Erro de visão
+2026-07-20,Noite,L3,PNP-05,Alfa,63.5,27.1,75.6,43.9,1.91,180630,0,0,Nenhuma
+2026-07-20,Noite,L3,PNP-06,Beta,11.8,27.1,75.6,42.0,2.04,194121,0,0,Nenhuma
+2026-07-21,Manhã,L1,PNP-01,Alfa,157.2,29.2,73.6,46.9,2.97,160367,1,27,Superaquecimento
+2026-07-21,Manhã,L1,PNP-02,Alfa,145.6,29.2,73.6,44.9,2.59,177546,0,0,Nenhuma
+21/07/2026,Manhã,L2,PNP-03,Beta,138.1,29.2,73.6,44.7,2.55,159762,1,64,Alimentador travado
+2026-07-21,Manhã,L2,PNP-04,Beta,13.3,29.2,73.6,45.2,2.36,174450,1,37,Alimentador travado
+2026-07-21,Manhã,L3,PNP-05,Alfa,71.5,29.2,73.6,44.8,1.9,169901,1,17,Falta de componente
+2026-07-21,Manhã,L3,PNP-06,Beta,19.8,29.2,73.6,41.8,2.29,172652,1,41,Falta de componente
+2026-07-21,Tarde,L1,PNP-01,Alfa,165.2,31.1,69.2,42.2,2.64,179569,0,0,Nenhuma
+2026-07-21,Tarde,L1,PNP-02,Alfa,153.6,31.1,69.2,50.8,3.33,165040,1,27,Erro de visão
+2026-07-21,Tarde,L2,pnp-03,Beta,146.1,31.1,69.2,47.1,3.06,161998,2,53,Erro de visão
+2026-07-21,Tarde,L2,PNP-04,Beta,21.3,31.1,69.2,43.7,2.33,189315,1,11,Falta de componente
+2026-07-21,Tarde,L3,PNP-05,Alfa,79.5,31.1,69.2,48.2,2.72,181883,0,0,Nenhuma
+2026-07-21,Tarde,L3,PNP-06,Beta,27.8,31.1,69.2,43.3,2.32,185325,0,0,Nenhuma
+2026-07-21,Noite,L1,PNP-01,Alfa,2.8,28.2,73.4,39.2,1.73,156411,1,37,Alimentador travado
+2026-07-21,Noite,L1,PNP-02,Alfa,3.1,28.2,73.4,41.0,1.67,169842,1,31,Erro de visão
+2026-07-21,Noite,L2,PNP-03,Beta,154.1,28.2,73.4,42.4,3.0,164288,2,67,Alimentador travado
+2026-07-21,Noturno,L2,PNP-04,Beta,29.3,28.2,73.4,41.0,2.0,163256,2,63,Falta de componente
+2026-07-21,Noite,L3,PNP-05,Alfa,87.5,28.2,73.4,44.5,2.81,143956,2,84,Bico desalinhado
+2026-07-21,Noite,L3,PNP-06,Beta,35.8,28.2,73.4,43.6,2.3,136520,3,134,Alimentador travado
+2026-07-22,Manhã,L1,PNP-01,Alfa,10.8,29.3,67.0,42.3,2.04,172592,0,0,Nenhuma
+2026-07-22,Manhã,L1,PNP-02,Alfa,11.1,29.3,67.0,39.3,1.98,167193,0,0,Nenhuma
+2026-07-22,Manhã,L2,PNP-03,Beta,162.1,29.3,67.0,45.0,3.16,197306,0,0,Nenhuma
+2026-07-22,Manhã,L2,PNP-4,Beta,37.3,29.3,67.0,42.6,2.48,178200,2,55,Erro de visão
+2026-07-22,Manhã,L3,PNP-05,Alfa,95.5,29.3,67.0,44.4,1.69,168619,1,23,Alimentador travado
+2026-07-22,Manhã,L3,PNP-06,Beta,43.8,29.3,67.0,43.4,2.79,160934,2,71,Bico desalinhado
+2026-07-22,Tarde,L1,PNP-01,Alfa,18.8,31.1,66.8,43.3,"2,04",160150,2,27,Alimentador travado
+2026-07-22,Tarde,L1,PNP-02,Alfa,19.1,31.1,66.8,43.7,1.9,176023,0,0,Nenhuma
+2026-07-22,Tarde,L2,PNP-03,Beta,170.1,31.1,66.8,46.0,3.26,192600,0,0,Nenhuma
+2026-07-22,Tarde,L2,PNP-04,Beta,45.3,31.1,66.8,42.6,2.33,182918,0,0,Nenhuma
+22/07/2026,Tarde,L3,PNP-05,Alfa,103.5,31.1,66.8,42.4,3.0,144558,3,76,Bico desalinhado
+2026-07-22,Tarde,L3,PNP-06,Beta,51.8,31.1,66.8,43.8,2.61,185095,0,0,Nenhuma
+2026-07-22,Noite,L1,PNP-01,Alfa,26.8,27.8,76.5,41.5,2.0,177406,0,0,Nenhuma
+2026-07-22,Noite,L1,pnp-02,Alfa,27.1,27.8,76.5,999.9,1.55,164599,0,0,Nenhuma
+2026-07-22,Noite,L2,PNP-03,Beta,178.1,27.8,76.5,43.7,3.2,194820,0,0,Nenhuma
+2026-07-22,Noite,L2,PNP-04,Beta,53.3,27.8,76.5,43.0,1.75,164785,1,53,Bico desalinhado
+2026-07-22,Noite,L3,PNP-05,Alfa,111.5,27.8,76.5,43.4,2.38,107282,3,169,Erro de visão
+2026-07-22,Noite,L3,PNP-06,Beta,59.8,27.8,76.5,41.6,2.31,177426,1,38,Falta de componente
+23/07/2026,Manhã,L1,PNP-01,Alfa,34.8,30.3,74.9,42.6,1.68,167658,0,0,Nenhuma
+2026-07-23,Manhã,L1,PNP-02,Alfa,35.1,30.3,74.9,42.3,2.04,181490,0,0,Nenhuma
+23/07/2026,Manhã,L2,PNP-03,Beta,186.1,30.3,74.9,44.8,,158594,2,79,Bico desalinhado
+2026-07-23,Manhã,L2,PNP-04,Beta,61.3,30.3,74.9,44.1,2.58,170665,1,47,Alimentador travado
+2026-07-23,Manhã,L3,PNP-05,Alfa,119.5,30.3,74.9,999.9,2.54,162379,1,15,Alimentador travado
+2026-07-23,Manhã,L3,PNP-06,Beta,67.8,30.3,74.9,42.6,2.12,199628,0,0,Nenhuma
+2026-07-23,Tarde,L1,PNP-01,Alfa,42.8,32.0,63.0,999.9,2.28,169617,0,0,Nenhuma
+2026-07-23,Tarde,L1,PNP-02,Alfa,43.1,32.0,63.0,48.4,2.34,167266,0,0,Nenhuma
+2026-07-23,Tarde,L2,PNP-3,Beta,194.1,32.0,63.0,49.4,3.63,147663,4,97,Superaquecimento
+2026-07-23,Tarde,L2,PNP-04,Beta,69.3,32.0,63.0,44.3,2.31,184379,1,17,Falta de componente
+2026-07-23,Tarde,L3,PNP-05,Alfa,127.5,32.0,63.0,48.3,2.8,172526,1,19,Erro de visão
+2026-07-23,Tarde,L3,PNP-06,Beta,75.8,32.0,63.0,45.1,2.88,162875,1,75,Superaquecimento
+2026-07-23,Noite,L1,PNP-01,Alfa,50.8,26.5,74.9,41.6,2.69,152389,1,56,Alimentador travado
+2026-07-23,Noite,L1,PNP-02,Alfa,51.1,26.5,74.9,42.1,2.41,182360,0,0,Nenhuma
+2026-07-23,Noite,L2,PNP-03,Beta,202.1,26.5,74.9,42.2,3.82,105443,4,216,Erro de visão
+2026-07-23,Noite,L2,PNP-04,Beta,77.3,26.5,74.9,40.6,2.45,186446,1,30,Alimentador travado
+2026-07-23,Noite,L3,PNP-05,Alfa,135.5,26.5,74.9,42.9,2.86,156092,2,63,Alimentador travado
+2026-07-23,Noite,L3,PNP-06,Beta,83.8,26.5,74.9,41.2,2.41,176453,1,51,Superaquecimento
+24/07/2026,Manhã,L1,PNP-01,Alfa,58.8,29.2,65.0,45.0,2.42,172661,0,13,Alimentador travado
+2026-07-24,Manhã,L1,PNP-02,Alfa,59.1,29.2,65.0,44.1,2.27,180829,0,0,Nenhuma
+2026-07-24,Manhã,L2,PNP-03,Beta,210.1,29.2,65.0,46.7,3.39,119891,5,165,Alimentador travado
+2026-07-24,Manhã,L2,PNP-04,Beta,85.3,29.2,65.0,44.0,2.81,192551,0,0,Nenhuma
+2026-07-24,Manhã,L3,PNP-05,Alfa,143.5,29.2,65.0,42.5,3.03,165448,1,20,Alimentador travado
+2026-07-24,Manhã,L3,PNP-06,Beta,91.8,29.2,65.0,43.0,3.04,172426,2,37,Falta de componente
+2026-07-24,Tarde,L1,PNP-01,Alfa,66.8,32.9,65.1,46.4,2.52,180612,0,0,Nenhuma
+2026-07-24,tarde,L1,PNP-02,Alfa,67.1,32.9,65.1,46.7,2.33,181688,0,0,Nenhuma
+2026-07-24,Tarde,L2,PNP-03,Beta,218.1,32.9,65.1,49.1,4.11,108937,4,213,Alimentador travado
+2026-07-24,Tarde,L2,PNP-04,Beta,93.3,32.9,65.1,45.9,3.4,183918,1,35,Alimentador travado
+2026-07-24,Tarde,L3,PNP-05,Alfa,151.5,32.9,65.1,48.3,2.86,153972,2,44,Alimentador travado
+2026-07-24,Tarde,L3,PNP-06,Beta,99.8,32.9,65.1,42.5,2.74,190961,1,23,Bico desalinhado
+2026-07-24,Noite,L1,PNP-01,Alfa,74.8,26.8,84.1,42.7,2.17,164550,0,0,Nenhuma
+2026-07-24,noite,L1,PNP-2,Alfa,75.1,26.8,84.1,42.2,2.48,175469,0,0,Nenhuma
+2026-07-24,Noite,L2,PNP-03,Beta,226.1,26.8,84.1,45.5,3.26,136990,3,126,Bico desalinhado
+2026-07-24,Noite,L2,PNP-04,Beta,101.3,26.8,84.1,42.5,2.95,165453,1,44,Bico desalinhado
+24/07/2026,Noite,L3,PNP-05,Alfa,159.5,26.8,84.1,42.5,2.86,132107,1,124,Erro de visão
+2026-07-24,Noite,L3,PNP-06,Beta,107.8,26.8,84.1,42.0,3.29,116049,2,186,Erro de visão
+2026-07-25,Manhã,L1,PNP-01,Alfa,82.8,28.7,71.7,45.4,2.14,173077,0,0,Nenhuma
+25/07/2026,Manhã,L1,PNP-02,Alfa,83.1,28.7,71.7,44.9,2.48,157907,1,51,Bico desalinhado
+2026-07-25,Manhã,L2,PNP-03,Beta,234.1,28.7,71.7,45.3,3.73,178386,1,39,Erro de visão
+2026-07-25,Manhã,L2,PNP-04,Beta,109.3,28.7,71.7,43.2,2.81,181958,1,34,Alimentador travado
+2026-07-25,Manhã,L3,PNP-05,Alfa,167.5,28.7,71.7,46.5,2.91,159181,1,22,Alimentador travado
+2026-07-25,Manhã,L3,PNP-06,Beta,115.8,28.7,71.7,43.9,3.18,192505,0,0,Nenhuma
+25/07/2026,Tarde,L1,PNP-01,Alfa,90.8,31.0,65.0,43.7,2.87,181117,0,0,Nenhuma
+2026-07-25,Tarde,L1,PNP-02,Alfa,91.1,31.0,65.0,999.9,2.21,172251,1,23,Erro de visão
+2026-07-25,Tarde,L2,PNP-03,Beta,242.1,31.0,65.0,45.8,3.77,195892,0,0,Nenhuma
+2026-07-25,Tarde,L2,PNP-04,Beta,117.3,31.0,65.0,47.0,2.62,200402,0,0,Nenhuma
+2026-07-25,Tarde,L3,PNP-05,Alfa,,31.0,65.0,45.2,2.12,171670,0,0,Nenhuma
+2026-07-25,Tarde,L3,PNP-06,Beta,123.8,31.0,65.0,47.2,2.85,171005,1,38,Bico desalinhado
+2026-07-25,Noite,L1,PNP-01,Alfa,98.8,27.2,79.0,40.7,2.21,169021,0,0,Nenhuma
+2026-07-25,Noite,L1,PNP-02,Alfa,99.1,27.2,79.0,41.3,2.74,132359,3,130,Bico desalinhado
+2026-07-25,Noite,L2,PNP-03,Beta,250.1,27.2,79.0,45.5,3.69,143269,4,102,Alimentador travado
+2026-07-25,Noite,L2,PNP-04,Beta,125.3,27.2,79.0,39.4,3.12,183040,0,0,Nenhuma
+2026-07-25,Noite,L3,PNP-05,Alfa,9.9,27.2,79.0,41.4,1.83,148790,1,78,Bico desalinhado
+2026-07-25,Noite,L3,PNP-06,Beta,131.8,27.2,79.0,41.7,3.01,181820,0,0,Nenhuma
+2026-07-27,MANHÃ,L1,PNP-01,Alfa,106.8,30.3,70.5,45.8,2.34,164918,0,0,Nenhuma
+2026-07-27,Manhã,L1,PNP-02,Alfa,107.1,30.3,70.5,48.0,3.17,164654,1,22,Alimentador travado
+2026-07-27,Manhã,L2,PNP-03,Beta,,30.3,70.5,46.5,4.24,125799,7,165,Alimentador travado
+2026-07-27,Manhã,L2,PNP-04,Beta,133.3,30.3,70.5,46.2,3.38,185336,1,22,Superaquecimento
+2026-07-27,Manhã,L3,PNP-05,Alfa,17.9,30.3,70.5,43.3,,160400,2,44,Alimentador travado
+2026-07-27,Manhã,L3,PNP-06,Beta,139.8,30.3,70.5,42.2,3.06,190168,1,20,Erro de visão
+2026-07-27,Tarde,L1,PNP-01,Alfa,114.8,30.6,60.4,48.5,2.84,159305,1,18,Falta de componente
+2026-07-27,Tarde,L1,PNP-02,Alfa,115.1,30.6,60.4,44.2,3.29,177298,0,0,Nenhuma
+2026-07-27,Tarde,L2,PNP-03,Beta,266.1,30.6,60.4,45.0,4.31,174882,1,32,Bico desalinhado
+2026-07-27,Tarde,L2,PNP-04,Beta,141.3,30.6,60.4,45.8,,179764,1,7,Bico desalinhado
+2026-07-27,Tarde,L3,PNP-05,Alfa,25.9,30.6,60.4,44.3,,165463,1,23,Erro de visão
+2026-07-27,Tarde,L3,PNP-06,Beta,147.8,30.6,60.4,44.1,2.87,185778,1,29,Bico desalinhado
+2026-07-27,Noite,L1,PNP-01,Alfa,122.8,26.9,73.9,40.4,2.66,170440,1,31,Bico desalinhado
+2026-07-27,Noite,L1,PNP-02,Alfa,123.1,26.9,73.9,44.0,2.36,177107,0,0,Nenhuma
+2026-07-27,Noite,L2,PNP-03,Beta,274.1,26.9,73.9,44.2,3.96,147561,3,118,Erro de visão
+2026-07-27,Noite,L2,PNP-04,Beta,149.3,26.9,73.9,43.5,3.27,181595,0,0,Nenhuma
+2026-07-27,Noite,L3,PNP-05,Alfa,33.9,26.9,73.9,42.1,,181377,0,0,Nenhuma
+2026-07-27,Noite,L3,PNP-06,Beta,155.8,26.9,73.9,40.9,2.19,158436,1,63,Alimentador travado
+2026-07-28,Manhã,L1,PNP-01,Alfa,130.8,29.3,67.7,44.5,2.5,141261,3,82,Erro de visão
+2026-07-28,Manhã,L1,PNP02,Alfa,131.1,29.3,67.7,45.2,"2,48",163664,1,39,Erro de visão
+2026-07-28,Manhã,L2,PNP-03,Beta,282.1,29.3,67.7,47.1,4.02,129839,7,169,Bico desalinhado
+2026-07-28,Manhã,L2,PNP-04,Beta,157.3,29.3,67.7,45.9,3.65,120223,5,162,Bico desalinhado
+2026-07-28,Manhã,L3,PNP-05,Alfa,41.9,29.3,67.7,44.5,,163145,1,21,Superaquecimento
+2026-07-28,Manhã,L3,PNP-06,Beta,163.8,29.3,67.7,44.5,3.35,186678,0,0,Nenhuma
+2026-07-28,Tarde,L1,PNP-01,Alfa,138.8,31.2,65.7,48.1,3.2,114574,4,163,Alimentador travado
+2026-07-28,Tarde,L1,PNP-02,Alfa,139.1,31.2,65.7,46.4,2.6,158122,1,59,Erro de visão
+2026-07-28,Tarde,L2,PNP-03,Beta,290.1,31.2,65.7,47.7,3.98,100243,4,222,Alimentador travado
+2026-07-28,Tarde,L2,PNP-04,Beta,165.3,31.2,65.7,47.7,2.97,188359,1,25,Bico desalinhado
+2026-07-28,Tarde,L3,PNP-05,Alfa,49.9,31.2,65.7,45.9,,158144,1,37,Bico desalinhado
+2026-07-28,Tarde,L3,PNP-06,Beta,0.2,31.2,65.7,45.8,2.2,173266,2,40,Alimentador travado
+2026-07-28,Noite,L1,PNP-01,Alfa,146.8,26.9,75.3,43.0,2.75,142418,2,100,Erro de visão
+2026-07-28,Noite,L1,PNP-02,Alfa,147.1,26.9,75.3,44.9,3.03,150554,2,66,Erro de visão
+2026-07-28,noite,L2,PNP-03,Beta,298.1,26.9,75.3,42.3,4.32,186419,0,0,Nenhuma
+2026-07-28,NOITE,L2,PNP-04,Beta,173.3,26.9,75.3,43.1,3.19,81622,4,279,Alimentador travado
+2026-07-28,Noite,L3,PNP-05,Alfa,57.9,26.9,75.3,41.6,,84368,4,249,Erro de visão
+2026-07-28,Noite,L3,PNP-06,Beta,8.2,26.9,75.3,39.1,2.06,185675,1,25,Bico desalinhado
+2026-07-29,Manhã,L1,PNP-01,Alfa,154.8,28.8,70.7,46.2,3.37,143850,4,86,Alimentador travado
+2026-07-29,Manhã,L1,PNP-02,Alfa,155.1,28.8,70.7,45.6,2.96,151408,2,40,Alimentador travado
+2026-07-29,Manhã,L2,PNP-03,Beta,306.1,28.8,70.7,45.2,4.57,137882,5,132,Erro de visão
+2026-07-29,Manhã,L2,PNP-04,Beta,181.3,28.8,70.7,45.2,3.36,200806,0,0,Nenhuma
+2026-07-29,Manhã,L3,PNP-05,Alfa,65.9,28.8,70.7,43.6,,148887,1,63,Bico desalinhado
+2026-07-29,Manhã,L3,PNP-06,Beta,16.2,28.8,70.7,43.4,1.97,199275,0,0,Nenhuma
+2026-07-29,Tarde,L1,PNP-01,Alfa,162.8,33.1,66.3,47.4,2.8,148499,1,82,Erro de visão
+2026-07-29,Tarde,L1,PNP-02,Alfa,8.0,33.1,66.3,47.9,1.55,169451,0,0,Nenhuma
+2026-07-29,Tarde,L2,PNP-03,Beta,314.1,33.1,66.3,50.2,4.19,114736,6,180,Bico desalinhado
+29/07/2026,Tarde,L2,PNP-04,Beta,189.3,33.1,66.3,48.6,3.55,121640,5,172,Alimentador travado
+2026-07-29,Tarde,L3,PNP-05,Alfa,73.9,33.1,66.3,48.1,,168743,0,0,Nenhuma
+2026-07-29,Tarde,L3,PNP-06,Beta,24.2,33.1,66.3,46.7,1.54,185521,0,0,Nenhuma
+2026-07-29,Noite,L1,PNP-01,Alfa,170.8,27.6,77.1,42.9,3.24,161741,1,20,Alimentador travado
+2026-07-29,Noite,L1,PNP-02,Alfa,16.0,27.6,77.1,42.2,1.81,173540,0,0,Nenhuma
+2026-07-29,Noite,L2,PNP-03,Beta,322.1,27.6,77.1,45.1,4.44,33136,9,400,Erro de visão
+2026-07-29,Noite,L2,PNP-04,Beta,197.3,27.6,77.1,44.5,3.88,181590,1,47,Alimentador travado
+2026-07-29,Noite,L3,PNP-05,Alfa,81.9,27.6,77.1,40.8,,166506,0,0,Nenhuma
+2026-07-29,Noite,L3,PNP-06,Beta,32.2,27.6,77.1,39.5,2.31,187830,0,0,Nenhuma
+2026-07-30,Manhã,L1,PNP-01,Alfa,6.7,30.5,70.6,44.7,"2,30",150335,2,46,Bico desalinhado
+2026-07-30,Manhã,L1,PNP-02,Alfa,24.0,30.5,70.6,44.5,1.68,167518,0,0,Nenhuma
+2026-07-30,Manhã,L2,PNP-03,Beta,330.1,30.5,70.6,46.2,4.31,93661,7,248,Erro de visão
+2026-07-30,Manhã,L2,PNP-04,Beta,205.3,30.5,70.6,47.3,3.31,196022,1,13,Alimentador travado
+2026-07-30,Manhã,L3,PNP-05,Alfa,89.9,30.5,70.6,43.3,,167289,0,0,Nenhuma
+2026-07-30,Manhã,L3,PNP-06,Beta,40.2,30.5,70.6,44.7,2.72,182324,0,0,Nenhuma
+2026-07-30,tarde,L1,PNP-01,Alfa,14.7,30.2,67.1,45.9,1.86,171707,0,0,Nenhuma
+2026-07-30,Tarde,L1,PNP-02,Alfa,32.0,30.2,67.1,43.9,2.39,166497,1,30,Bico desalinhado
+2026-07-30,Tarde,L2,PNP-03,Beta,5.2,30.2,67.1,45.3,2.35,197533,0,0,Nenhuma
+2026-07-30,Tarde,L2,PNP-04,Beta,213.3,30.2,67.1,45.7,3.45,155760,3,85,Bico desalinhado
+2026-07-30,Tarde,L3,PNP-05,Alfa,97.9,30.2,67.1,44.1,,162566,1,17,Erro de visão
+2026-07-30,Tarde,L3,PNP-06,Beta,48.2,30.2,67.1,44.5,2.28,173685,1,51,Bico desalinhado
+2026-07-30,Noite,L1,PNP-01,Alfa,22.7,27.3,75.8,41.5,1.88,166877,1,30,Erro de visão
+2026-07-30,Noite,L1,PNP-02,Alfa,40.0,27.3,75.8,40.5,2.01,170779,0,0,Nenhuma
+2026-07-30,Noite,L2,PNP-03,Beta,13.2,27.3,75.8,39.3,2.17,175815,1,41,Bico desalinhado
+2026-07-30,Noite,L2,PNP-04,Beta,221.3,27.3,75.8,44.7,3.54,159697,1,71,Alimentador travado
+2026-07-30,Noite,L3,PNP-05,Alfa,105.9,27.3,75.8,44.0,,159569,1,47,Erro de visão
+2026-07-30,Noite,L3,PNP-06,Beta,56.2,27.3,75.8,39.3,2.52,185775,0,0,Nenhuma
+2026-07-31,Manhã,L1,PNP-01,Alfa,30.7,30.4,71.7,46.1,1.96,165504,0,0,Nenhuma
+2026-07-31,Manhã,L1,PNP-02,Alfa,48.0,30.4,71.7,44.6,2.11,177457,0,0,Nenhuma
+2026-07-31,Manhã,L2,PNP-03,Beta,21.2,30.4,71.7,42.6,2.4,184222,1,31,Alimentador travado
+2026-07-31,Manhã,L2,PNP-04,Beta,229.3,30.4,71.7,46.1,3.95,114598,7,181,Alimentador travado
+2026-07-31,Manhã,L3,PNP-05,Alfa,113.9,30.4,71.7,46.9,,179082,0,0,Nenhuma
+2026-07-31,Manhã,L3,PNP-06,Beta,64.2,30.4,71.7,47.0,2.07,192987,0,0,Nenhuma
+2026-07-31,Tarde,L1,PNP-01,Alfa,38.7,29.9,66.3,43.6,1.84,165550,1,39,Bico desalinhado
+2026-07-31,Tarde,L1,PNP-02,Alfa,56.0,29.9,66.3,43.8,2.17,170430,0,0,Nenhuma
+2026-07-31,Tarde,L2,PNP-03,Beta,29.2,29.9,66.3,43.7,2.35,180433,1,28,Alimentador travado
+2026-07-31,Tarde,L2,PNP-04,Beta,237.3,29.9,66.3,47.3,3.85,147918,3,93,Bico desalinhado
+2026-07-31,Tarde,L3,PNP-05,Alfa,121.9,29.9,66.3,45.1,,167193,0,0,Nenhuma
+31/07/2026,Tarde,L3,PNP-06,Beta,72.2,29.9,66.3,47.8,"2,73",173859,1,-35,Bico desalinhado
+2026-07-31,Noite,L1,PNP-01,Alfa,,27.9,79.4,40.8,1.98,170983,0,0,Nenhuma
+2026-07-31,noite,L1,PNP-02,Alfa,64.0,27.9,79.4,44.3,2.2,175722,0,0,Nenhuma
+31/07/2026,Noite,L2,PNP-03,Beta,37.2,27.9,79.4,40.9,2.47,185436,0,0,Nenhuma
+2026-07-31,Noite,L2,PNP-04,Beta,245.3,27.9,79.4,47.0,3.93,72603,5,298,Alimentador travado
+2026-07-31,Noite,L3,PNP-05,Alfa,129.9,27.9,79.4,44.0,,154588,1,29,Alimentador travado
+2026-07-31,Noite,L3,PNP-06,Beta,80.2,27.9,79.4,44.5,,189762,0,0,Nenhuma
+2026-08-01,Manhã,L1,PNP-01,Alfa,54.7,28.5,70.0,41.9,2.6,181690,0,0,Nenhuma
+2026-08-01,Manhã,L1,PNP-02,Alfa,72.0,28.5,70.0,45.1,2.87,154002,2,55,Bico desalinhado
+2026-08-01,Manhã,L2,pnp-03,Beta,45.2,28.5,70.0,44.5,2.24,187885,0,0,Nenhuma
+2026-08-01,Manhã,L2,PNP-04,Beta,253.3,28.5,70.0,44.2,3.77,183660,1,33,Bico desalinhado
+2026-08-01,Manhã,L3,PNP-05,Alfa,137.9,28.5,70.0,44.3,,154796,2,46,Superaquecimento
+2026-08-01,Manhã,L3,PNP-06,Beta,88.2,28.5,70.0,41.6,2.72,158375,3,81,Alimentador travado
+2026-08-01,Tarde,L1,PNP-01,Alfa,62.7,32.1,69.8,44.5,2.11,171991,1,17,Falta de componente
+2026-08-01,Tarde,L1,PNP-02,Alfa,80.0,32.1,69.8,44.1,2.51,145686,3,72,Alimentador travado
+2026-08-01,Tarde,L2,PNP-03,Beta,53.2,32.1,69.8,45.3,2.61,186823,0,0,Nenhuma
+2026-08-01,Tarde,L2,PNP-04,Beta,261.3,32.1,69.8,47.1,3.93,122881,5,166,Bico desalinhado
+2026-08-01,Tarde,L3,PNP-05,Alfa,145.9,32.1,69.8,49.6,,154643,1,31,Superaquecimento
+2026-08-01,Tarde,L3,PNP-06,Beta,96.2,32.1,69.8,46.0,2.59,125040,4,160,Superaquecimento
+2026-08-01,Noite,L1,PNP-01,Alfa,70.7,27.5,71.5,45.1,2.29,165736,0,0,Nenhuma
+2026-08-01,Noite,L1,PNP-02,Alfa,88.0,27.5,71.5,41.8,2.27,168560,0,0,Nenhuma
+2026-08-01,Noite,L2,PNP-03,Beta,61.2,27.5,71.5,41.1,2.18,191052,0,0,Nenhuma
+2026-08-01,Noite,L2,PNP-04,Beta,269.3,27.5,71.5,44.6,4.3,92924,5,238,Alimentador travado
+2026-08-01,Noite,L3,PNP-05,Alfa,153.9,27.5,71.5,44.0,,148430,2,51,Alimentador travado
+2026-08-01,noite,L3,PNP-06,Beta,104.2,27.5,71.5,42.7,2.64,147025,1,105,Erro de visão
+2026-08-03,Manhã,L1,PNP-01,Alfa,78.7,28.9,73.4,40.0,2.01,165107,0,0,Nenhuma
+2026-08-03,Manhã,L1,PNP-02,Alfa,96.0,28.9,73.4,46.1,2.37,161150,1,53,Erro de visão
+2026-08-03,Manhã,L2,PNP-03,Beta,69.2,28.9,73.4,42.9,2.47,196635,0,0,Nenhuma
+2026-08-03,Manhã,L2,PNP-04,Beta,277.3,28.9,73.4,43.6,3.88,138154,4,122,Bico desalinhado
+2026-08-03,Manhã,L3,PNP-05,Alfa,161.9,28.9,73.4,45.6,,153953,3,60,Alimentador travado
+2026-08-03,Manhã,L3,PNP-05,Alfa,161.9,28.9,73.4,45.6,,153953,3,60,Alimentador travado
+2026-08-03,Manhã,L3,PNP-06,Beta,112.2,28.9,73.4,43.1,2.83,178820,1,23,Bico desalinhado
+2026-08-03,Manhã,L3,PNP-06,Beta,112.2,28.9,73.4,43.1,2.83,178820,1,23,Bico desalinhado
+2026-08-03,Tarde,L1,PNP-01,Alfa,86.7,31.7,64.8,44.8,2.19,170646,0,0,Nenhuma
+2026-08-03,Tarde,L1,PNP-02,Alfa,104.0,31.7,64.8,48.9,2.51,156509,2,29,Alimentador travado
+2026-08-03,Tarde,L2,PNP-03,Beta,77.2,31.7,64.8,45.7,2.96,182157,0,-20,Nenhuma
+2026-08-03,Tarde,L2,PNP-04,Beta,285.3,31.7,64.8,47.6,4.1,81459,9,276,Bico desalinhado
+2026-08-03,Tarde,L3,PNP-05,Alfa,169.9,31.7,64.8,47.6,,168952,1,31,Erro de visão
+2026-08-03,Tarde,L3,PNP-05,Alfa,169.9,31.7,64.8,47.6,,168952,1,31,Erro de visão
+2026-08-03,Tarde,L3,PNP-06,Beta,120.2,31.7,64.8,43.8,3.05,177494,1,20,Erro de visão
+2026-08-03,Tarde,L3,PNP-06,Beta,120.2,31.7,64.8,43.8,3.05,177494,1,20,Erro de visão
+2026-08-03,Tarde,L3,PNP-06,Beta,120.2,31.7,64.8,43.8,3.05,177494,1,20,Erro de visão
+2026-08-03,Noite,L1,PNP-01,Alfa,94.7,27.9,75.1,40.7,2.4,164382,0,0,Nenhuma
+2026-08-03,Noite,L1,PNP-02,Alfa,112.0,27.9,75.1,43.0,3.21,176640,0,0,Nenhuma
+2026-08-03,Noite,L2,PNP-03,Beta,85.2,27.9,75.1,41.9,2.68,197349,0,0,Nenhuma
+2026-08-03,Noite,L2,PNP-04,Beta,293.3,27.9,75.1,46.6,4.11,52621,9,341,Bico desalinhado
+2026-08-03,Noite,L3,PNP-05,Alfa,1.4,27.9,75.1,39.9,,171573,0,0,Nenhuma
+2026-08-03,Noite,L3,PNP-05,Alfa,1.4,27.9,75.1,39.9,,171573,0,0,Nenhuma
+2026-08-03,Noite,L3,PNP-06,Beta,128.2,27.9,75.1,44.9,2.95,177075,1,40,Bico desalinhado
+2026-08-03,Noite,L3,PNP-06,Beta,128.2,27.9,75.1,44.9,2.95,177075,1,40,Bico desalinhado
+2026-08-04,Manhã,L1,PNP-01,Alfa,102.7,30.0,68.8,45.8,2.64,172333,0,0,Nenhuma
+2026-08-04,Manhã,L1,PNP-02,Alfa,120.0,30.0,68.8,43.8,3.15,137065,2,89,Alimentador travado
+2026-08-04,Manhã,L2,PNP-03,Beta,93.2,30.0,68.8,43.1,2.59,189640,0,0,Nenhuma
+2026-08-04,Manhã,L2,PNP-04,Beta,301.3,30.0,68.8,48.2,4.68,40074,12,376,Bico desalinhado
+2026-08-04,Manhã,L3,PNP-05,Alfa,9.4,30.0,68.8,41.6,,177045,0,0,Nenhuma
+2026-08-04,Manhã,L3,PNP-05,Alfa,9.4,30.0,68.8,41.6,,177045,0,0,Nenhuma
+2026-08-04,Manhã,L3,PNP-06,Beta,136.2,30.0,68.8,45.6,3.16,170929,2,50,Erro de visão
+2026-08-04,Manhã,L3,PNP-06,Beta,136.2,30.0,68.8,45.6,3.16,170929,2,50,Erro de visão
+2026-08-04,Tarde,L1,PNP-01,Alfa,110.7,32.5,64.2,48.1,2.65,169177,0,0,Nenhuma
+2026-08-04,Tarde,L1,PNP-02,Alfa,,32.5,64.2,45.9,2.84,152753,1,53,Alimentador travado
+2026-08-04,Tarde,L2,PNP-03,Beta,101.2,32.5,64.2,46.1,,177123,2,37,Erro de visão
+2026-08-04,Tarde,L2,PNP-04,Beta,309.3,32.5,64.2,50.0,4.3,108677,6,202,Alimentador travado
+04/08/2026,Tarde,L3,PNP-05,Alfa,17.4,32.5,64.2,45.7,,167052,0,0,Nenhuma
+04/08/2026,Tarde,L3,PNP-05,Alfa,17.4,32.5,64.2,45.7,,167052,0,0,Nenhuma
+2026-08-04,Tarde,L3,PNP-06,Beta,144.2,32.5,64.2,47.1,3.25,199943,0,0,Nenhuma
+2026-08-04,Tarde,L3,PNP-06,Beta,144.2,32.5,64.2,47.1,3.25,199943,0,0,Nenhuma
+2026-08-04,Noite,L1,PNP-01,Alfa,118.7,27.7,76.5,41.6,3.18,146635,2,94,Alimentador travado
+04/08/2026,Noite,L1,pnp-02,Alfa,136.0,27.7,76.5,41.5,2.53,164355,0,0,Nenhuma
+2026-08-04,Noite,L2,PNP-03,Beta,109.2,27.7,76.5,43.3,2.56,157404,2,96,Alimentador travado
+2026-08-04,Noite,L2,PNP-04,Beta,4.8,27.7,76.5,41.7,2.09,196920,0,0,Nenhuma
+2026-08-04,Noite,L3,PNP-05,Alfa,25.4,27.7,76.5,42.4,,143500,1,77,Erro de visão
+2026-08-04,Noite,L3,PNP-05,Alfa,25.4,27.7,76.5,42.4,,143500,1,77,Erro de visão
+2026-08-04,Noite,L3,PNP-06,Beta,152.2,27.7,76.5,43.3,2.76,175465,2,49,Alimentador travado
+2026-08-04,Noite,L3,PNP-06,Beta,152.2,27.7,76.5,43.3,2.76,175465,2,49,Alimentador travado
+2026-08-05,Manhã,L1,PNP-01,Alfa,126.7,29.6,71.1,45.1,2.62,167665,1,31,Alimentador travado
+2026-08-05,Manhã,L1,PNP-02,Alfa,144.0,29.6,71.1,45.3,2.85,173491,0,0,Nenhuma
+2026-08-05,Manhã,L2,PNP-03,Beta,117.2,29.6,71.1,41.1,2.89,185547,0,0,Nenhuma
+2026-08-05,Manhã,L2,PNP-04,Beta,12.8,29.6,71.1,41.4,2.06,192341,0,0,Nenhuma
+2026-08-05,manha,L3,PNP-05,Alfa,33.4,29.6,71.1,43.7,,176906,0,0,Nenhuma
+2026-08-05,manha,L3,PNP-05,Alfa,33.4,29.6,71.1,43.7,,176906,0,0,Nenhuma
+2026-08-05,Manhã,L3,PNP-06,Beta,160.2,29.6,71.1,45.7,3.48,192278,1,12,Bico desalinhado
+2026-08-05,Manhã,L3,PNP-06,Beta,160.2,29.6,71.1,45.7,3.48,192278,1,12,Bico desalinhado
+2026-08-05,Tarde,L1,PNP-01,Alfa,134.7,31.0,64.1,48.6,3.08,161650,1,17,Superaquecimento
+2026-08-05,Tarde,L1,PNP-02,Alfa,152.0,31.0,64.1,47.4,2.84,156092,1,26,Bico desalinhado
+2026-08-05,Tarde,L2,PNP-03,Beta,125.2,31.0,64.1,46.2,2.89,185595,0,0,Nenhuma
+2026-08-05,Tarde,L2,PNP-04,Beta,20.8,31.0,64.1,46.8,2.14,196692,0,0,Nenhuma
+2026-08-05,Tarde,L3,PNP-05,Alfa,41.4,31.0,64.1,43.3,,180524,0,0,Nenhuma
+2026-08-05,Tarde,L3,PNP-05,Alfa,41.4,31.0,64.1,43.3,,180524,0,0,Nenhuma
+2026-08-05,Tarde,L3,PNP-06,Beta,2.3,31.0,64.1,43.7,2.14,199691,0,0,Nenhuma
+2026-08-05,Tarde,L3,PNP-06,Beta,2.3,31.0,64.1,43.7,2.14,199691,0,0,Nenhuma
+2026-08-05,Noite,L1,PNP-01,Alfa,142.7,27.5,74.5,44.6,2.72,163829,1,39,Erro de visão
+2026-08-05,Noite,L1,PNP-02,Alfa,5.5,27.5,74.5,42.0,2.0,175188,0,0,Nenhuma
+2026-08-05,Noite,L2,PNP-03,Beta,133.2,27.5,74.5,42.6,2.7,190041,1,24,Erro de visão
+2026-08-05,Noite,L2,PNP-04,Beta,28.8,27.5,74.5,42.1,1.8,185177,0,0,Nenhuma
+2026-08-05,Noite,L3,PNP-05,Alfa,49.4,27.5,74.5,42.1,,141072,2,69,Alimentador travado
+2026-08-05,Noite,L3,PNP-05,Alfa,49.4,27.5,74.5,42.1,,141072,2,69,Alimentador travado
+2026-08-05,Noite,L3,PNP-06,Beta,10.3,27.5,74.5,39.9,2.23,164670,1,56,Bico desalinhado
+2026-08-05,Noite,L3,PNP-06,Beta,10.3,27.5,74.5,39.9,2.23,164670,1,56,Bico desalinhado
+2026-08-06,Manhã,L1,PNP-01,Alfa,150.7,27.1,71.9,41.3,2.72,157745,2,55,Erro de visão
+2026-08-06,Manhã,L1,PNP-02,Alfa,13.5,27.1,71.9,41.1,1.78,170647,1,25,Alimentador travado
+2026-08-06,Manhã,L2,PNP-03,Beta,141.2,27.1,71.9,41.5,3.12,176214,1,33,Alimentador travado
+2026-08-06,Manhã,L2,PNP-04,Beta,36.8,27.1,71.9,44.6,2.35,189997,0,0,Nenhuma
+2026-08-06,Manha,L3,PNP-05,Alfa,57.4,27.1,71.9,40.4,,146929,1,68,Erro de visão
+2026-08-06,Manha,L3,PNP-05,Alfa,57.4,27.1,71.9,40.4,,146929,1,68,Erro de visão
+2026-08-06,Manhã,L3,PNP-06,Beta,18.3,27.1,71.9,43.9,2.18,169415,1,57,Erro de visão
+2026-08-06,Manhã,L3,PNP-06,Beta,18.3,27.1,71.9,43.9,2.18,169415,1,57,Erro de visão
+2026-08-06,Tarde,L1,pnp-01,Alfa,158.7,31.1,65.7,45.1,2.96,147538,2,79,Bico desalinhado
+2026-08-06,Tarde,L1,PNP-02,Alfa,21.5,31.1,65.7,44.8,,180573,0,0,Nenhuma
+06/08/2026,Tarde,L2,PNP-03,Beta,149.2,31.1,65.7,44.9,2.78,175027,1,35,Erro de visão
+2026-08-06,Tarde,L2,PNP-04,Beta,44.8,31.1,65.7,45.3,1.98,196758,0,0,Nenhuma
+2026-08-06,Tarde,L3,PNP-05,Alfa,65.4,31.1,65.7,44.4,,160632,1,16,Bico desalinhado
+2026-08-06,Tarde,L3,PNP-05,Alfa,65.4,31.1,65.7,44.4,,160632,1,16,Bico desalinhado
+2026-08-06,Tarde,L3,PNP-06,Beta,26.3,31.1,65.7,44.6,2.53,153767,2,75,Erro de visão
+2026-08-06,Tarde,L3,PNP-06,Beta,26.3,31.1,65.7,44.6,2.53,153767,2,75,Erro de visão
+06/08/2026,Noite,L1,PNP-01,Alfa,166.7,27.8,74.0,45.2,2.92,153274,1,39,Alimentador travado
+2026-08-06,Noite,L1,PNP-02,Alfa,29.5,27.8,74.0,41.9,1.92,170974,0,0,Nenhuma
+2026-08-06,Noite,L2,PNP-03,Beta,157.2,27.8,74.0,44.8,2.98,196413,0,0,Nenhuma
+2026-08-06,Noite,L2,PNP-04,Beta,52.8,27.8,74.0,43.3,2.49,162763,1,73,Erro de visão
+2026-08-06,Noite,L3,PNP-05,Alfa,73.4,27.8,74.0,41.5,,151857,1,70,Erro de visão
+2026-08-06,Noite,L3,PNP-05,Alfa,73.4,27.8,74.0,41.5,,151857,1,70,Erro de visão
+2026-08-06,Noite,L3,PNP-06,Beta,34.3,27.8,74.0,43.1,2.26,162835,1,70,Erro de visão
+2026-08-06,Noite,L3,PNP-06,Beta,34.3,27.8,74.0,43.1,2.26,162835,1,70,Erro de visão
+2026-08-07,Manhã,L1,PNP-01,Alfa,1.4,30.6,71.2,44.3,1.53,179857,0,0,Nenhuma
+07/08/2026,Manhã,L1,PNP-02,Alfa,37.5,30.6,71.2,42.6,2.43,177016,0,0,Nenhuma
+2026-08-07,Manhã,L2,PNP-03,Beta,165.2,30.6,71.2,44.2,3.32,166072,2,84,Alimentador travado
+2026-08-07,Manhã,L2,PNP04,Beta,60.8,30.6,71.2,47.3,2.01,191890,0,0,Nenhuma
+2026-08-07,Manhã,L3,PNP-05,Alfa,81.4,30.6,71.2,43.2,,179198,0,0,Nenhuma
+2026-08-07,Manhã,L3,PNP-05,Alfa,81.4,30.6,71.2,43.2,,179198,0,0,Nenhuma
+2026-08-07,Manhã,L3,PNP-06,Beta,42.3,30.6,71.2,43.5,2.08,189619,0,0,Nenhuma
+2026-08-07,Manhã,L3,PNP-06,Beta,42.3,30.6,71.2,43.5,2.08,189619,0,0,Nenhuma
+2026-08-07,Tarde,L1,PNP-01,Alfa,9.4,31.0,61.3,40.1,2.27,167363,0,0,Nenhuma
+2026-08-07,Tarde,L1,PNP-02,Alfa,45.5,31.0,61.3,45.2,1.8,153949,1,68,Erro de visão
+2026-08-07,Tarde,L2,PNP-03,Beta,173.2,31.0,61.3,47.5,3.42,130246,5,138,Alimentador travado
+2026-08-07,Tarde,L2,PNP04,Beta,68.8,31.0,61.3,46.5,2.94,193174,0,0,Nenhuma
+2026-08-07,Tarde,L3,PNP-05,Alfa,89.4,31.0,61.3,45.0,,175129,0,0,Nenhuma
+2026-08-07,Tarde,L3,PNP-05,Alfa,89.4,31.0,61.3,45.0,,175129,0,0,Nenhuma
+2026-08-07,Tarde,L3,PNP-06,Beta,50.3,31.0,61.3,47.0,2.15,179731,1,29,Erro de visão
+2026-08-07,Tarde,L3,PNP-06,Beta,50.3,31.0,61.3,47.0,2.15,179731,1,29,Erro de visão
+2026-08-07,Noite,L1,PNP-01,Alfa,17.4,27.3,76.0,41.8,1.94,170579,0,0,Nenhuma
+2026-08-07,Noite,L1,PNP-02,Alfa,53.5,27.3,76.0,39.0,2.18,178468,0,0,Nenhuma
+2026-08-07,Noite,L2,PNP-03,Beta,181.2,27.3,76.0,44.1,3.56,130518,4,157,Erro de visão
+2026-08-07,Noite,L2,PNP-04,Beta,76.8,27.3,76.0,41.5,2.4,172520,2,66,Falta de componente
+2026-08-07,Noite,L3,PNP-05,Alfa,97.4,27.3,76.0,41.1,,177332,0,0,Nenhuma
+2026-08-07,Noite,L3,PNP-05,Alfa,97.4,27.3,76.0,41.1,,177332,0,0,Nenhuma
+2026-08-07,Noite,L3,PNP-06,Beta,58.3,27.3,76.0,40.4,2.48,172851,1,37,Bico desalinhado
+2026-08-07,Noite,L3,PNP-06,Beta,58.3,27.3,76.0,40.4,2.48,172851,1,37,Bico desalinhado
+2026-08-08,Manhã,L1,PNP-01,Alfa,25.4,29.9,69.5,44.2,2.1,164990,0,0,Nenhuma
+2026-08-08,Manhã,L1,PNP-02,Alfa,61.5,29.9,69.5,44.0,2.43,161969,1,44,Bico desalinhado
+2026-08-08,Manhã,L2,PNP-03,Beta,189.2,29.9,69.5,47.5,3.26,170723,2,43,Alimentador travado
+2026-08-08,Manhã,L2,PNP-04,Beta,84.8,29.9,69.5,43.5,2.76,180727,1,31,Bico desalinhado
+2026-08-08,Manhã,L3,PNP-05,Alfa,105.4,29.9,69.5,43.4,,174154,0,0,Nenhuma
+2026-08-08,Manhã,L3,PNP-05,Alfa,105.4,29.9,69.5,43.4,,174154,0,0,Nenhuma
+2026-08-08,Manhã,L3,PNP-06,Beta,66.3,29.9,69.5,43.7,2.77,198695,0,0,Nenhuma
+2026-08-08,Manhã,L3,PNP-06,Beta,66.3,29.9,69.5,43.7,2.77,198695,0,0,Nenhuma
+2026-08-08,Tarde,L1,PNP-01,Alfa,33.4,30.7,58.6,44.1,2.15,181415,0,0,Nenhuma
+2026-08-08,Tarde,L1,PNP-02,Alfa,69.5,30.7,58.6,47.5,2.72,168592,1,14,Bico desalinhado
+2026-08-08,Tarde,L2,PNP-03,Beta,197.2,30.7,58.6,45.5,3.62,150800,3,114,Erro de visão
+2026-08-08,Tarde,L2,PNP-04,Beta,92.8,30.7,58.6,44.8,2.86,169713,2,71,Alimentador travado
+2026-08-08,Tarde,L3,PNP-05,Alfa,113.4,30.7,58.6,45.7,,180350,0,0,Nenhuma
+2026-08-08,Tarde,L3,PNP-05,Alfa,113.4,30.7,58.6,45.7,,180350,0,0,Nenhuma
+2026-08-08,Tarde,L3,PNP-06,Beta,74.3,30.7,58.6,42.8,2.95,181939,0,0,Nenhuma
+2026-08-08,Tarde,L3,PNP-06,Beta,74.3,30.7,58.6,42.8,2.95,181939,0,0,Nenhuma
+2026-08-08,Noite,L1,PNP-01,Alfa,41.4,27.9,74.5,39.0,2.13,144314,2,76,Bico desalinhado
+2026-08-08,Noite,L1,PNP-02,Alfa,77.5,27.9,74.5,44.8,2.57,169118,0,0,Nenhuma
+2026-08-08,Noite,L2,PNP-03,Beta,205.2,27.9,74.5,43.2,3.49,98872,4,234,Alimentador travado
+2026-08-08,Noite,L2,PNP-04,Beta,100.8,27.9,74.5,41.6,2.81,191743,0,0,Nenhuma
+2026-08-08,Noite,L3,PNP-05,Alfa,121.4,27.9,74.5,43.2,,138342,2,89,Falta de componente
+2026-08-08,Noite,L3,PNP-05,Alfa,121.4,27.9,74.5,43.2,,138342,2,89,Falta de componente
+2026-08-08,Noite,L3,PNP-06,Beta,82.3,27.9,74.5,44.2,2.33,189254,0,960,Nenhuma
+2026-08-08,Noite,L3,PNP-06,Beta,82.3,27.9,74.5,44.2,2.33,189254,0,960,Nenhuma
+2026-08-10,Manhã,L1,PNP-01,Alfa,49.4,28.5,66.2,39.4,1.92,178537,0,0,Nenhuma
+2026-08-10,Manhã,L1,PNP-02,Alfa,85.5,28.5,66.2,43.3,1.86,181015,0,0,Nenhuma
+2026-08-10,Manhã,L1,PNP-02,Alfa,85.5,28.5,66.2,43.3,1.86,181015,0,0,Nenhuma
+2026-08-10,Manhã,L2,PNP-03,Beta,213.2,28.5,66.2,43.6,3.49,165809,2,75,Alimentador travado
+2026-08-10,Manhã,L2,PNP-04,Beta,108.8,28.5,66.2,39.8,2.95,163732,2,84,Bico desalinhado
+2026-08-10,Manhã,L3,PNP-05,Alfa,129.4,28.5,66.2,42.7,3.0,167742,0,0,Nenhuma
+2026-08-10,Manhã,L3,PNP-6,Beta,90.3,28.5,66.2,41.1,2.31,191526,1,22,Alimentador travado
+2026-08-10,Tarde,L1,PNP-01,Alfa,57.4,32.2,60.0,47.4,"2,79",144591,2,72,Alimentador travado
+2026-08-10,Tarde,L1,PNP-02,Alfa,93.5,32.2,60.0,45.0,1.96,178476,0,0,Nenhuma
+2026-08-10,Tarde,L2,PNP-03,Beta,221.2,32.2,60.0,49.7,,118490,7,170,Alimentador travado
+2026-08-10,Tarde,L2,PNP-04,Beta,116.8,32.2,60.0,45.7,2.87,180818,1,10,Alimentador travado
+2026-08-10,Tarde,L3,PNP-05,Alfa,137.4,32.2,60.0,47.1,2.81,163375,2,41,Falta de componente
+2026-08-10,Tarde,L3,PNP-06,Beta,98.3,32.2,60.0,45.1,2.39,166784,2,77,Bico desalinhado
+2026-08-10,Noite,L1,PNP-01,Alfa,65.4,28.9,76.9,44.5,2.75,178428,0,0,Nenhuma
+2026-08-10,Noite,L1,PNP-02,Alfa,101.5,28.9,76.9,44.0,2.65,151884,2,55,Bico desalinhado
+2026-08-10,Noite,L2,PNP-03,Beta,229.2,28.9,76.9,46.3,3.69,131557,6,160,Bico desalinhado
+2026-08-10,Noite,L2,PNP-04,Beta,124.8,28.9,76.9,45.8,2.75,168115,1,39,Bico desalinhado
+2026-08-10,Noite,L3,PNP-05,Alfa,145.4,28.9,76.9,46.2,2.91,169835,1,29,Alimentador travado
+2026-08-10,Noite,L3,pnp-06,Beta,106.3,28.9,76.9,42.9,2.22,196650,0,0,Nenhuma
+2026-08-11,Manhã,L1,PNP-01,Alfa,73.4,31.4,69.9,46.6,2.74,157009,1,32,Bico desalinhado
+2026-08-11,Manhã,L1,PNP-02,Alfa,109.5,31.4,69.9,44.7,3.14,177429,0,0,Nenhuma
+2026-08-11,Manhã,L2,PNP-03,Beta,237.2,31.4,69.9,44.8,3.52,176678,2,45,Bico desalinhado
+2026-08-11,Manhã,L2,PNP-04,Beta,132.8,31.4,69.9,45.1,2.82,187068,0,0,Nenhuma
+2026-08-11,Manhã,L3,PNP-05,Alfa,153.4,31.4,69.9,45.7,2.75,163432,2,28,Bico desalinhado
+2026-08-11,Manhã,L3,PNP-06,Beta,114.3,31.4,69.9,44.4,2.54,190380,0,0,Nenhuma
+2026-08-11,Tarde,L1,PNP-01,Alfa,81.4,31.5,63.8,47.1,2.07,167862,0,0,Nenhuma
+2026-08-11,Tarde,L1,PNP-02,Alfa,117.5,31.5,63.8,45.2,2.28,170966,1,20,Superaquecimento
+2026-08-11,Tarde,L2,PNP-03,Beta,245.2,31.5,63.8,47.5,3.67,170375,2,42,Alimentador travado
+2026-08-11,Tarde,L2,PNP-04,Beta,140.8,31.5,63.8,46.5,3.1,143185,3,138,Alimentador travado
+2026-08-11,Tarde,L3,PNP-05,Alfa,161.4,31.5,63.8,46.1,2.54,153285,1,55,Erro de visão
+2026-08-11,Tarde,L3,PNP-06,Beta,122.3,31.5,63.8,44.7,3.18,172455,1,30,Bico desalinhado
+2026-08-11,Noite,L1,PNP-01,Alfa,89.4,29.3,73.7,44.7,2.64,147845,1,85,Alimentador travado
+2026-08-11,Noite,L1,PNP-02,Alfa,125.5,29.3,73.7,41.6,3.0,163293,1,25,Bico desalinhado
+2026-08-11,Noite,L2,PNP-03,Beta,253.2,29.3,73.7,47.6,4.03,149913,3,108,Alimentador travado
+2026-08-11,Noite,L2,PNP-04,Beta,148.8,29.3,73.7,44.7,3.24,175659,2,28,Alimentador travado
+2026-08-11,Noite,L3,PNP-05,Alfa,169.4,29.3,73.7,43.0,3.37,167127,1,37,Erro de visão
+2026-08-11,Noite,L3,PNP-06,Beta,130.3,29.3,73.7,45.1,3.1,113367,0,185,Alimentador travado
+2026-08-12,Manhã,L1,PNP-01,Alfa,97.4,30.3,70.5,42.7,2.43,167814,1,33,Falta de componente
+2026-08-12,Manhã,L1,PNP-02,Alfa,133.5,30.3,70.5,45.3,2.57,167926,0,0,Nenhuma
+2026-08-12,Manhã,L2,PNP-03,Beta,261.2,30.3,70.5,43.9,4.19,160097,3,85,Alimentador travado
+2026-08-12,Manhã,L2,PNP-04,Beta,156.8,30.3,70.5,45.5,,161289,2,94,Alimentador travado
+2026-08-12,Manhã,L3,PNP-05,Alfa,2.0,30.3,70.5,44.8,1.89,154597,1,29,Falta de componente
+12/08/2026,Manhã,L3,PNP-06,Beta,138.3,30.3,70.5,44.6,2.82,139425,5,148,Alimentador travado
+2026-08-12,TARDE,L1,PNP-01,Alfa,,31.5,64.0,45.4,2.16,162520,1,6,Falta de componente
+2026-08-12,Tarde,L1,PNP-02,Alfa,141.5,31.5,64.0,45.6,2.96,126313,2,133,Alimentador travado
+2026-08-12,Tarde,L2,PNP-03,Beta,269.2,31.5,64.0,48.3,3.73,137804,7,142,Alimentador travado
+2026-08-12,Tarde,L2,PNP-04,Beta,164.8,31.5,64.0,48.9,3.29,174259,3,42,Alimentador travado
+2026-08-12,Tarde,L3,PNP-05,Alfa,10.0,31.5,64.0,45.7,1.42,180447,0,0,Nenhuma
+2026-08-12,Tarde,L3,PNP-06,Beta,146.3,31.5,64.0,45.8,3.18,187372,1,18,Alimentador travado
+2026-08-12,Noite,L1,PNP-01,Alfa,113.4,27.7,78.3,41.9,2.63,162069,1,34,Erro de visão
+2026-08-12,Noite,L1,PNP-02,Alfa,149.5,27.7,78.3,44.2,2.97,108238,3,183,Superaquecimento
+2026-08-12,Noite,L2,PNP-03,Beta,277.2,27.7,78.3,45.6,4.22,129173,5,163,Alimentador travado
+2026-08-12,Noite,L2,PNP-04,Beta,172.8,27.7,78.3,44.2,3.47,143899,2,130,Alimentador travado
+2026-08-12,Noite,L3,PNP-05,Alfa,18.0,27.7,78.3,42.8,1.71,133451,1,90,Erro de visão
+2026-08-12,Noite,L3,PNP-06,Beta,154.3,27.7,78.3,45.9,3.36,150545,3,92,Alimentador travado
+2026-08-13,Manhã,L1,PNP-01,Alfa,121.4,29.0,67.7,42.5,2.59,166350,1,17,Erro de visão
+2026-08-13,Manhã,L1,PNP-02,Alfa,157.5,29.0,67.7,40.7,2.98,165466,0,0,Nenhuma
+13/08/2026,Manhã,L2,PNP-03,Beta,285.2,29.0,67.7,47.9,,83847,10,273,Alimentador travado
+2026-08-13,Manhã,L2,PNP-04,Beta,180.8,29.0,67.7,45.3,3.41,125868,4,154,Bico desalinhado
+2026-08-13,Manhã,L3,PNP-05,Alfa,26.0,29.0,67.7,44.1,1.97,136296,1,91,Bico desalinhado
+2026-08-13,Manhã,L3,PNP-06,Beta,162.3,29.0,67.7,42.1,3.47,164555,1,60,Bico desalinhado
+2026-08-13,Tarde,L1,PNP-01,Alfa,129.4,30.7,62.7,44.4,2.45,144343,2,68,Bico desalinhado
+2026-08-13,Tarde,L1,PNP-02,Alfa,1.7,30.7,62.7,43.8,1.57,163364,1,31,Superaquecimento
+2026-08-13,Tarde,L2,PNP-03,Beta,293.2,30.7,62.7,46.8,4.09,158117,3,71,Superaquecimento
+2026-08-13,Tarde,L2,PNP-04,Beta,188.8,30.7,62.7,45.2,2.76,184376,2,35,Bico desalinhado
+2026-08-13,Tarde,L3,PNP-05,Alfa,,30.7,62.7,45.5,2.26,177358,0,0,Nenhuma
+2026-08-13,Tarde,L3,PNP-06,Beta,2.3,30.7,62.7,42.6,,198747,0,0,Nenhuma
+2026-08-13,Noite,L1,PNP-01,Alfa,137.4,28.3,80.1,42.7,2.97,177997,0,0,Nenhuma
+2026-08-13,Noite,L1,PNP-02,Alfa,9.7,28.3,80.1,44.3,1.96,177331,0,0,Nenhuma
+2026-08-13,Noite,L2,PNP-03,Beta,301.2,28.3,80.1,47.3,4.95,33088,23,400,Alimentador travado
+2026-08-13,Noite,L2,PNP-04,Beta,196.8,28.3,80.1,45.1,3.8,129100,4,164,Bico desalinhado
+2026-08-13,Noite,L3,PNP-05,Alfa,,28.3,80.1,45.1,2.01,179837,0,0,Nenhuma
+2026-08-13,Noite,L3,PNP-06,Beta,10.3,28.3,80.1,43.4,2.25,162932,2,88,Alimentador travado
+2026-08-14,Manhã,L1,PNP-01,Alfa,145.4,28.4,68.7,46.7,"2,77",167555,1,19,Bico desalinhado
+2026-08-14,Manhã,L1,PNP-02,Alfa,17.7,28.4,68.7,41.9,2.15,178714,0,0,Nenhuma
+2026-08-14,Manhã,L2,PNP-03,Beta,309.2,28.4,68.7,47.9,3.86,31447,10,400,Superaquecimento
+2026-08-14,Manhã,L2,PNP-04,Beta,204.8,28.4,68.7,46.9,3.75,158455,3,81,Bico desalinhado
+2026-08-14,Manhã,L3,PNP-05,Alfa,50.0,28.4,68.7,43.3,"2,45",156262,1,41,Erro de visão
+2026-08-14,Manhã,L3,PNP-06,Beta,18.3,28.4,68.7,41.8,2.39,184391,0,0,Nenhuma
+2026-08-14,Tarde,L1,PNP-01,Alfa,153.4,30.9,63.5,46.3,2.68,164542,1,25,Erro de visão
+2026-08-14,Tarde,L1,PNP-02,Alfa,25.7,30.9,63.5,42.5,2.26,175877,0,0,Nenhuma
+2026-08-14,Tarde,L2,PNP03,Beta,317.2,30.9,63.5,48.1,4.61,30704,13,400,Bico desalinhado
+2026-08-14,Tarde,L2,PNP-04,Beta,212.8,30.9,63.5,46.6,3.38,168970,2,73,Bico desalinhado
+2026-08-14,Tarde,L3,PNP-05,Alfa,58.0,30.9,63.5,45.2,2.29,181292,0,0,Nenhuma
+2026-08-14,Tarde,L3,PNP-06,Beta,26.3,30.9,63.5,46.3,2.07,184886,0,0,Nenhuma
+2026-08-14,Noite,L1,PNP-01,Alfa,161.4,29.5,77.4,45.8,3.16,140501,2,70,Bico desalinhado
+2026-08-14,Noite,L1,PNP-02,Alfa,33.7,29.5,77.4,43.8,2.2,171250,0,0,Nenhuma
+2026-08-14,Noite,L2,PNP-03,Beta,4.6,29.5,77.4,41.7,1.9,191082,0,0,Nenhuma
+2026-08-14,Noite,L2,PNP-04,Beta,220.8,29.5,77.4,45.4,3.4,116822,4,186,Alimentador travado
+2026-08-14,Noite,L3,PNP-05,Alfa,66.0,29.5,77.4,44.6,2.25,168797,0,0,Nenhuma
+2026-08-14,Noite,L3,PNP-06,Beta,34.3,29.5,77.4,43.1,2.3,189901,1,24,Alimentador travado
+2026-08-15,Manhã,L1,PNP-01,Alfa,169.4,30.3,69.0,44.8,3.67,128731,3,130,Erro de visão
+2026-08-15,Manhã,L1,PNP-02,Alfa,41.7,30.3,69.0,45.0,2.1,165349,1,27,Erro de visão
+2026-08-15,Manhã,L2,PNP-03,Beta,12.6,30.3,69.0,43.2,1.89,180287,1,24,Falta de componente
+2026-08-15,Manhã,L2,PNP-04,Beta,228.8,30.3,69.0,47.5,3.58,156521,3,79,Erro de visão
+2026-08-15,Manhã,L3,PNP-05,Alfa,74.0,30.3,69.0,46.1,2.07,181981,0,0,Nenhuma
+2026-08-15,Manhã,L3,PNP-06,Beta,42.3,30.3,69.0,43.0,2.56,180103,1,16,Erro de visão
+2026-08-15,Tarde,L1,PNP-01,Alfa,0.1,32.7,61.3,45.0,2.32,167900,0,0,Nenhuma
+2026-08-15,Tarde,L1,PNP-02,Alfa,49.7,32.7,61.3,999.9,1.8,180036,0,0,Nenhuma
+2026-08-15,Tarde,L2,PNP-03,Beta,20.6,32.7,61.3,47.8,2.04,186513,1,28,Alimentador travado
+2026-08-15,Tarde,L2,PNP-04,Beta,236.8,32.7,61.3,48.4,3.7,179243,1,27,Alimentador travado
+2026-08-15,Tarde,L3,PNP-05,Alfa,82.0,32.7,61.3,47.7,2.49,180882,0,0,Nenhuma
+2026-08-15,Tarde,L3,PNP-06,Beta,50.3,32.7,61.3,45.9,2.56,188102,1,10,Alimentador travado
+2026-08-15,Noite,L1,PNP-01,Alfa,8.1,28.5,70.7,43.1,2.19,178268,0,0,Nenhuma
+2026-08-15,Noite,L1,PNP-02,Alfa,57.7,28.5,70.7,42.3,2.23,172418,0,0,Nenhuma
+2026-08-15,Noite,L2,PNP-03,Beta,28.6,28.5,70.7,43.7,1.97,180865,1,19,Falta de componente
+2026-08-15,Noite,L2,PNP-04,Beta,244.8,28.5,70.7,44.2,"3,81",144882,2,99,Erro de visão
+15/08/2026,Noite,L3,PNP-05,Alfa,90.0,28.5,70.7,44.6,2.46,176268,0,0,Nenhuma
+2026-08-15,Noite,L3,PNP-06,Beta,58.3,28.5,70.7,42.2,2.36,163589,1,83,Superaquecimento
+2026-08-17,Manhã,L1,PNP-01,Alfa,16.1,29.1,69.2,41.0,2.02,176783,0,0,Nenhuma
+17/08/2026,Manhã,L1,PNP-02,Alfa,65.7,29.1,69.2,42.7,1.99,172501,0,0,Nenhuma
+17/08/2026,Manhã,L2,PNP-03,Beta,36.6,29.1,69.2,43.5,2.61,186312,1,27,Bico desalinhado
+2026-08-17,Manhã,L2,PNP-04,Beta,252.8,29.1,69.2,46.2,3.6,132357,4,145,Alimentador travado
+2026-08-17,Manhã,L3,PNP-05 ,Alfa,98.0,29.1,69.2,42.4,2.78,178980,1,7,Falta de componente
+2026-08-17,Manhã,L3,PNP-06,Beta,66.3,29.1,69.2,42.0,2.59,172511,1,42,Bico desalinhado
+2026-08-17,Tarde,L1,PNP-01,Alfa,24.1,32.2,67.0,47.9,1.53,171330,1,23,Superaquecimento
+2026-08-17,Tarde,L1,PNP-01,Alfa,24.1,32.2,67.0,47.9,1.53,171330,1,23,Superaquecimento
+2026-08-17,Tarde,L1,PNP-02,Alfa,73.7,32.2,67.0,46.8,2.56,159636,1,17,Alimentador travado
+2026-08-17,Tarde,L2,PNP-03,Beta,44.6,32.2,67.0,46.5,1.98,200338,0,0,Nenhuma
+2026-08-17,Tarde,L2,PNP-04,Beta,260.8,32.2,67.0,46.2,4.16,90554,8,256,Alimentador travado
+2026-08-17,Tarde,L3,PNP-05,Alfa,106.0,32.2,67.0,45.4,2.87,173762,1,16,Erro de visão
+2026-08-17,Tarde,L3,PNP-06,Beta,74.3,32.2,67.0,46.8,"2,69",189566,1,13,Falta de componente
+2026-08-17,Noite,L1,PNP-01,Alfa,32.1,29.0,71.9,44.1,2.34,165313,0,0,Nenhuma
+2026-08-17,Noite,L1,PNP-02,Alfa,81.7,29.0,71.9,43.5,2.78,169433,1,28,Alimentador travado
+2026-08-17,Noite,L2,PNP-03,Beta,52.6,29.0,71.9,42.2,2.79,192535,0,0,Nenhuma
+2026-08-17,Noite,L2,PNP-04,Beta,268.8,29.0,71.9,45.8,4.26,97924,7,236,Alimentador travado
+2026-08-17,Noite,L3,PNP-05,Alfa,114.0,29.0,71.9,44.5,3.03,155651,1,33,Bico desalinhado
+2026-08-17,Noite,L3,PNP-06,Beta,82.3,29.0,71.9,43.3,2.75,151916,1,82,Bico desalinhado
+2026-08-18,Manhã,L1,PNP-01,Alfa,40.1,30.5,70.0,44.8,2.06,174925,0,0,Nenhuma
+2026-08-18,Manhã,L1,PNP-02,Alfa,89.7,30.5,70.0,42.7,2.66,170050,0,0,Nenhuma
+2026-08-18,Manhã,L2,PNP-03,Beta,60.6,30.5,70.0,45.3,2.1,196106,0,0,Nenhuma
+2026-08-18,Manhã,L2,PNP-04,Beta,276.8,30.5,70.0,45.7,3.89,174816,2,50,Alimentador travado
+2026-08-18,Manhã,L3,PNP-05,Alfa,122.0,30.5,70.0,43.3,"2,97",173359,0,0,Nenhuma
+2026-08-18,Manhã,L3,PNP-06,Beta,90.3,30.5,70.0,46.2,2.94,171813,1,46,Bico desalinhado
+2026-08-18,Tarde,L1,PNP-01,Alfa,48.1,31.8,61.3,999.9,,170241,0,0,Nenhuma
+2026-08-18,Tarde,L1,PNP-02,Alfa,97.7,31.8,61.3,45.8,2.26,164980,0,0,Nenhuma
+2026-08-18,Tarde,L2,PNP-03,Beta,68.6,31.8,61.3,46.2,2.47,181482,0,0,Nenhuma
+2026-08-18,TARDE,L2,PNP-4,Beta,284.8,31.8,61.3,50.0,4.55,112687,6,189,Alimentador travado
+2026-08-18,Tarde,L3,PNP-05,Alfa,130.0,31.8,61.3,47.4,2.94,158846,1,17,Bico desalinhado
+2026-08-18,Tarde,L3,PNP-06,Beta,98.3,31.8,61.3,46.7,"2,78",187801,0,0,Nenhuma
+2026-08-18,Noite,L1,PNP-01,Alfa,56.1,27.7,77.7,42.9,1.92,180300,0,0,Nenhuma
+2026-08-18,Noite,L1,PNP-02,Alfa,105.7,27.7,77.7,41.2,2.58,170988,0,0,Nenhuma
+2026-08-18,Noite,L2,PNP-03,Beta,76.6,27.7,77.7,41.2,2.55,189060,0,0,Nenhuma
+18/08/2026,Noite,L2,PNP-04,Beta,292.8,27.7,77.7,44.9,4.46,33725,10,397,Bico desalinhado
+2026-08-18,Noite,L3,PNP-05,Alfa,138.0,27.7,77.7,41.6,2.8,140824,1,102,Alimentador travado
+2026-08-18,Noite,L3,PNP-06 ,Beta,106.3,27.7,77.7,44.1,"2,88",174180,1,32,Alimentador travado
+2026-08-19,Manhã,L1,PNP-01,Alfa,64.1,29.5,69.1,44.4,"2,03",166418,0,0,Nenhuma
+2026-08-19,Manhã,L1,PNP-02,Alfa,113.7,29.5,69.1,47.7,2.81,159331,2,44,Bico desalinhado
+2026-08-19,Manhã,L2,PNP-3,Beta,84.6,29.5,69.1,43.4,2.34,195565,0,0,Nenhuma
+2026-08-19,Manhã,L2,PNP-04,Beta,300.8,29.5,69.1,48.3,4.54,45163,12,366,Alimentador travado
+2026-08-19,Manhã,L3,PNP-05,Alfa,146.0,29.5,69.1,45.6,2.92,171431,0,0,Nenhuma
+2026-08-19,Manhã,L3,PNP-06,Beta,114.3,29.5,69.1,43.6,2.99,181989,0,0,Nenhuma
+2026-08-19,Tarde,L1,PNP-01,Alfa,72.1,32.3,59.9,46.8,2.55,145012,1,61,Bico desalinhado
+2026-08-19,Tarde,L1,PNP-02,Alfa,121.7,32.3,59.9,43.6,2.95,133690,2,127,Erro de visão
+19/08/2026,Tarde,L2,PNP-03,Beta,92.6,32.3,59.9,45.4,2.53,188526,0,0,Nenhuma
+19/08/2026,Tarde,L2,PNP-04,Beta,308.8,32.3,59.9,48.4,4.5,108338,7,197,Alimentador travado
+2026-08-19,Tarde,L3,PNP-05,Alfa,154.0,32.3,59.9,46.0,2.54,164769,0,0,Nenhuma
+2026-08-19,Tarde,L3,PNP-06,Beta,122.3,32.3,59.9,46.6,3.16,168964,2,49,Erro de visão
+2026-08-19,Noite,L1,PNP-01,Alfa,80.1,28.3,70.1,40.7,2.2,135422,0,92,Alimentador travado
+2026-08-19,Noite,L1,PNP-02,Alfa,129.7,28.3,70.1,43.0,2.65,171807,0,0,Nenhuma
+2026-08-19,Noite,L2,PNP-03,Beta,100.6,28.3,70.1,42.4,2.57,187448,0,0,Nenhuma
+2026-08-19,Noite,L2,PNP-04,Beta,316.8,28.3,70.1,44.9,4.19,168915,2,73,Alimentador travado
+2026-08-19,Noite,L3,PNP-05,Alfa,162.0,28.3,70.1,42.8,2.92,175717,0,0,Nenhuma
+2026-08-19,Noturno,L3,PNP-06,Beta,,28.3,70.1,43.5,3.26,157858,3,88,Erro de visão
+20/08/2026,Manhã,L1,PNP-01,Alfa,88.1,29.5,69.3,44.3,2.49,165614,1,18,Bico desalinhado
+2026-08-20,Manhã,L1,PNP-02,Alfa,137.7,29.5,69.3,46.1,"3,15",176063,1,16,Alimentador travado
+2026-08-20,Manhã,L2,PNP-03,Beta,108.6,29.5,69.3,45.0,2.67,167160,2,46,Erro de visão
+2026-08-20,Manhã,L2,PNP-04,Beta,324.8,29.5,69.3,47.2,4.28,99000,6,236,Alimentador travado
+2026-08-20,Manhã,L3,PNP-05,Alfa,,29.5,69.3,45.9,3.27,131978,3,100,Erro de visão
+2026-08-20,Manhã,L3,PNP-06,Beta,138.3,29.5,69.3,44.1,3.07,178897,1,19,Alimentador travado
+2026-08-20,Tarde,L1,PNP-01,Alfa,96.1,33.1,62.2,44.4,2.78,182057,0,0,Nenhuma
+2026-08-20,Tarde,L1,PNP-2,Alfa,145.7,33.1,62.2,47.7,2.76,152050,1,65,Alimentador travado
+2026-08-20,Tarde,L2,PNP-03,Beta,116.6,33.1,62.2,49.3,2.93,180992,2,38,Erro de visão
+2026-08-20,Tarde,L2,PNP-04,Beta,4.9,33.1,62.2,46.2,1.99,190625,0,0,Nenhuma
+2026-08-20,Tarde,L3,PNP-05,Alfa,6.6,33.1,62.2,43.1,2.02,156609,1,25,Bico desalinhado
+2026-08-20,Tarde,L3,PNP-06,Beta,146.3,33.1,62.2,52.3,2.84,175408,2,43,Bico desalinhado
+2026-08-20,Noite,L1,PNP-01,Alfa,104.1,28.8,71.5,42.1,2.47,166267,0,0,Nenhuma
+2026-08-20,Noite,L1,PNP-02,Alfa,153.7,28.8,71.5,43.3,2.98,143257,2,92,Alimentador travado
+2026-08-20,Noite,L2,PNP-03,Beta,124.6,28.8,71.5,999.9,3.32,183588,0,0,Nenhuma
+2026-08-20,Noite,L2,PNP-04,Beta,12.9,28.8,71.5,43.1,1.55,187211,0,0,Nenhuma
+2026-08-20,Noite,L3,PNP-05,Alfa,14.6,28.8,71.5,40.7,1.51,141988,2,91,Erro de visão
+2026-08-20,Noite,L3,PNP-06,Beta,154.3,28.8,71.5,44.5,3.18,108391,3,205,Bico desalinhado
+2026-08-21,Manhã,L1,PNP-01,Alfa,112.1,29.1,72.1,43.2,3.14,159221,2,54,Bico desalinhado
+2026-08-21,Manhã,L1,PNP-02,Alfa,1.3,29.1,72.1,44.2,1.87,177460,0,0,Nenhuma
+2026-08-21,Manhã,L2,PNP-03 ,Beta,132.6,29.1,72.1,44.7,3.21,153634,3,93,Bico desalinhado
+2026-08-21,Manhã,L2,PNP-04,Beta,20.9,29.1,72.1,42.0,2.4,191419,0,0,Nenhuma
+2026-08-21,Manhã,L3,PNP-05,Alfa,22.6,29.1,72.1,41.5,2.22,178996,0,0,Nenhuma
+2026-08-21,Manhã,L3,PNP-06,Beta,162.3,29.1,72.1,45.0,2.66,167485,3,65,Erro de visão
+2026-08-21,Tarde,L1,PNP-01,Alfa,120.1,32.8,62.3,48.5,2.87,158274,1,28,Alimentador travado
+2026-08-21,Tarde,L1,PNP-02,Alfa,9.3,32.8,62.3,47.7,1.52,175639,0,0,Nenhuma
+2026-08-21,Tarde,L2,PNP-03,Beta,140.6,32.8,62.3,46.7,2.74,190287,0,0,Nenhuma
+2026-08-21,Tarde,L2,PNP-04,Beta,28.9,32.8,62.3,44.1,2.5,183190,0,0,Nenhuma
+2026-08-21,Tarde,L3,PNP-05,Alfa,30.6,32.8,62.3,46.2,2.06,174342,0,0,Nenhuma
+2026-08-21,Tarde,L3,PNP-06,Beta,4.6,32.8,62.3,44.6,2.23,182335,0,0,Nenhuma
+2026-08-21,Noite,L1,PNP-01,Alfa,128.1,26.5,74.0,42.3,3.16,96941,5,211,Bico desalinhado
+2026-08-21,Noite,L1,PNP02,Alfa,17.3,26.5,74.0,38.4,2.24,165548,0,0,Nenhuma
+2026-08-21,Noite,L2,PNP-03,Beta,148.6,26.5,74.0,40.9,3.13,106566,3,215,Alimentador travado
+2026-08-21,Noite,L2,PNP-03,Beta,148.6,26.5,74.0,40.9,3.13,106566,3,215,Alimentador travado
+2026-08-21,Noite,L2,PNP-04,Beta,,26.5,74.0,42.3,2.47,181620,0,0,Nenhuma
+2026-08-21,Noite,L3,PNP-05,Alfa,38.6,26.5,74.0,41.1,2.04,169202,0,0,Nenhuma
+2026-08-21,Noite,L3,PNP-06,Beta,12.6,26.5,74.0,42.1,2.39,178955,1,36,Falta de componente
+2026-08-22,Manhã,L1,PNP-01,Alfa,136.1,28.7,70.0,42.7,3.07,173523,0,0,Nenhuma
+2026-08-22,Manhã,L1,PNP-02,Alfa,25.3,28.7,70.0,44.4,2.0,158656,1,33,Erro de visão
+2026-08-22,Manhã,L2,PNP-03,Beta,156.6,28.7,70.0,45.6,2.94,184235,1,39,Bico desalinhado
+2026-08-22,Manhã,L2,PNP-04,Beta,44.9,28.7,70.0,45.1,2.39,168434,2,62,Alimentador travado
+2026-08-22,Manhã,L3,PNP-05,Alfa,46.6,28.7,70.0,39.9,2.04,170402,0,0,Nenhuma
+2026-08-22,Manhã,L3,PNP-06,Beta,20.6,28.7,70.0,43.6,1.65,188870,1,27,Alimentador travado
+2026-08-22,TARDE,L1,PNP-01,Alfa,144.1,30.3,63.8,45.4,3.28,165706,1,26,Bico desalinhado
+2026-08-22,Tarde,L1,PNP-02,Alfa,33.3,30.3,63.8,46.9,2.08,166448,0,0,Nenhuma
+2026-08-22,Tarde,L2,PNP-03,Beta,164.6,30.3,63.8,45.1,2.83,173216,1,26,Alimentador travado
+2026-08-22,Tarde,L2,PNP-04,Beta,52.9,30.3,63.8,45.7,2.3,187038,1,7,Falta de componente
+2026-08-22,Tarde,L3,PNP-05,Alfa,54.6,30.3,63.8,46.1,2.4,167477,0,0,Nenhuma
+2026-08-22,Tarde,L3,PNP-06,Beta,28.6,30.3,63.8,42.1,,182366,1,38,Bico desalinhado
+22/08/2026,Noite,L1,PNP-01,Alfa,152.1,25.9,75.2,41.0,3.2,154609,1,35,Erro de visão
+2026-08-22,Noite,L1,PNP-02,Alfa,41.3,25.9,75.2,40.2,2.16,148298,1,60,Bico desalinhado
+2026-08-22,Noite,L2,PNP-03,Beta,172.6,25.9,75.2,41.9,3.11,184709,1,36,Bico desalinhado
+2026-08-22,Noite,L2,PNP-04,Beta,60.9,25.9,75.2,41.9,"2,29",188957,0,0,Nenhuma
+2026-08-22,Noite,L3,PNP-05,Alfa,62.6,25.9,75.2,44.3,,139626,2,85,Erro de visão
+2026-08-22,Noite,L3,PNP-06,Beta,36.6,25.9,75.2,40.5,2.31,195291,0,0,Nenhuma

@@ -1,0 +1,61 @@
+# Materiais locais do curso/projeto
+.docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+# Configurações e segredos locais
+.env
+.env.*
+!.env.example
+*.local
+
+# Ferramentas de desenvolvimento
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Empacotamento e distribuição
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+MANIFEST
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDEs e sistemas operacionais
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Saídas geradas pelo pipeline de análise
+resultados/
