@@ -142,6 +142,19 @@ estatistica | tabela=linha | grupo=L2 | n=431 | media=86.43 | mediana=91.88 | mi
 
 O log também informa registros ausentes, duplicidades, valores inválidos, correlações, outliers e gráficos criados.
 
+O arquivo é reescrito a cada execução e organizado em seções como:
+
+- `DIAGNOSTICO DE QUALIDADE`;
+- `RESUMO DA LIMPEZA`;
+- `ESTATISTICAS DE DISPONIBILIDADE` por linha, máquina e turno;
+- `ESTATISTICAS NUMERICAS`;
+- `CORRELACOES COM TEMPO PARADO`;
+- `TEMPO PARADO POR TIPO DE FALHA`;
+- `RESUMO TEMPORAL`;
+- `RESUMO DE OUTLIERS POR IQR`.
+
+As tabelas são exibidas de forma alinhada para facilitar a conferência e a apresentação dos resultados.
+
 ## 7. Git
 
 O arquivo `.gitignore` ignora materiais locais, ambientes virtuais, caches Python e a pasta `resultados/`, pois ela é gerada automaticamente pelo script.

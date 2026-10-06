@@ -88,8 +88,33 @@ def configurar_logger(configuracao: Configuracao) -> logging.Logger:
     console.setFormatter(formato)
     LOGGER.addHandler(arquivo)
     LOGGER.addHandler(console)
-    LOGGER.info("inicio | arquivo_log=%s", configuracao.arquivo_log)
+    LOGGER.info("=" * 100)
+    LOGGER.info("ANALISE DE PARADAS DE MAQUINAS | inicio")
+    LOGGER.info("arquivo_log=%s", configuracao.arquivo_log)
     return LOGGER
+
+
+def registrar_tabela_log(titulo: str, tabela: pd.DataFrame, colunas: list[str]) -> None:
+    """Registra uma tabela alinhada no log para facilitar leitura e apresentação."""
+    if tabela.empty:
+        LOGGER.info("\n[%s]\nsem registros", titulo)
+        return
+
+    visualizacao = tabela.loc[:, [coluna for coluna in colunas if coluna in tabela.columns]].copy()
+    for coluna in visualizacao.columns:
+        if coluna in {
+            "n", "registros", "qtd_paradas", "quantidade", "linha_csv",
+            "registros_antes", "registros_depois", "removidos", "quantidade",
+        }:
+            visualizacao[coluna] = visualizacao[coluna].map(
+                lambda valor: "-" if pd.isna(valor) else f"{float(valor):.0f}"
+            )
+        elif pd.api.types.is_numeric_dtype(visualizacao[coluna]):
+            visualizacao[coluna] = visualizacao[coluna].map(
+                lambda valor: "-" if pd.isna(valor) else f"{float(valor):.2f}"
+            )
+
+    LOGGER.info("\n[%s]\n%s", titulo, visualizacao.to_string(index=False))
 
 
 def corrigir_mojibake(valor: object) -> object:
@@ -286,14 +311,11 @@ def calcular_estatisticas(df: pd.DataFrame, pasta: Path) -> dict[str, pd.DataFra
         tabela.to_csv(pasta / arquivo, index=False, encoding="utf-8-sig")
         tabelas[nome] = tabela
         LOGGER.info("estatisticas | tabela=%s | grupos=%d", nome, len(tabela))
-        for _, linha in tabela.iterrows():
-            grupo = " x ".join(str(linha[coluna]) for coluna in nome.split("_"))
-            LOGGER.info(
-                "estatistica | tabela=%s | grupo=%s | n=%d | media=%.2f | mediana=%.2f | "
-                "minimo=%.2f | maximo=%.2f | desvio_padrao=%.2f | q1=%.2f | q3=%.2f | iqr=%.2f",
-                nome, grupo, linha["n"], linha["media"], linha["mediana"], linha["minimo"],
-                linha["maximo"], linha["desvio_padrao"], linha["q1"], linha["q3"], linha["iqr"],
-            )
+        registrar_tabela_log(
+            f"ESTATISTICAS DE DISPONIBILIDADE | {nome}",
+            tabela,
+            nome.split("_") + ["n", "media", "mediana", "minimo", "maximo", "desvio_padrao", "q1", "q3", "iqr"],
+        )
 
     estatisticas = df[COLUNAS_INDICADOR].describe(percentiles=[0.25, 0.50, 0.75]).T
     estatisticas = estatisticas.rename(columns={
@@ -305,13 +327,11 @@ def calcular_estatisticas(df: pd.DataFrame, pasta: Path) -> dict[str, pd.DataFra
     estatisticas = estatisticas.reset_index(names="variavel")
     estatisticas.to_csv(pasta / "estatisticas_descritivas_numericas.csv", index=False, encoding="utf-8-sig")
     tabelas["estatisticas"] = estatisticas
-    for _, linha in estatisticas.iterrows():
-        LOGGER.info(
-            "estatistica_numerica | variavel=%s | n=%d | media=%.2f | mediana=%.2f | "
-            "minimo=%.2f | maximo=%.2f | desvio_padrao=%.2f | q1=%.2f | q3=%.2f | iqr=%.2f",
-            linha["variavel"], linha["n"], linha["media"], linha["mediana"], linha["minimo"],
-            linha["maximo"], linha["desvio_padrao"], linha["q1"], linha["q3"], linha["iqr"],
-        )
+    registrar_tabela_log(
+        "ESTATISTICAS NUMERICAS",
+        estatisticas,
+        ["variavel", "n", "media", "mediana", "minimo", "maximo", "desvio_padrao", "q1", "q3", "iqr"],
+    )
 
     matriz = df[COLUNAS_INDICADOR].corr(numeric_only=True)
     matriz.to_csv(pasta / "matriz_correlacao.csv", encoding="utf-8-sig")
@@ -319,8 +339,18 @@ def calcular_estatisticas(df: pd.DataFrame, pasta: Path) -> dict[str, pd.DataFra
     matriz["tempo_parado_min"].drop("tempo_parado_min").rename("correlacao_pearson").to_csv(
         pasta / "correlacoes_com_tempo_parado.csv", encoding="utf-8-sig"
     )
-    for variavel, correlacao in matriz["tempo_parado_min"].drop("tempo_parado_min").items():
-        LOGGER.info("correlacao | variavel=%s | tempo_parado_min=%.3f", variavel, correlacao)
+    tabela_correlacao = (
+        matriz["tempo_parado_min"]
+        .drop("tempo_parado_min")
+        .rename("correlacao_pearson")
+        .reset_index()
+        .rename(columns={"index": "variavel"})
+    )
+    registrar_tabela_log(
+        "CORRELACOES COM TEMPO PARADO",
+        tabela_correlacao,
+        ["variavel", "correlacao_pearson"],
+    )
 
     falhas = (
         df.groupby("tipo_falha_principal", dropna=False, observed=False)
@@ -330,12 +360,11 @@ def calcular_estatisticas(df: pd.DataFrame, pasta: Path) -> dict[str, pd.DataFra
     )
     falhas.to_csv(pasta / "tempo_parado_por_tipo_falha.csv", index=False, encoding="utf-8-sig")
     tabelas["falhas"] = falhas
-    for _, linha in falhas.iterrows():
-        LOGGER.info(
-            "falha | tipo=%s | registros=%d | qtd_paradas=%.0f | tempo_parado_min=%.0f | disponibilidade_media=%.2f",
-            linha["tipo_falha_principal"], linha["registros"], linha["qtd_paradas"],
-            linha["tempo_parado_min"], linha["disponibilidade_media"],
-        )
+    registrar_tabela_log(
+        "TEMPO PARADO POR TIPO DE FALHA",
+        falhas,
+        ["tipo_falha_principal", "registros", "qtd_paradas", "tempo_parado_min", "disponibilidade_media"],
+    )
     return tabelas
 
 
@@ -357,6 +386,16 @@ def calcular_serie_temporal(df: pd.DataFrame, pasta: Path) -> tuple[pd.DataFrame
     corte = datas[(len(datas) - 1) // 2]
     primeira = df.loc[df["data"].dt.date <= corte, "disponibilidade"].mean()
     segunda = df.loc[df["data"].dt.date > corte, "disponibilidade"].mean()
+    registrar_tabela_log(
+        "RESUMO TEMPORAL",
+        pd.DataFrame([{
+            "corte": corte,
+            "media_primeira_metade": primeira,
+            "media_segunda_metade": segunda,
+            "diferenca_pontos_percentuais": segunda - primeira,
+        }]),
+        ["corte", "media_primeira_metade", "media_segunda_metade", "diferenca_pontos_percentuais"],
+    )
     LOGGER.info(
         "periodo_metades | corte=%s | primeira_metade=%.2f | segunda_metade=%.2f | diferenca=%.2f",
         corte, primeira, segunda, segunda - primeira,
@@ -373,6 +412,18 @@ def identificar_outliers(df: pd.DataFrame, pasta: Path) -> pd.DataFrame:
     outliers["limite_inferior_iqr"] = inferior
     outliers["limite_superior_iqr"] = superior
     outliers.to_csv(pasta / "outliers_disponibilidade.csv", index=False, encoding="utf-8-sig")
+    registrar_tabela_log(
+        "RESUMO DE OUTLIERS POR IQR",
+        pd.DataFrame([{
+            "q1": q1,
+            "q3": q3,
+            "iqr": iqr,
+            "limite_inferior": inferior,
+            "limite_superior": superior,
+            "quantidade": len(outliers),
+        }]),
+        ["q1", "q3", "iqr", "limite_inferior", "limite_superior", "quantidade"],
+    )
     LOGGER.info(
         "outliers_iqr | q1=%.2f | q3=%.2f | iqr=%.2f | limite_inferior=%.2f | limite_superior=%.2f | quantidade=%d",
         q1, q3, iqr, inferior, superior, len(outliers),
@@ -599,8 +650,29 @@ def executar(configuracao: Configuracao = CONFIG) -> None:
     bruto = carregar_base(configuracao.arquivo_csv)
     LOGGER.info("etapa=diagnostico_qualidade")
     invalidos, qualidade = diagnosticar_qualidade(bruto)
+    registrar_tabela_log(
+        "DIAGNOSTICO DE QUALIDADE",
+        qualidade,
+        ["problema", "campo", "quantidade"],
+    )
+    registrar_tabela_log(
+        "REGISTROS INVALIDOS",
+        invalidos,
+        ["linha_csv", "campo", "valor"],
+    )
     LOGGER.info("etapa=limpeza_validacao")
     limpo, removidos = limpar_base(bruto, invalidos)
+    registrar_tabela_log(
+        "RESUMO DA LIMPEZA",
+        pd.DataFrame([{
+            "registros_antes": len(bruto),
+            "registros_depois": len(limpo),
+            "removidos": len(removidos),
+            "media_antes": bruto["disponibilidade"].mean(),
+            "media_depois": limpo["disponibilidade"].mean(),
+        }]),
+        ["registros_antes", "registros_depois", "removidos", "media_antes", "media_depois"],
+    )
     tabelas_iniciais = {
         eixo: resumo_disponibilidade(bruto, eixo.split("_"))
         for eixo in ("linha", "maquina", "turno", "linha_turno")
