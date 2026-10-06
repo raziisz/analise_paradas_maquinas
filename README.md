@@ -5,38 +5,51 @@ Análise de dados das paradas de máquinas usando NumPy, Pandas, Matplotlib, Sea
 ## 1. Pré-requisitos
 
 - Python 3.10 ou superior;
-- acesso ao terminal PowerShell, CMD ou Bash;
+- acesso ao terminal PowerShell, CMD, macOS Terminal ou Bash;
 - arquivo `projeto_integrador_paradas_maquinas.csv` na raiz do projeto.
 
 ## 2. Instalação das dependências
 
-Abra o terminal na pasta do projeto:
+Clone ou copie o projeto e entre na pasta dele. O caminho depende da máquina; não é necessário configurar um caminho fixo:
 
-```powershell
-cd "C:\Users\Pichau\OneDrive\Documentos\projetos\paradas_maquinas"
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd paradas_maquinas
 ```
+
+Se o projeto já estiver na máquina, apenas abra o terminal na pasta que contém este README.
 
 Crie um ambiente virtual:
 
-```powershell
+```bash
 python -m venv .venv
 ```
 
-Ative o ambiente virtual no PowerShell:
+Se o comando `python` não existir, use `python3` nos comandos acima e abaixo.
+
+Ative o ambiente virtual:
+
+PowerShell:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-No CMD, use:
+CMD:
 
 ```cmd
 .venv\Scripts\activate.bat
 ```
 
+macOS/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
 Instale as bibliotecas:
 
-```powershell
+```bash
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
@@ -53,7 +66,7 @@ As dependências instaladas são:
 
 Com o ambiente virtual ativado:
 
-```powershell
+```bash
 python analise_paradas_maquinas.py
 ```
 
@@ -74,7 +87,7 @@ O script executa o pipeline completo:
 
 Depois de executar a análise, atualize o roteiro com as respostas geradas:
 
-```powershell
+```bash
 python preencher_roteiro_docx.py
 ```
 
